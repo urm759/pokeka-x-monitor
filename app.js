@@ -10,7 +10,7 @@ const fallbackData = {
 const data = window.TORECABANK_DATA || fallbackData;
 const torecaCardsRaw = Array.isArray(window.TORECA_CARD_INDEX?.cards) ? window.TORECA_CARD_INDEX.cards : [];
 const torecaCards = torecaCardsRaw
-  .filter((card) => card && card.pageUrl && card.img && card.name)
+  .filter((card) => card && card.pageUrl && (card.img || card.imageUrl) && card.name)
   .map((card) => {
     const shortName = String(card.name).replace(/\[[^\]]+\].*$/, "").replace(/\(.*$/, "").trim();
     return {
@@ -19,9 +19,9 @@ const torecaCards = torecaCardsRaw
       shortName,
       model: card.model || "",
       pageUrl: card.pageUrl,
-      img: card.img,
+      img: card.img || card.imageUrl || "",
       modelKey: normalizeModel(card.model || ""),
-      displayKey: normalize(shortName),
+      displayKey: matchTextKey(card.name),
       searchKey: normalize(`${card.name} ${card.model || ""}`),
     };
   });
@@ -56,6 +56,18 @@ function normalize(value) {
     .replace(/\s+/g, "");
 }
 
+function matchTextKey(value) {
+  return String(value ?? "")
+    .normalize("NFKC")
+    .toLowerCase()
+    .replace(/[０-９]/g, (s) => String.fromCharCode(s.charCodeAt(0) - 0xfee0))
+    .replace(/\[[^\]]+\]/g, "")
+    .replace(/\([^)]*\)/g, "")
+    .replace(/[‐−–—]/g, "-")
+    .replace(/\s+/g, "")
+    .replace(/[^\p{L}\p{N}]+/gu, "");
+}
+
 function priceText(value) {
   return Number.isFinite(value) && value > 0 ? yen.format(value) : "-";
 }
@@ -72,7 +84,7 @@ function parseNumber(value) {
 function matchCatalogCard(item) {
   if (!torecaCards.length) return item.catalog || null;
   const itemModelKey = normalize(item.model || "");
-  const itemNameKey = normalize(shortName(item.name));
+  const itemNameKey = matchTextKey(item.name);
   const itemSearchKey = normalize(`${item.name} ${item.model || ""}`);
 
   let best = null;
@@ -199,11 +211,13 @@ function renderStats() {
 function renderItem(item) {
   const card = document.createElement("article");
   card.className = "card";
+  const catalogUrl = item.catalog?.pageUrl || "";
+  const bankUrl = item.pageUrl || "";
 
   const catalogHtml = item.catalog
     ? `
       <a class="catalog" href="${item.catalog.pageUrl}" target="_blank" rel="noreferrer">
-        <img src="${item.catalog.img}" alt="${item.catalog.shortName}" />
+        <img src="${item.catalog.img || item.catalog.imageUrl || ""}" alt="${item.catalog.shortName}" />
         <div>
           <span>みんなのトレカ相場</span>
           <strong>${item.catalog.shortName}</strong>
@@ -213,7 +227,7 @@ function renderItem(item) {
     : "";
 
   card.innerHTML = `
-    <a class="thumb" href="${item.pageUrl}" target="_blank" rel="noreferrer">
+    <a class="thumb" href="${catalogUrl || bankUrl}" target="_blank" rel="noreferrer">
       <img src="${item.imageUrl}" alt="${item.imageAlt}" />
     </a>
     <div class="body">
@@ -241,8 +255,8 @@ function renderItem(item) {
       </div>
       ${catalogHtml}
       <div class="links">
-        <a href="${item.pageUrl}" target="_blank" rel="noreferrer">元ページを開く</a>
         ${item.catalog ? `<a href="${item.catalog.pageUrl}" target="_blank" rel="noreferrer">みんなのトレカ相場を開く</a>` : ""}
+        <a href="${item.pageUrl}" target="_blank" rel="noreferrer">トレカバンクを開く</a>
       </div>
     </div>
   `;
