@@ -8,7 +8,23 @@ const fallbackData = {
 };
 
 const data = window.TORECABANK_DATA || fallbackData;
-let torecaCards = [];
+const torecaCardsRaw = Array.isArray(window.TORECA_CARD_INDEX?.cards) ? window.TORECA_CARD_INDEX.cards : [];
+const torecaCards = torecaCardsRaw
+  .filter((card) => card && card.pageUrl && card.img && card.name)
+  .map((card) => {
+    const shortName = String(card.name).replace(/\[[^\]]+\].*$/, "").replace(/\(.*$/, "").trim();
+    return {
+      id: card.id,
+      name: card.name,
+      shortName,
+      model: card.model || "",
+      pageUrl: card.pageUrl,
+      img: card.img,
+      modelKey: normalizeModel(card.model || ""),
+      displayKey: normalize(shortName),
+      searchKey: normalize(`${card.name} ${card.model || ""}`),
+    };
+  });
 
 const state = {
   query: "",
@@ -84,7 +100,40 @@ function attachCatalogMatches(items) {
   }));
 }
 
-let items = attachCatalogMatches(data.items || []);
+function groupByCatalog(items) {
+  const groups = new Map();
+  for (const item of items || []) {
+    const key = item.catalog?.pageUrl || `${item.name}::${item.model || ""}`;
+    const current = groups.get(key);
+    if (!current) {
+      groups.set(key, {
+        ...item,
+        groupKey: key,
+        sources: [item],
+      });
+      continue;
+    }
+
+    current.count7 = (current.count7 || 0) + (item.count7 || 0);
+    current.count30 = (current.count30 || 0) + (item.count30 || 0);
+    current.sources.push(item);
+    if ((item.price || 0) > (current.price || 0)) {
+      current.price = item.price;
+      current.priceText = item.priceText;
+      current.imageUrl = item.imageUrl;
+      current.imageAlt = item.imageAlt;
+      current.pageUrl = item.pageUrl;
+      current.stockText = item.stockText;
+      current.isCustomItem = item.isCustomItem;
+      current.tag = item.tag;
+      current.catalog = item.catalog || current.catalog || null;
+    }
+  }
+
+  return [...groups.values()];
+}
+
+let items = groupByCatalog(attachCatalogMatches(data.items || []));
 
 function applyFilters(items) {
   const q = normalize(state.query);
@@ -96,9 +145,8 @@ function applyFilters(items) {
       item.name,
       item.tag,
       item.imageAlt,
-      item.itemId,
       item.stockText,
-      item.pageNumber,
+      item.sources?.map((source) => source.itemId).join(" "),
       item.catalog?.shortName || "",
       item.catalog?.name || "",
     ].join(" "));
@@ -140,7 +188,7 @@ function renderStats() {
   const total30 = Array.isArray(data.history) ? data.history.reduce((sum, item) => sum + (item.count30 || 0), 0) : 0;
   const matchedCount = items.filter((item) => item.catalog).length;
   const matchRate = items.length ? Math.round((matchedCount / items.length) * 100) : 0;
-  els.statsLine.textContent = `${stats.pageCount || 0}ページ分を走査 / ${stats.total || 0}件の現在一覧 / ${historyCount}件の30日蓄積`;
+  els.statsLine.textContent = `${stats.pageCount || 0}ページ分を走査 / ${items.length || 0}件の現在一覧 / ${historyCount}件の30日蓄積`;
   els.totalCount.textContent = String(stats.total || 0);
   els.matchRate.textContent = matchedCount ? `${matchRate}%` : "準備中";
   els.avgPrice.textContent = priceText(stats.avgPrice || 0);
@@ -176,9 +224,17 @@ function renderItem(item) {
         </div>
         <div class="price">${priceText(item.price)}</div>
       </div>
+      <div class="count-grid">
+        <div class="count-box count-box-7">
+          <span>直近7日掲載</span>
+          <strong>${item.count7 || 0}<small>回</small></strong>
+        </div>
+        <div class="count-box count-box-30">
+          <span>直近30日掲載</span>
+          <strong>${item.count30 || 0}<small>回</small></strong>
+        </div>
+      </div>
       <div class="chips">
-        <span class="chip">直近7日掲載 ${item.count7 || 0}回</span>
-        <span class="chip">直近30日掲載 ${item.count30 || 0}回</span>
         <span class="chip">${item.stockText || "在庫不明"}</span>
         ${item.isCustomItem ? '<span class="chip good">カスタム</span>' : '<span class="chip">通常</span>'}
         ${item.catalog ? `<span class="chip warn">照合 ${item.catalog.shortName}</span>` : ""}
@@ -187,7 +243,6 @@ function renderItem(item) {
       <div class="links">
         <a href="${item.pageUrl}" target="_blank" rel="noreferrer">元ページを開く</a>
         ${item.catalog ? `<a href="${item.catalog.pageUrl}" target="_blank" rel="noreferrer">みんなのトレカ相場を開く</a>` : ""}
-        ${item.addUrl ? `<a href="${item.addUrl}" target="_blank" rel="noreferrer">追加リンク</a>` : ""}
       </div>
     </div>
   `;
@@ -231,36 +286,7 @@ function bind() {
   });
 }
 
-async function loadCatalogCards() {
-  try {
-    const response = await fetch("../toreca-catalog/data/cards.json", { cache: "no-store" });
-    if (!response.ok) return [];
-    const raw = await response.json();
-    const cards = Array.isArray(raw) ? raw : Array.isArray(raw?.cards) ? raw.cards : [];
-    return cards
-      .filter((card) => card && card.pageUrl && card.img && card.name)
-      .map((card) => {
-        const shortName = String(card.name).replace(/\[[^\]]+\].*$/, "").replace(/\(.*$/, "").trim();
-        return {
-          id: card.id,
-          name: card.name,
-          shortName,
-          model: card.model || "",
-          pageUrl: card.pageUrl,
-          img: card.img,
-          modelKey: normalizeModel(card.model || ""),
-          displayKey: normalize(shortName),
-          searchKey: normalize(`${card.name} ${card.model || ""}`),
-        };
-      });
-  } catch {
-    return [];
-  }
-}
-
-async function init() {
-  torecaCards = await loadCatalogCards();
-  items = attachCatalogMatches(data.items || []);
+function init() {
   renderStats();
   bind();
   render();
