@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>トレカバンク PSA10 一覧</title>
-  <meta name="description" content="トレカバンクの郵送買取一覧から、ポケモンカードのPSA10を画像つきで見やすく並べたページ。" />
+  <meta name="description" content="トレカバンクの郵送買取一覧から、ポケモンカードのPSA10を画像つきで見やすく並べ、30日分の掲載日数を蓄積するページ。" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
@@ -17,7 +17,7 @@
         <div>
           <h1>トレカバンク PSA10 一覧</h1>
           <p class="lede">
-            郵送買取一覧からポケモンカードのPSA10だけを集めて、画像・価格・募集状況をひと目で比較できるようにしています。
+            郵送買取一覧からポケモンカードのPSA10だけを集めて、画像・価格・掲載日数をひと目で比較できるようにしています。
             みんなのトレカ相場のカード画像にも照合して、元カード側の確認もしやすくしています。
           </p>
         </div>
@@ -29,8 +29,6 @@
       </div>
       <div class="stats">
         <article class="stat"><span>総件数</span><strong id="totalCount">0</strong></article>
-        <article class="stat"><span>募集中</span><strong id="recruitingCount">0</strong></article>
-        <article class="stat"><span>受付終了</span><strong id="closedCount">0</strong></article>
         <article class="stat"><span>照合率</span><strong id="matchRate">0%</strong></article>
         <article class="stat"><span>平均価格</span><strong id="avgPrice">-</strong></article>
         <article class="stat"><span>取得日</span><strong id="updatedAt">-</strong></article>
@@ -41,14 +39,6 @@
       <label class="field field-wide">
         <span>検索</span>
         <input id="query" type="search" placeholder="カード名 / 型番 / 価格 / 商品ID" />
-      </label>
-      <label class="field">
-        <span>状態</span>
-        <select id="status">
-          <option value="all">すべて</option>
-          <option value="recruiting">募集中のみ</option>
-          <option value="closed">受付終了のみ</option>
-        </select>
       </label>
       <label class="field">
         <span>価格 下限</span>
@@ -76,6 +66,7 @@
     </section>
   </main>
 
+  <script src="../toreca-catalog/data/cards.js"></script>
   <script src="./data/torecabank-data.js"></script>
   <script src="./app.js"></script>
 </body>

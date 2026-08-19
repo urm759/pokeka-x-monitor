@@ -8,9 +8,26 @@ const fallbackData = {
 };
 
 const data = window.TORECABANK_DATA || fallbackData;
+const torecaCardsRaw = Array.isArray(window.TORECA_CARD_INDEX?.cards) ? window.TORECA_CARD_INDEX.cards : [];
+const torecaCards = torecaCardsRaw
+  .filter((card) => card && card.pageUrl && card.img && card.name)
+  .map((card) => {
+    const shortName = String(card.name).replace(/\[[^\]]+\].*$/, "").replace(/\(.*$/, "").trim();
+    return {
+      id: card.id,
+      name: card.name,
+      shortName,
+      model: card.model || "",
+      pageUrl: card.pageUrl,
+      img: card.img,
+      modelKey: normalizeModel(card.model || ""),
+      displayKey: normalize(normalize(shortName)),
+      searchKey: normalize(`${card.name} ${card.model || ""}`),
+    };
+  });
+
 const state = {
   query: "",
-  status: "all",
   priceMin: null,
   priceMax: null,
   sort: "price-desc",
@@ -20,13 +37,10 @@ const els = {
   sourceUrl: document.getElementById("sourceUrl"),
   statsLine: document.getElementById("statsLine"),
   totalCount: document.getElementById("totalCount"),
-  recruitingCount: document.getElementById("recruitingCount"),
-  closedCount: document.getElementById("closedCount"),
   matchRate: document.getElementById("matchRate"),
   avgPrice: document.getElementById("avgPrice"),
   updatedAt: document.getElementById("updatedAt"),
   query: document.getElementById("query"),
-  status: document.getElementById("status"),
   priceMin: document.getElementById("priceMin"),
   priceMax: document.getElementById("priceMax"),
   sort: document.getElementById("sort"),
@@ -46,18 +60,51 @@ function priceText(value) {
   return Number.isFinite(value) && value > 0 ? yen.format(value) : "-";
 }
 
+function shortName(name) {
+  return String(name || "").replace(/\[[^\]]+\].*$/, "").replace(/\(.*$/, "").trim();
+}
+
 function parseNumber(value) {
   const x = Number(value);
   return Number.isFinite(x) ? x : null;
 }
 
+function matchCatalogCard(item) {
+  if (!torecaCards.length) return item.catalog || null;
+  const itemModelKey = normalize(item.model || "");
+  const itemNameKey = normalize(shortName(item.name));
+  const itemSearchKey = normalize(`${item.name} ${item.model || ""}`);
+
+  let best = null;
+  let bestScore = 0;
+  for (const card of torecaCards) {
+    let score = 0;
+    if (itemModelKey && card.modelKey && itemModelKey === card.modelKey) score += 8;
+    if (itemModelKey && card.modelKey && (itemModelKey.includes(card.modelKey) || card.modelKey.includes(itemModelKey))) score += 4;
+    if (itemNameKey && card.displayKey && (itemNameKey.includes(card.displayKey) || card.displayKey.includes(itemNameKey))) score += 5;
+    if (itemSearchKey && card.searchKey && (itemSearchKey.includes(card.searchKey) || card.searchKey.includes(itemSearchKey))) score += 2;
+    if (score > bestScore) {
+      bestScore = score;
+      best = card;
+    }
+  }
+
+  if (!best || bestScore < 5) return item.catalog || null;
+  return { ...best, score: bestScore };
+}
+
+function attachCatalogMatches(items) {
+  return (items || []).map((item) => ({
+    ...item,
+    catalog: matchCatalogCard(item),
+  }));
+}
+
+const items = attachCatalogMatches(data.items || []);
+
 function applyFilters(items) {
   const q = normalize(state.query);
   return items.filter((item) => {
-    if (state.status !== "all") {
-      const shouldBeOpen = state.status === "recruiting";
-      if (shouldBeOpen !== item.isRecruiting) return false;
-    }
     if (state.priceMin != null && item.price < state.priceMin) return false;
     if (state.priceMax != null && item.price > state.priceMax) return false;
     if (!q) return true;
@@ -105,13 +152,16 @@ function renderStats() {
   const stats = data.stats || {};
   els.sourceUrl.textContent = data.source?.url || "-";
   els.sourceUrl.title = data.source?.url || "";
-  els.statsLine.textContent = `${stats.pageCount || 0}ページ分を走査 / ${stats.total || 0}件を表示`;
+  const historyCount = Array.isArray(data.history) ? data.history.length : 0;
+  const total30 = Array.isArray(data.history) ? data.history.reduce((sum, item) => sum + (item.count30 || 0), 0) : 0;
+  const matchedCount = items.filter((item) => item.catalog).length;
+  const matchRate = items.length ? Math.round((matchedCount / items.length) * 100) : 0;
+  els.statsLine.textContent = `${stats.pageCount || 0}ページ分を走査 / ${stats.total || 0}件の現在一覧 / ${historyCount}件の30日蓄積`;
   els.totalCount.textContent = String(stats.total || 0);
-  els.recruitingCount.textContent = String(stats.recruiting || 0);
-  els.closedCount.textContent = String(stats.closed || 0);
-  els.matchRate.textContent = stats.matchedCount ? `${stats.matchRate || 0}%` : "準備中";
+  els.matchRate.textContent = matchedCount ? `${matchRate}%` : "準備中";
   els.avgPrice.textContent = priceText(stats.avgPrice || 0);
   els.updatedAt.textContent = data.updatedAt ? new Date(data.updatedAt).toLocaleString("ja-JP") : "-";
+  els.totalCount.title = `${total30}日分の掲載日数を蓄積`;
 }
 
 function renderItem(item) {
@@ -133,7 +183,6 @@ function renderItem(item) {
   card.innerHTML = `
     <a class="thumb" href="${item.pageUrl}" target="_blank" rel="noreferrer">
       <img src="${item.imageUrl}" alt="${item.imageAlt}" />
-      <span class="badge">${item.isRecruiting ? "募集中" : "受付終了"}</span>
     </a>
     <div class="body">
       <div class="title-row">
@@ -146,9 +195,11 @@ function renderItem(item) {
       <div class="chips">
         <span class="chip">${item.itemKey}</span>
         <span class="chip">${item.pageNumber}ページ目</span>
+        <span class="chip">直近7日 ${item.count7 || 0}日</span>
+        <span class="chip">直近30日 ${item.count30 || 0}日</span>
         <span class="chip">${item.stockText || "在庫不明"}</span>
         ${item.isCustomItem ? '<span class="chip good">カスタム</span>' : '<span class="chip">通常</span>'}
-        ${item.catalog ? `<span class="chip warn">照合スコア ${item.catalog.score}</span>` : ""}
+        ${item.catalog ? `<span class="chip warn">照合 ${item.catalog.shortName}</span>` : ""}
       </div>
       <div class="meta-grid">
         <div class="meta">
@@ -156,8 +207,8 @@ function renderItem(item) {
           <strong>${item.itemId}</strong>
         </div>
         <div class="meta">
-          <span>掲載状況</span>
-          <strong>${item.isRecruiting ? "募集中" : "受付終了"}</strong>
+          <span>初回 / 最終確認</span>
+          <strong>${item.firstSeenDate || "-"} / ${item.lastSeenDate || "-"}</strong>
         </div>
       </div>
       ${catalogHtml}
@@ -172,7 +223,7 @@ function renderItem(item) {
 }
 
 function render() {
-  const filtered = sortItems(applyFilters(data.items || []));
+  const filtered = sortItems(applyFilters(items));
   els.items.innerHTML = "";
   if (!filtered.length) {
     const empty = document.createElement("div");
@@ -191,10 +242,6 @@ function render() {
 function bind() {
   els.query.addEventListener("input", (event) => {
     state.query = event.target.value;
-    render();
-  });
-  els.status.addEventListener("change", (event) => {
-    state.status = event.target.value;
     render();
   });
   els.priceMin.addEventListener("input", (event) => {
