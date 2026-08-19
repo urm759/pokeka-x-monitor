@@ -122,7 +122,7 @@ h1{
 }
 .source-stat-grid{
   display:grid;
-  grid-template-columns:repeat(4,minmax(0,1fr));
+  grid-template-columns:repeat(5,minmax(0,1fr));
   gap:8px;
   margin-top:12px;
 }
@@ -247,7 +247,7 @@ h1{
 }
 .count-grid{
   display:grid;
-  grid-template-columns:repeat(2,minmax(0,1fr));
+  grid-template-columns:repeat(4,minmax(0,1fr));
   gap:12px;
   margin-top:14px;
 }
@@ -278,6 +278,8 @@ h1{
 }
 .count-box-7 strong{color:#8bdcff}
 .count-box-30 strong{color:#c6ffe8}
+.count-box-site strong{color:#ffd18b}
+.count-box-90 strong{color:#f0c6ff}
 .chips,.links{
   display:flex;
   flex-wrap:wrap;
@@ -378,6 +380,7 @@ h1{
 @media (max-width: 980px){
   .hero-grid,.card{grid-template-columns:1fr}
   .thumb{min-height:260px}
+  .count-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 @media (max-width: 640px){
   .shell{width:min(100% - 14px, 1480px)}

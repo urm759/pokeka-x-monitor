@@ -106,6 +106,21 @@ function sourceHref(sourceKey) {
   return sourceMeta.find((source) => source.key === sourceKey)?.url || "";
 }
 
+function identityKey(item) {
+  if (item.catalog?.pageUrl) return `catalog:${item.catalog.pageUrl}`;
+  const identity = [
+    item.setKey || "",
+    item.numberKey || "",
+    item.modelKey || "",
+    item.modelNumberKey || "",
+    item.baseNameKey || normalize(item.name),
+    item.looseTitleKey || "",
+  ]
+    .filter(Boolean)
+    .join("|");
+  return `raw:${identity || normalize(`${item.name} ${item.model || ""}`)}`;
+}
+
 function matchCatalogCard(item) {
   if (!torecaCards.length) return item.catalog || null;
   const itemModelKey = normalize(item.model || "");
@@ -131,7 +146,7 @@ function matchCatalogCard(item) {
 }
 
 function getGroupKey(item) {
-  return item.catalog?.pageUrl || `${item.sourceKey || "bank"}::${item.rawKey || item.itemKey || `${item.name}:${item.model || ""}`}`;
+  return identityKey(item);
 }
 
 function groupByCatalog(items) {
@@ -144,6 +159,7 @@ function groupByCatalog(items) {
         ...item,
         groupKey: key,
         sources: [item],
+        sourceKeys: new Set([item.sourceKey || "bank"]),
         sourceBreakdown: {
           [item.sourceKey || "bank"]: {
             sourceKey: item.sourceKey || "bank",
@@ -151,6 +167,7 @@ function groupByCatalog(items) {
             sourceUrl: item.sourceUrl || sourceHref(item.sourceKey || "bank"),
             count7: item.count7 || 0,
             count30: item.count30 || 0,
+            count90: item.count90 || 0,
             price: item.price || 0,
             priceText: item.priceText || priceText(item.price || 0),
             items: [item],
@@ -167,12 +184,14 @@ function groupByCatalog(items) {
       sourceUrl: item.sourceUrl || sourceHref(sourceKey),
       count7: 0,
       count30: 0,
+      count90: 0,
       price: 0,
       priceText: "-",
       items: [],
     };
     breakdown.count7 = (breakdown.count7 || 0) + (item.count7 || 0);
     breakdown.count30 = (breakdown.count30 || 0) + (item.count30 || 0);
+    breakdown.count90 = (breakdown.count90 || 0) + (item.count90 || 0);
     if ((item.price || 0) >= (breakdown.price || 0)) {
       breakdown.price = item.price || 0;
       breakdown.priceText = item.priceText || priceText(item.price || 0);
@@ -180,8 +199,11 @@ function groupByCatalog(items) {
     }
     breakdown.items.push(item);
     current.sourceBreakdown[sourceKey] = breakdown;
+    current.sourceKeys = current.sourceKeys || new Set();
+    current.sourceKeys.add(sourceKey);
     current.count7 = (current.count7 || 0) + (item.count7 || 0);
     current.count30 = (current.count30 || 0) + (item.count30 || 0);
+    current.count90 = (current.count90 || 0) + (item.count90 || 0);
     current.sources.push(item);
     if ((item.price || 0) > (current.price || 0)) {
       current.price = item.price;
@@ -197,9 +219,13 @@ function groupByCatalog(items) {
     if (item.catalog && (!current.catalog || (item.catalog.score || 0) > (current.catalog.score || 0))) {
       current.catalog = item.catalog;
     }
+    current.siteCount = current.sourceKeys ? current.sourceKeys.size : Object.keys(current.sourceBreakdown || {}).length;
   }
 
-  return [...groups.values()];
+  return [...groups.values()].map((item) => ({
+    ...item,
+    siteCount: item.sourceKeys ? item.sourceKeys.size : Object.keys(item.sourceBreakdown || {}).length,
+  }));
 }
 
 const rawItems = Array.isArray(data.items) ? data.items : [];
@@ -220,6 +246,7 @@ function buildSourceStats(list) {
       avgPrice: 0,
       count7: 0,
       count30: 0,
+      count90: 0,
       pageCount: 0,
     });
   }
@@ -238,6 +265,7 @@ function buildSourceStats(list) {
         avgPrice: 0,
         count7: 0,
         count30: 0,
+        count90: 0,
         pageCount: 0,
       });
     }
@@ -246,6 +274,7 @@ function buildSourceStats(list) {
     stat.matchedCount += item.catalog ? 1 : 0;
     stat.count7 += item.count7 || 0;
     stat.count30 += item.count30 || 0;
+    stat.count90 += item.count90 || 0;
     stat.minPrice = stat.minPrice ? Math.min(stat.minPrice, item.price || 0) : item.price || 0;
     stat.maxPrice = Math.max(stat.maxPrice || 0, item.price || 0);
     if (!stat._prices) stat._prices = [];
@@ -275,6 +304,7 @@ function renderSourceSummary() {
             <span><em>掲載</em><b>${stat.total}</b></span>
             <span><em>7日</em><b>${stat.count7}</b></span>
             <span><em>30日</em><b>${stat.count30}</b></span>
+            <span><em>90日</em><b>${stat.count90}</b></span>
             <span><em>照合</em><b>${stat.matchRate}%</b></span>
           </div>
         </article>`
@@ -298,7 +328,7 @@ function applyFilters(items) {
       item.catalog?.shortName || "",
       item.catalog?.name || "",
       Object.values(item.sourceBreakdown || {})
-        .map((entry) => `${entry.sourceName} ${entry.count7} ${entry.count30}`)
+        .map((entry) => `${entry.sourceName} ${entry.count7} ${entry.count30} ${entry.count90}`)
         .join(" "),
     ].join(" "));
     return haystack.includes(q);
@@ -335,18 +365,19 @@ function renderStats() {
   const stats = data.stats || {};
   const historyCount = Array.isArray(data.history) ? data.history.length : 0;
   const total30 = Array.isArray(data.history) ? data.history.reduce((sum, item) => sum + (item.count30 || 0), 0) : 0;
+  const total90 = Array.isArray(data.history) ? data.history.reduce((sum, item) => sum + (item.count90 || 0), 0) : 0;
   const matchedCount = rawItems.filter((item) => item.catalog).length;
   const matchRate = rawItems.length ? Math.round((matchedCount / rawItems.length) * 100) : 0;
   const groupCount = items.length || 0;
   const sourceCount = sourceMeta.length || 0;
   els.sourceUrl.textContent = sourceMeta.map((source) => source.name).join(" / ") || "-";
   els.sourceUrl.title = sourceMeta.map((source) => source.url).join("\n");
-  els.statsLine.textContent = `${sourceCount}サイト / ${rawItems.length || 0}件の掲載 / ${groupCount}件に整理 / ${historyCount}件の30日蓄積`;
+  els.statsLine.textContent = `${sourceCount}サイト / ${rawItems.length || 0}件の掲載 / ${groupCount}件に整理 / ${historyCount}件の90日蓄積`;
   els.totalCount.textContent = String(stats.total || rawItems.length || 0);
   els.matchRate.textContent = matchedCount ? `${matchRate}%` : "準備中";
   els.avgPrice.textContent = priceText(stats.avgPrice || 0);
   els.updatedAt.textContent = data.updatedAt ? new Date(data.updatedAt).toLocaleString("ja-JP") : "-";
-  els.totalCount.title = `${total30}回分の掲載回数を蓄積`;
+  els.totalCount.title = `${total90}回分の掲載回数を蓄積`;
   renderSourceSummary();
 }
 
@@ -392,6 +423,10 @@ function renderItem(item) {
         <div class="price">${priceText(item.price)}</div>
       </div>
       <div class="count-grid">
+        <div class="count-box count-box-site">
+          <span>掲載サイト数</span>
+          <strong>${item.siteCount || Object.keys(item.sourceBreakdown || {}).length || 0}<small>サイト</small></strong>
+        </div>
         <div class="count-box count-box-7">
           <span>直近7日掲載</span>
           <strong>${item.count7 || 0}<small>回</small></strong>
@@ -399,6 +434,10 @@ function renderItem(item) {
         <div class="count-box count-box-30">
           <span>直近30日掲載</span>
           <strong>${item.count30 || 0}<small>回</small></strong>
+        </div>
+        <div class="count-box count-box-90">
+          <span>直近90日掲載</span>
+          <strong>${item.count90 || 0}<small>回</small></strong>
         </div>
       </div>
       <div class="chips">
@@ -412,7 +451,7 @@ function renderItem(item) {
             (entry) => `
               <div class="source-row">
                 <strong>${entry.sourceName || sourceLabel(entry.sourceKey)}</strong>
-                <span>7日 ${entry.count7 || 0} / 30日 ${entry.count30 || 0}</span>
+                <span>7日 ${entry.count7 || 0} / 30日 ${entry.count30 || 0} / 90日 ${entry.count90 || 0}</span>
                 <small>${priceText(entry.price || 0)}</small>
               </div>`
           )
