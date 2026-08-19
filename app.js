@@ -21,7 +21,7 @@ const torecaCards = torecaCardsRaw
       pageUrl: card.pageUrl,
       img: card.img,
       modelKey: normalizeModel(card.model || ""),
-      displayKey: normalize(normalize(shortName)),
+      displayKey: normalize(shortName),
       searchKey: normalize(`${card.name} ${card.model || ""}`),
     };
   });
@@ -193,23 +193,11 @@ function renderItem(item) {
         <div class="price">${priceText(item.price)}</div>
       </div>
       <div class="chips">
-        <span class="chip">${item.itemKey}</span>
-        <span class="chip">${item.pageNumber}ページ目</span>
-        <span class="chip">直近7日 ${item.count7 || 0}日</span>
-        <span class="chip">直近30日 ${item.count30 || 0}日</span>
+        <span class="chip">直近7日掲載 ${item.count7 || 0}日</span>
+        <span class="chip">直近30日掲載 ${item.count30 || 0}日</span>
         <span class="chip">${item.stockText || "在庫不明"}</span>
         ${item.isCustomItem ? '<span class="chip good">カスタム</span>' : '<span class="chip">通常</span>'}
         ${item.catalog ? `<span class="chip warn">照合 ${item.catalog.shortName}</span>` : ""}
-      </div>
-      <div class="meta-grid">
-        <div class="meta">
-          <span>商品ID</span>
-          <strong>${item.itemId}</strong>
-        </div>
-        <div class="meta">
-          <span>初回 / 最終確認</span>
-          <strong>${item.firstSeenDate || "-"} / ${item.lastSeenDate || "-"}</strong>
-        </div>
       </div>
       ${catalogHtml}
       <div class="links">
