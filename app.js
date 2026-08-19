@@ -8,23 +8,7 @@ const fallbackData = {
 };
 
 const data = window.TORECABANK_DATA || fallbackData;
-const torecaCardsRaw = Array.isArray(window.TORECA_CARD_INDEX?.cards) ? window.TORECA_CARD_INDEX.cards : [];
-const torecaCards = torecaCardsRaw
-  .filter((card) => card && card.pageUrl && card.img && card.name)
-  .map((card) => {
-    const shortName = String(card.name).replace(/\[[^\]]+\].*$/, "").replace(/\(.*$/, "").trim();
-    return {
-      id: card.id,
-      name: card.name,
-      shortName,
-      model: card.model || "",
-      pageUrl: card.pageUrl,
-      img: card.img,
-      modelKey: normalizeModel(card.model || ""),
-      displayKey: normalize(shortName),
-      searchKey: normalize(`${card.name} ${card.model || ""}`),
-    };
-  });
+let torecaCards = [];
 
 const state = {
   query: "",
@@ -100,7 +84,7 @@ function attachCatalogMatches(items) {
   }));
 }
 
-const items = attachCatalogMatches(data.items || []);
+let items = attachCatalogMatches(data.items || []);
 
 function applyFilters(items) {
   const q = normalize(state.query);
@@ -161,7 +145,7 @@ function renderStats() {
   els.matchRate.textContent = matchedCount ? `${matchRate}%` : "準備中";
   els.avgPrice.textContent = priceText(stats.avgPrice || 0);
   els.updatedAt.textContent = data.updatedAt ? new Date(data.updatedAt).toLocaleString("ja-JP") : "-";
-  els.totalCount.title = `${total30}日分の掲載日数を蓄積`;
+  els.totalCount.title = `${total30}回分の掲載回数を蓄積`;
 }
 
 function renderItem(item) {
@@ -193,8 +177,8 @@ function renderItem(item) {
         <div class="price">${priceText(item.price)}</div>
       </div>
       <div class="chips">
-        <span class="chip">直近7日掲載 ${item.count7 || 0}日</span>
-        <span class="chip">直近30日掲載 ${item.count30 || 0}日</span>
+        <span class="chip">直近7日掲載 ${item.count7 || 0}回</span>
+        <span class="chip">直近30日掲載 ${item.count30 || 0}回</span>
         <span class="chip">${item.stockText || "在庫不明"}</span>
         ${item.isCustomItem ? '<span class="chip good">カスタム</span>' : '<span class="chip">通常</span>'}
         ${item.catalog ? `<span class="chip warn">照合 ${item.catalog.shortName}</span>` : ""}
@@ -202,6 +186,7 @@ function renderItem(item) {
       ${catalogHtml}
       <div class="links">
         <a href="${item.pageUrl}" target="_blank" rel="noreferrer">元ページを開く</a>
+        ${item.catalog ? `<a href="${item.catalog.pageUrl}" target="_blank" rel="noreferrer">みんなのトレカ相場を開く</a>` : ""}
         ${item.addUrl ? `<a href="${item.addUrl}" target="_blank" rel="noreferrer">追加リンク</a>` : ""}
       </div>
     </div>
@@ -246,6 +231,39 @@ function bind() {
   });
 }
 
-renderStats();
-bind();
-render();
+async function loadCatalogCards() {
+  try {
+    const response = await fetch("../toreca-catalog/data/cards.json", { cache: "no-store" });
+    if (!response.ok) return [];
+    const raw = await response.json();
+    const cards = Array.isArray(raw) ? raw : Array.isArray(raw?.cards) ? raw.cards : [];
+    return cards
+      .filter((card) => card && card.pageUrl && card.img && card.name)
+      .map((card) => {
+        const shortName = String(card.name).replace(/\[[^\]]+\].*$/, "").replace(/\(.*$/, "").trim();
+        return {
+          id: card.id,
+          name: card.name,
+          shortName,
+          model: card.model || "",
+          pageUrl: card.pageUrl,
+          img: card.img,
+          modelKey: normalizeModel(card.model || ""),
+          displayKey: normalize(shortName),
+          searchKey: normalize(`${card.name} ${card.model || ""}`),
+        };
+      });
+  } catch {
+    return [];
+  }
+}
+
+async function init() {
+  torecaCards = await loadCatalogCards();
+  items = attachCatalogMatches(data.items || []);
+  renderStats();
+  bind();
+  render();
+}
+
+init();
