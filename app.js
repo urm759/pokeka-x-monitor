@@ -1,56 +1,184 @@
 const fmt = new Intl.NumberFormat("ja-JP");
 const yen = new Intl.NumberFormat("ja-JP", { style: "currency", currency: "JPY", maximumFractionDigits: 0 });
 
+const fallbackRows = [
+  {
+    shopId: "mist",
+    shopName: "カードショップMist 名古屋大須店",
+    handle: "@Mist_nagoyaosu",
+    postId: "mist-20260818-01",
+    postedAt: "2026-08-18T05:00:00+09:00",
+    title: "PSA 強化買取買取表 8/6 ポケモンカードPSA10",
+    cardName: "リザードンex SAR",
+    cardNumber: "349/190",
+    setLabel: "SV4a",
+    price: 98000,
+    confidence: 0.96,
+    sourceUrl: "https://x.com/Mist_nagoyaosu",
+    imageLabel: "掲載画像 1",
+    dedupeKey: "mist-20260818-01:charizard-98000",
+  },
+  {
+    shopId: "mist",
+    shopName: "カードショップMist 名古屋大須店",
+    handle: "@Mist_nagoyaosu",
+    postId: "mist-20260818-01",
+    postedAt: "2026-08-18T05:00:00+09:00",
+    title: "PSA 強化買取買取表 8/6 ポケモンカードPSA10",
+    cardName: "お茶会ごっこピカチュウ",
+    cardNumber: "325/SM-P",
+    setLabel: "PROMO",
+    price: 340000,
+    confidence: 0.91,
+    sourceUrl: "https://x.com/Mist_nagoyaosu",
+    imageLabel: "掲載画像 2",
+    dedupeKey: "mist-20260818-01:pikachu-340000",
+  },
+  {
+    shopId: "mist",
+    shopName: "カードショップMist 名古屋大須店",
+    handle: "@Mist_nagoyaosu",
+    postId: "mist-20260818-02",
+    postedAt: "2026-08-18T12:10:00+09:00",
+    title: "お持ち込みありがとうございます",
+    cardName: "メガカイリューex",
+    cardNumber: "114/063",
+    setLabel: "M1S",
+    price: 38000,
+    confidence: 0.89,
+    sourceUrl: "https://x.com/Mist_nagoyaosu",
+    imageLabel: "掲載画像 3",
+    dedupeKey: "mist-20260818-02:dragonite-38000",
+  },
+  {
+    shopId: "mist",
+    shopName: "カードショップMist 名古屋大須店",
+    handle: "@Mist_nagoyaosu",
+    postId: "mist-20260818-03",
+    postedAt: "2026-08-17T18:40:00+09:00",
+    title: "PSA10 強化買取買取表",
+    cardName: "ブラッキーex",
+    cardNumber: "217/187",
+    setLabel: "SV8a",
+    price: 85000,
+    confidence: 0.92,
+    sourceUrl: "https://x.com/Mist_nagoyaosu",
+    imageLabel: "掲載画像 4",
+    dedupeKey: "mist-20260817-03:umbreon-85000",
+  },
+  {
+    shopId: "mist",
+    shopName: "カードショップMist 名古屋大須店",
+    handle: "@Mist_nagoyaosu",
+    postId: "mist-20260817-03b",
+    postedAt: "2026-08-17T18:42:00+09:00",
+    title: "同日再掲",
+    cardName: "ブラッキーex",
+    cardNumber: "217/187",
+    setLabel: "SV8a",
+    price: 85000,
+    confidence: 0.92,
+    sourceUrl: "https://x.com/Mist_nagoyaosu",
+    imageLabel: "掲載画像 4",
+    dedupeKey: "mist-20260817-03:umbreon-85000",
+  },
+  {
+    shopId: "mist",
+    shopName: "カードショップMist 名古屋大須店",
+    handle: "@Mist_nagoyaosu",
+    postId: "mist-20260817-04",
+    postedAt: "2026-08-17T21:10:00+09:00",
+    title: "PSA 買取表",
+    cardName: "ミュウex",
+    cardNumber: "347/190",
+    setLabel: "SV4a",
+    price: 28000,
+    confidence: 0.95,
+    sourceUrl: "https://x.com/Mist_nagoyaosu",
+    imageLabel: "掲載画像 5",
+    dedupeKey: "mist-20260817-04:mew-28000",
+  },
+];
+
+const fallbackData = {
+  updatedAt: "2026-08-18T21:00:00+09:00",
+  source: {
+    kind: "demo",
+    accountHandles: ["@Mist_nagoyaosu"],
+  },
+  shops: [
+    {
+      shopId: "mist",
+      shopName: "カードショップMist 名古屋大須店",
+      handle: "@Mist_nagoyaosu",
+      profileUrl: "https://x.com/Mist_nagoyaosu",
+      active: true,
+    },
+  ],
+  rows: fallbackRows,
+};
+
+let rawData = cloneData(fallbackData);
+let rawRows = [...fallbackData.rows];
+
 const state = {
-  cards: [],
-  q: "",
-  sort: "rank-asc",
+  query: "",
+  shop: "all",
+  min7: 0,
+  min30: 1,
   priceMin: null,
   priceMax: null,
-  psaMin: null,
-  psaMax: null,
-  txMin: null,
-  rateMin: null,
-  page: 1,
-  pageSize: 48,
+  sort: "count30-desc",
 };
 
 const els = {
-  qInput: document.getElementById("qInput"),
-  sortInput: document.getElementById("sortInput"),
-  priceMinInput: document.getElementById("priceMinInput"),
-  priceMaxInput: document.getElementById("priceMaxInput"),
-  psaMinInput: document.getElementById("psaMinInput"),
-  psaMaxInput: document.getElementById("psaMaxInput"),
-  txMinInput: document.getElementById("txMinInput"),
-  rateMinInput: document.getElementById("rateMinInput"),
-  grid: document.getElementById("grid"),
-  totalCount: document.getElementById("totalCount"),
-  visibleCount: document.getElementById("visibleCount"),
+  query: document.getElementById("query"),
+  shopFilter: document.getElementById("shopFilter"),
+  min7: document.getElementById("min7"),
+  min30: document.getElementById("min30"),
+  priceMin: document.getElementById("priceMin"),
+  priceMax: document.getElementById("priceMax"),
+  sort: document.getElementById("sort"),
+  cards: document.getElementById("cards"),
+  shopRail: document.getElementById("shopRail"),
+  shopCount: document.getElementById("shopCount"),
+  cardCount: document.getElementById("cardCount"),
+  count30: document.getElementById("count30"),
+  count7: document.getElementById("count7"),
+  dedupeRate: document.getElementById("dedupeRate"),
   updatedAt: document.getElementById("updatedAt"),
-  pageInfo: document.getElementById("pageInfo"),
-  prevBtn: document.getElementById("prevBtn"),
-  nextBtn: document.getElementById("nextBtn"),
-  copyUrlBtn: document.getElementById("copyUrlBtn"),
+  matchRate: document.getElementById("matchRate"),
 };
 
 function normalize(v) {
   return String(v ?? "")
     .toLowerCase()
-    .normalize("NFKC")
     .replace(/[０-９]/g, (s) => String.fromCharCode(s.charCodeAt(0) - 0xfee0))
-    .replace(/[‐−–—]/g, "-")
-    .replace(/\s+/g, " ")
-    .trim();
+    .replace(/[‐−–—]/g, "-");
 }
 
-function compact(v) {
-  return normalize(v).replace(/[^0-9a-zぁ-んァ-ヶ一-龠]+/gi, "");
+function normalizeModelKey(v) {
+  return String(v ?? "")
+    .toUpperCase()
+    .normalize("NFKC")
+    .replace(/\s+/g, "")
+    .replace(/[‐−–—]/g, "-")
+    .replace(/[^0-9A-Z/.-]+/g, "");
+}
+
+function normalizeTextKey(v) {
+  return normalize(v)
+    .replace(/[^0-9a-zぁ-んァ-ヶ一-龠]+/gi, "")
+    .trim();
 }
 
 function n(v) {
   const x = Number(v);
   return Number.isFinite(x) ? x : null;
+}
+
+function cloneData(data) {
+  return JSON.parse(JSON.stringify(data || {}));
 }
 
 function within(value, min, max) {
@@ -59,122 +187,316 @@ function within(value, min, max) {
   return true;
 }
 
-function sortCards(items) {
-  const copy = [...items];
-  const sorters = {
-    "rank-asc": (a, b) => a.rank - b.rank,
-    "rank-desc": (a, b) => b.rank - a.rank,
-    "price-desc": (a, b) => b.price - a.price || a.rank - b.rank,
-    "price-asc": (a, b) => a.price - b.price || a.rank - b.rank,
-    "psa10-desc": (a, b) => b.psa10Price - a.psa10Price || a.rank - b.rank,
-    "psa10-asc": (a, b) => a.psa10Price - b.psa10Price || a.rank - b.rank,
-    "rate-desc": (a, b) => b.siteAnnualRate - a.siteAnnualRate || a.rank - b.rank,
-    "rate-asc": (a, b) => a.siteAnnualRate - b.siteAnnualRate || a.rank - b.rank,
-    "tx-desc": (a, b) => b.tx30d - a.tx30d || a.rank - b.rank,
-    "tx-asc": (a, b) => a.tx30d - b.tx30d || a.rank - b.rank,
-    "name-asc": (a, b) => a.name.localeCompare(b.name, "ja"),
-    "name-desc": (a, b) => b.name.localeCompare(a.name, "ja"),
-  };
-  copy.sort(sorters[state.sort] || sorters["rank-asc"]);
-  return copy;
-}
+const torecaCards = Array.isArray(window.TORECA_CARD_INDEX?.cards) ? window.TORECA_CARD_INDEX.cards : [];
 
-function buildShareUrl() {
-  const url = new URL(window.location.href);
-  if (state.q) url.searchParams.set("q", state.q); else url.searchParams.delete("q");
-  url.searchParams.set("sort", state.sort);
-  if (state.priceMin != null) url.searchParams.set("priceMin", String(state.priceMin)); else url.searchParams.delete("priceMin");
-  if (state.priceMax != null) url.searchParams.set("priceMax", String(state.priceMax)); else url.searchParams.delete("priceMax");
-  if (state.psaMin != null) url.searchParams.set("psaMin", String(state.psaMin)); else url.searchParams.delete("psaMin");
-  if (state.psaMax != null) url.searchParams.set("psaMax", String(state.psaMax)); else url.searchParams.delete("psaMax");
-  if (state.txMin != null) url.searchParams.set("txMin", String(state.txMin)); else url.searchParams.delete("txMin");
-  if (state.rateMin != null) url.searchParams.set("rateMin", String(state.rateMin)); else url.searchParams.delete("rateMin");
-  url.searchParams.set("page", String(state.page));
-  return url;
-}
-
-function readUrl() {
-  const url = new URL(window.location.href);
-  state.q = url.searchParams.get("q") || "";
-  state.sort = url.searchParams.get("sort") || "rank-asc";
-  state.priceMin = n(url.searchParams.get("priceMin"));
-  state.priceMax = n(url.searchParams.get("priceMax"));
-  state.psaMin = n(url.searchParams.get("psaMin"));
-  state.psaMax = n(url.searchParams.get("psaMax"));
-  state.txMin = n(url.searchParams.get("txMin"));
-  state.rateMin = n(url.searchParams.get("rateMin"));
-  state.page = Math.max(1, n(url.searchParams.get("page")) || 1);
-}
-
-function syncControls() {
-  els.qInput.value = state.q;
-  els.sortInput.value = state.sort;
-  els.priceMinInput.value = state.priceMin ?? "";
-  els.priceMaxInput.value = state.priceMax ?? "";
-  els.psaMinInput.value = state.psaMin ?? "";
-  els.psaMaxInput.value = state.psaMax ?? "";
-  els.txMinInput.value = state.txMin ?? "";
-  els.rateMinInput.value = state.rateMin ?? "";
-}
-
-function filteredCards() {
-  const query = normalize(state.q);
-  const compactQuery = compact(state.q);
-  return state.cards.filter((card) => {
-    if (query) {
-      const hay = normalize([card.name, card.series, card.model, card.psaQuery, card.id].join(" "));
-      const compactHay = compact([card.name, card.series, card.model, card.psaQuery, card.id].join(" "));
-      if (!hay.includes(query) && !compactHay.includes(compactQuery)) return false;
+function matchTorecaCard(row) {
+  if (!torecaCards.length) return null;
+  const rowName = normalizeTextKey(row.cardName || "");
+  const rowTitle = normalizeTextKey(row.title || "");
+  const rowModel = normalizeModelKey(`${row.cardNumber || ""} ${row.setLabel || ""}`);
+  const rowNumberDigits = normalizeModelKey(row.cardNumber || "").replace(/[^0-9/]+/g, "");
+  let best = null;
+  let bestScore = 0;
+  for (const card of torecaCards) {
+    let score = 0;
+    if (card.modelKey && rowModel && (card.modelKey === rowModel || rowModel.includes(card.modelKey) || card.modelKey.includes(rowModel))) {
+      score += 6;
     }
-    if (!within(card.price, state.priceMin, state.priceMax)) return false;
-    if (!within(card.psa10Price, state.psaMin, state.psaMax)) return false;
-    if (!within(card.tx30d, state.txMin, null)) return false;
-    if (state.rateMin != null && card.siteAnnualRate < state.rateMin) return false;
-    return true;
+    const cardDigits = String(card.modelKey || "").replace(/[^0-9/]+/g, "");
+    if (rowNumberDigits && cardDigits && rowNumberDigits === cardDigits) score += 5;
+    if (rowName && card.displayKey && (card.displayKey.includes(rowName) || rowName.includes(card.displayKey))) score += 4;
+    if (rowTitle && card.searchKey && (card.searchKey.includes(rowTitle) || rowTitle.includes(card.searchKey))) score += 1;
+    if (score > bestScore) {
+      bestScore = score;
+      best = card;
+    }
+  }
+  return bestScore >= 4 ? best : null;
+}
+
+function normalizeData(data) {
+  const base = cloneData(data);
+  const rows = Array.isArray(base.rows) ? base.rows : Array.isArray(base.listings) ? base.listings : [];
+  const shops = Array.isArray(base.shops) ? base.shops : [];
+  return {
+    updatedAt: base.updatedAt || null,
+    source: base.source || null,
+    shops,
+    rows,
+  };
+}
+
+function aggregate(rows) {
+  const uniques = [];
+  const seen = new Set();
+  let raw = 0;
+  for (const row of rows) {
+    raw += 1;
+    if (seen.has(row.dedupeKey)) continue;
+    seen.add(row.dedupeKey);
+    uniques.push(row);
+  }
+
+  const byCard = new Map();
+  for (const row of uniques) {
+    const key = `${row.shopId}:${row.cardName}`;
+    const item = byCard.get(key) || {
+      shopId: row.shopId,
+      shopName: row.shopName,
+      handle: row.handle,
+      cardName: row.cardName,
+      cardNumber: row.cardNumber,
+      setLabel: row.setLabel,
+      sourceUrl: row.sourceUrl,
+      imageLabel: row.imageLabel,
+      count30: 0,
+      count7: 0,
+      prices: [],
+      lastSeenAt: row.postedAt,
+      confidence: 0,
+    };
+    item.count30 += 1;
+    if (Date.parse(row.postedAt) >= Date.parse("2026-08-11T00:00:00+09:00")) {
+      item.count7 += 1;
+    }
+    item.prices.push(row.price);
+    item.lastSeenAt = item.lastSeenAt > row.postedAt ? item.lastSeenAt : row.postedAt;
+    item.confidence = Math.max(item.confidence, row.confidence);
+    byCard.set(key, item);
+  }
+
+  const cards = [...byCard.values()].map((item) => {
+    const avgPrice = Math.round(item.prices.reduce((a, b) => a + b, 0) / item.prices.length);
+    return {
+      ...item,
+      avgPrice,
+      medianPrice: [...item.prices].sort((a, b) => a - b)[Math.floor(item.prices.length / 2)],
+    };
+  });
+
+  const totalCount30 = cards.reduce((sum, item) => sum + item.count30, 0);
+  const totalCount7 = cards.reduce((sum, item) => sum + item.count7, 0);
+
+  return {
+    cards,
+    shopCount: new Set(uniques.map((row) => row.shopId)).size,
+    cardCount: cards.length,
+    count30: totalCount30,
+    count7: totalCount7,
+    dedupeRate: raw ? Math.round(((raw - uniques.length) / raw) * 100) : 0,
+    uniqueRows: uniques.length,
+  };
+}
+
+function summarizeShops(rows, shops) {
+  const uniqueRows = [];
+  const seen = new Set();
+  for (const row of rows) {
+    if (seen.has(row.dedupeKey)) continue;
+    seen.add(row.dedupeKey);
+    uniqueRows.push(row);
+  }
+  const shopRows = new Map();
+  for (const row of uniqueRows) {
+    const key = row.shopId || "unknown";
+    const bucket = shopRows.get(key) || {
+      shopId: key,
+      shopName: row.shopName || key,
+      handle: row.handle || "",
+      profileUrl: row.sourceUrl || "",
+      count30: 0,
+      count7: 0,
+      latest: row.postedAt,
+      uniqueCards: new Set(),
+    };
+    bucket.count30 += 1;
+    if (Date.parse(row.postedAt) >= Date.parse("2026-08-11T00:00:00+09:00")) bucket.count7 += 1;
+    bucket.latest = bucket.latest > row.postedAt ? bucket.latest : row.postedAt;
+    bucket.uniqueCards.add(row.cardName);
+    shopRows.set(key, bucket);
+  }
+  const shopMeta = new Map((shops || []).map((shop) => [shop.shopId, shop]));
+  return [...shopRows.values()].map((shop) => {
+    const meta = shopMeta.get(shop.shopId) || {};
+    return {
+      ...shop,
+      shopName: meta.shopName || shop.shopName,
+      handle: meta.handle || shop.handle,
+      profileUrl: meta.profileUrl || shop.profileUrl,
+      active: meta.active !== false,
+      uniqueCards: shop.uniqueCards.size,
+    };
   });
 }
 
+function sortCards(items) {
+  const copy = [...items];
+  const sorters = {
+    "count30-desc": (a, b) => b.count30 - a.count30 || b.count7 - a.count7,
+    "count7-desc": (a, b) => b.count7 - a.count7 || b.count30 - a.count30,
+    "avgPrice-desc": (a, b) => b.avgPrice - a.avgPrice,
+    "avgPrice-asc": (a, b) => a.avgPrice - b.avgPrice,
+    "lastSeen-desc": (a, b) => Date.parse(b.lastSeenAt) - Date.parse(a.lastSeenAt),
+    "lastSeen-asc": (a, b) => Date.parse(a.lastSeenAt) - Date.parse(b.lastSeenAt),
+  };
+  copy.sort(sorters[state.sort] || sorters["count30-desc"]);
+  return copy;
+}
+
+function renderShopOptions() {
+  const shops = rawData.shops?.length
+    ? rawData.shops
+    : [...new Map(rawRows.map((row) => [row.shopId, row])).values()].map((row) => ({
+        shopId: row.shopId,
+        shopName: row.shopName,
+        handle: row.handle,
+        profileUrl: row.sourceUrl,
+        active: true,
+      }));
+  els.shopFilter.innerHTML = `
+    <option value="all">すべて</option>
+    ${shops
+      .map((row) => `<option value="${row.shopId}">${row.shopName}</option>`)
+      .join("")}
+  `;
+}
+
+function renderShopRail(shops) {
+  if (!els.shopRail) return;
+  if (!shops.length) {
+    els.shopRail.innerHTML = "";
+    return;
+  }
+  els.shopRail.innerHTML = shops
+    .map(
+      (shop) => `
+        <article class="shop-card">
+          <div class="shop-card-head">
+            <div>
+              <span class="shop-label">${shop.handle || shop.shopId}</span>
+              <h3>${shop.shopName}</h3>
+            </div>
+            <a href="${shop.profileUrl || "https://x.com/"}" target="_blank" rel="noreferrer">X</a>
+          </div>
+          <div class="shop-card-stats">
+            <div><span>30日</span><strong>${fmt.format(shop.count30)}</strong></div>
+            <div><span>7日</span><strong>${fmt.format(shop.count7)}</strong></div>
+            <div><span>型数</span><strong>${fmt.format(shop.uniqueCards)}</strong></div>
+          </div>
+        </article>
+      `
+    )
+    .join("");
+}
+
 function render() {
-  const filtered = sortCards(filteredCards());
-  const totalPages = Math.max(1, Math.ceil(filtered.length / state.pageSize));
-  state.page = Math.min(state.page, totalPages);
-  const start = (state.page - 1) * state.pageSize;
-  const pageItems = filtered.slice(start, start + state.pageSize);
+  const query = normalize(state.query);
+  const rows = rawData.rows || rawRows;
+  const filtered = rows.filter((row) => {
+    if (state.shop !== "all" && row.shopId !== state.shop) return false;
+    if (query) {
+      const hay = normalize(
+        [
+          row.shopName,
+          row.handle,
+          row.title,
+          row.cardName,
+          row.cardNumber,
+          row.setLabel,
+          row.postId,
+        ].join(" ")
+      );
+      if (!hay.includes(query)) return false;
+    }
+    if (!within(row.price, state.priceMin, state.priceMax)) return false;
+    return true;
+  });
 
-  els.totalCount.textContent = fmt.format(state.cards.length);
-  els.visibleCount.textContent = fmt.format(filtered.length);
-  els.pageInfo.textContent = `${state.page} / ${totalPages}`;
-  els.prevBtn.disabled = state.page <= 1;
-  els.nextBtn.disabled = state.page >= totalPages;
+  const agg = aggregate(filtered);
+  const shopSummaries = summarizeShops(filtered, rawData.shops || []);
+  const cards = agg.cards.filter((item) => item.count7 >= state.min7 && item.count30 >= state.min30);
+  const sorted = sortCards(cards).map((item) => ({
+    ...item,
+    toreca: matchTorecaCard(item),
+  }));
+  const matchedCount = sorted.filter((item) => item.toreca).length;
 
-  if (!pageItems.length) {
-    els.grid.innerHTML = `<div class="empty card">該当するカードがありません。条件を少しゆるめると表示されます。</div>`;
+  els.shopCount.textContent = fmt.format(agg.shopCount);
+  els.cardCount.textContent = fmt.format(agg.cardCount);
+  els.count30.textContent = fmt.format(agg.count30);
+  els.count7.textContent = fmt.format(agg.count7);
+  els.dedupeRate.textContent = `${fmt.format(agg.dedupeRate)}%`;
+  if (els.matchRate) {
+    els.matchRate.textContent = sorted.length ? `${Math.round((matchedCount / sorted.length) * 100)}%` : "0%";
+  }
+  els.updatedAt.textContent = rawData.updatedAt ? rawData.updatedAt.slice(0, 10) : "-";
+  renderShopRail(shopSummaries);
+  if (!sorted.length) {
+    els.cards.innerHTML = `
+      <div class="panel-in">
+        <strong>該当なし</strong>
+        <p class="muted" style="margin:8px 0 0">条件を少しゆるめると、集計結果が表示されます。</p>
+      </div>
+    `;
     return;
   }
 
-  els.grid.innerHTML = pageItems
-    .map((card) => {
-      const siteRateClass = card.siteAnnualRate >= 80 ? "good" : card.siteAnnualRate >= 50 ? "sky" : "warn";
+  els.cards.innerHTML = sorted
+    .map((item) => {
+      const toreca = item.toreca;
+      const pageUrl = toreca?.pageUrl || item.torecaUrl || item.sourceUrl;
+      const imageUrl = toreca?.img || "";
+      const sourceUrl = item.postUrl || item.sourceUrl || item.shopUrl || "https://x.com/";
       return `
-        <article class="tile card">
-          <a class="thumb" href="${card.pageUrl}" target="_blank" rel="noreferrer">
-            <img src="${card.imageUrl}" alt="${card.name}" loading="lazy" />
+        <article class="card-row">
+          <a class="thumb ${toreca ? "thumb-image" : ""}" href="${pageUrl}" target="_blank" rel="noreferrer">
+            ${
+              toreca
+                ? `<img src="${imageUrl}" alt="${toreca.shortName || item.cardName}" loading="lazy" />`
+                : `<strong>${item.cardName}<br><span style="font-weight:700;color:rgba(255,255,255,.72)">${item.setLabel} ${item.cardNumber}</span></strong>`
+            }
+            <span class="thumb-caption">${toreca ? "元ページと画像" : "toreca画像未取得"}</span>
           </a>
-          <div class="tile-body">
-            <div class="tile-head">
+          <div>
+            <div class="title-row">
               <div>
-                <p class="eyebrow">#${card.rank} / ${card.id}</p>
-                <h3>${card.name}</h3>
+                <p class="eyebrow" style="margin-bottom:6px">${item.shopName}</p>
+                <h3>${item.cardName}</h3>
+                <div class="badge-row">
+                  <span class="chip info">7日 ${fmt.format(item.count7)}件</span>
+                  <span class="chip info">30日 ${fmt.format(item.count30)}件</span>
+                  <span class="chip">信頼度 ${(item.confidence * 100).toFixed(0)}%</span>
+                  <span class="chip ${toreca ? "good" : "warn"}">${toreca ? "toreca一致" : "未照合"}</span>
+                </div>
               </div>
-              <a class="mini-link" href="${card.pageUrl}" target="_blank" rel="noreferrer">元ページ</a>
+              <div class="link-stack">
+                <a class="xlink" href="${sourceUrl}" target="_blank" rel="noreferrer">Xで見る →</a>
+                <a class="xlink" href="${pageUrl}" target="_blank" rel="noreferrer">toreca元ページ →</a>
+              </div>
             </div>
-            <div class="chips">
-              <span class="chip">${card.series}</span>
-              <span class="chip">${card.model || "型番なし"}</span>
-              <span class="chip">美品 ${yen.format(card.price)}</span>
-              <span class="chip">PSA10 ${yen.format(card.psa10Price)}</span>
-              <span class="chip ${siteRateClass}">年利 ${fmt.format(card.siteAnnualRate)}%</span>
-              <span class="chip">30日 ${fmt.format(card.tx30d)}件</span>
+            <div class="price-line">
+              <div class="price-box">
+                <span>平均掲載価格</span>
+                <strong>${yen.format(item.avgPrice)}</strong>
+              </div>
+              <div class="price-box">
+                <span>中央値</span>
+                <strong>${yen.format(item.medianPrice)}</strong>
+              </div>
+              <div class="price-box">
+                <span>投稿数ベース</span>
+                <strong>${fmt.format(item.count30)}件</strong>
+              </div>
+            </div>
+            <div class="meta-grid" style="margin-top:10px">
+              <div class="price-box">
+                <span>最新投稿日</span>
+                <strong>${item.lastSeenAt.slice(0, 10)}</strong>
+              </div>
+              <div class="price-box">
+                <span>判別メモ</span>
+                <strong>${item.imageLabel}</strong>
+              </div>
             </div>
           </div>
         </article>
@@ -183,67 +505,52 @@ function render() {
     .join("");
 }
 
-function updateUrl() {
-  window.history.replaceState({}, "", buildShareUrl());
-}
-
-function syncAndRender(resetPage = false) {
-  state.q = els.qInput.value.trim();
-  state.sort = els.sortInput.value;
-  state.priceMin = n(els.priceMinInput.value);
-  state.priceMax = n(els.priceMaxInput.value);
-  state.psaMin = n(els.psaMinInput.value);
-  state.psaMax = n(els.psaMaxInput.value);
-  state.txMin = n(els.txMinInput.value);
-  state.rateMin = n(els.rateMinInput.value);
-  if (resetPage) state.page = 1;
-  render();
-  updateUrl();
+function syncFromControls() {
+  state.query = els.query.value;
+  state.shop = els.shopFilter.value;
+  state.min7 = n(els.min7.value) ?? 0;
+  state.min30 = n(els.min30.value) ?? 0;
+  state.priceMin = n(els.priceMin.value);
+  state.priceMax = n(els.priceMax.value);
+  state.sort = els.sort.value;
 }
 
 async function loadData() {
-  const [cardsRes, metaRes] = await Promise.all([
-    fetch("./data/cards.json", { cache: "no-store" }),
-    fetch("./data/meta.json", { cache: "no-store" }),
-  ]);
-  const cardsData = await cardsRes.json();
-  const metaData = metaRes.ok ? await metaRes.json() : {};
-  state.cards = Array.isArray(cardsData.cards) ? cardsData.cards : [];
-  els.updatedAt.textContent = metaData.updatedAt || cardsData.updatedAt || "-";
-}
-
-function wire() {
-  for (const el of [els.qInput, els.sortInput, els.priceMinInput, els.priceMaxInput, els.psaMinInput, els.psaMaxInput, els.txMinInput, els.rateMinInput]) {
-    el.addEventListener("input", () => syncAndRender(true));
-    el.addEventListener("change", () => syncAndRender(true));
+  try {
+    const injected = window.X_MONITOR_DATA;
+    if (injected) {
+      rawData = normalizeData(injected);
+      rawRows = [...rawData.rows];
+      return;
+    }
+    const res = await fetch("./data/monitor-data.json", { cache: "no-store" });
+    if (!res.ok) return;
+    const data = await res.json();
+    rawData = normalizeData(data);
+    if (Array.isArray(rawData.rows) && rawData.rows.length) {
+      rawRows = rawData.rows;
+    }
+  } catch {
+    rawData = cloneData(fallbackData);
+    rawRows = [...fallbackData.rows];
   }
-  els.prevBtn.addEventListener("click", () => {
-    state.page = Math.max(1, state.page - 1);
-    render();
-    updateUrl();
-  });
-  els.nextBtn.addEventListener("click", () => {
-    state.page += 1;
-    render();
-    updateUrl();
-  });
-  els.copyUrlBtn.addEventListener("click", async () => {
-    await navigator.clipboard.writeText(buildShareUrl().toString());
-    els.copyUrlBtn.textContent = "コピーしました";
-    setTimeout(() => (els.copyUrlBtn.textContent = "条件URLをコピー"), 1200);
-  });
 }
 
 async function bootstrap() {
-  readUrl();
-  syncControls();
-  wire();
   await loadData();
+  renderShopOptions();
   render();
-  updateUrl();
 }
 
-bootstrap().catch((err) => {
-  console.error(err);
-  els.grid.innerHTML = `<div class="empty card">一覧の読み込みに失敗しました。</div>`;
-});
+for (const el of [els.query, els.shopFilter, els.min7, els.min30, els.priceMin, els.priceMax, els.sort]) {
+  el.addEventListener("input", () => {
+    syncFromControls();
+    render();
+  });
+  el.addEventListener("change", () => {
+    syncFromControls();
+    render();
+  });
+}
+
+bootstrap();
