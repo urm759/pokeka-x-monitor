@@ -1,155 +1,44 @@
 <!doctype html>
 <html lang="ja">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>X買取表監視プロトタイプ</title>
-  <meta name="description" content="Xの買取表を店舗別に集計し、掲載回数・価格・重複排除を確認するための軽量プロトタイプ。" />
-  <link rel="stylesheet" href="./styles.css" />
-</head>
-<body>
-  <div class="glow glow-a"></div>
-  <div class="glow glow-b"></div>
-  <main class="shell">
-    <header class="hero panel">
-      <div class="eyebrow">X buyback monitor / prototype</div>
-      <div class="hero-grid">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mist 買取シート切り出しビューア</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
         <div>
-          <h1>X買取表監視サイト</h1>
-          <p class="lede">
-            まずは <strong>1店舗</strong> から始めて、投稿ごとの画像と本文を拾い、カード名・価格・掲載回数を集計します。
-            元画像は保存しすぎず、メタデータ中心で回すので、後から店舗を増やしても重くなりにくい構成です。
-          </p>
+          <p class="eyebrow">MIST SHEET REVIEW</p>
+          <h1>画像分析・切り分け確認</h1>
+          <p class="sub">固定グリッドで切り出したカード画像と価格欄をまとめて確認できます。</p>
         </div>
-        <div class="hero-card">
-          <span>対象アカウント</span>
-          <strong>@Mist_nagoyaosu</strong>
-          <p>まずはこの1店舗で精度確認。Xの元投稿へ直接飛べる導線を前提にしています。</p>
+        <div class="stats">
+          <div><span>枚数</span><strong id="cellCount">-</strong></div>
+          <div><span>解像度</span><strong id="imageSize">-</strong></div>
+          <div><span>認識済</span><strong id="recognizedCount">-</strong></div>
         </div>
-      </div>
+      </header>
 
-      <div class="stats">
-        <article class="stat">
-          <span>監視店舗</span>
-          <strong id="shopCount">0</strong>
-        </article>
-        <article class="stat">
-          <span>ユニークカード</span>
-          <strong id="cardCount">0</strong>
-        </article>
-        <article class="stat">
-          <span>30日掲載回数</span>
-          <strong id="count30">0</strong>
-        </article>
-        <article class="stat">
-          <span>7日掲載回数</span>
-          <strong id="count7">0</strong>
-        </article>
-        <article class="stat">
-          <span>重複除外率</span>
-          <strong id="dedupeRate">0%</strong>
-        </article>
-        <article class="stat">
-          <span>データ更新日</span>
-          <strong id="updatedAt">-</strong>
-        </article>
-      </div>
-    </header>
+      <section class="toolbar">
+        <label>
+          表示
+          <select id="mode">
+            <option value="cell">セル全体</option>
+            <option value="card">カード部分</option>
+            <option value="price">価格部分</option>
+          </select>
+        </label>
+        <label>
+          検索
+          <input id="query" type="search" placeholder="カード名・番号・行・列" />
+        </label>
+      </section>
 
-    <section class="panel controls">
-      <label class="field field-wide">
-        <span>検索</span>
-        <input id="query" type="search" placeholder="カード名 / 店舗名 / 型番 / ポストID" />
-      </label>
-      <label class="field">
-        <span>店舗</span>
-        <select id="shopFilter"></select>
-      </label>
-      <label class="field">
-        <span>7日掲載 下限</span>
-        <input id="min7" type="number" min="0" step="1" value="0" />
-      </label>
-      <label class="field">
-        <span>30日掲載 下限</span>
-        <input id="min30" type="number" min="0" step="1" value="1" />
-      </label>
-      <label class="field">
-        <span>並び順</span>
-        <select id="sort">
-          <option value="count30-desc">30日掲載回数が多い順</option>
-          <option value="count7-desc">7日掲載回数が多い順</option>
-          <option value="avgPrice-desc">平均価格が高い順</option>
-          <option value="avgPrice-asc">平均価格が低い順</option>
-          <option value="lastSeen-desc">最新投稿日が新しい順</option>
-          <option value="lastSeen-asc">最新投稿日が古い順</option>
-        </select>
-      </label>
-      <label class="field">
-        <span>価格帯</span>
-        <div class="range">
-          <input id="priceMin" type="number" min="0" step="100" placeholder="下限" />
-          <input id="priceMax" type="number" min="0" step="100" placeholder="上限" />
-        </div>
-      </label>
-    </section>
-
-    <section class="panel split">
-      <article class="focus">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">現場の見え方</p>
-            <h2>掲載回数が多いカードを先に見る</h2>
-          </div>
-          <p class="small">
-            7日・30日の回数で「今よく出しているカード」を拾い、価格と合わせて仕入れ判断の優先度をつけます。
-          </p>
-        </div>
-        <div id="shopRail" class="shop-rail"></div>
-        <div id="cards" class="cards"></div>
-      </article>
-
-      <aside class="sidebar">
-        <section class="mini panel-in">
-          <p class="eyebrow">保存方針</p>
-          <ul>
-            <li>投稿IDとカード名、価格、時刻を主データにする</li>
-            <li>画像はサムネイルか短期キャッシュに限定する</li>
-            <li>同日・同内容・同価格は重複排除する</li>
-            <li>店舗が増えたら shop 単位で分岐する</li>
-          </ul>
-        </section>
-
-        <section class="mini panel-in">
-          <p class="eyebrow">比較の考え方</p>
-          <p class="small">
-            みんなのトレカ相場はフリマ相場なので、店舗相場との直接比較には使いません。
-            比較は、他店舗の買取表が集まり始めてから、その店舗群の平均や高安で出します。
-          </p>
-        </section>
-
-        <section class="mini panel-in">
-          <p class="eyebrow">収集パイプライン</p>
-          <ol>
-            <li>X投稿を取得</li>
-            <li>買取表っぽい投稿だけ残す</li>
-            <li>画像OCRと本文を突き合わせる</li>
-            <li>店舗別 / 合計で集計</li>
-          </ol>
-        </section>
-
-        <section class="mini panel-in">
-          <p class="eyebrow">アップロード影響</p>
-          <div class="capacity">
-            <div><span>今の方針</span><strong>軽量</strong></div>
-            <div><span>危ない方針</span><strong>画像を全部保存</strong></div>
-            <div><span>分岐基準</span><strong>店舗数・画像量</strong></div>
-          </div>
-        </section>
-      </aside>
-    </section>
-  </main>
-
-  <script src="./data/monitor-data.js"></script>
-  <script src="./app.js"></script>
-</body>
+      <section id="grid" class="grid"></section>
+    </main>
+    <script src="./manifest.js"></script>
+    <script src="./app.js"></script>
+  </body>
 </html>
