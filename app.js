@@ -9,6 +9,11 @@ const fallbackData = {
 
 const data = window.TORECABANK_DATA || fallbackData;
 const torecaCardsRaw = Array.isArray(window.TORECA_CARD_INDEX?.cards) ? window.TORECA_CARD_INDEX.cards : [];
+const sourceMeta = Array.isArray(data.sources) && data.sources.length
+  ? data.sources
+  : data.source
+    ? [data.source]
+    : [];
 const torecaCards = torecaCardsRaw
   .filter((card) => card && card.pageUrl && (card.img || card.imageUrl) && card.name)
   .map((card) => {
@@ -31,15 +36,18 @@ const state = {
   priceMin: null,
   priceMax: null,
   sort: "price-desc",
+  source: "all",
 };
 
 const els = {
   sourceUrl: document.getElementById("sourceUrl"),
+  sourceSummary: document.getElementById("sourceSummary"),
   statsLine: document.getElementById("statsLine"),
   totalCount: document.getElementById("totalCount"),
   matchRate: document.getElementById("matchRate"),
   avgPrice: document.getElementById("avgPrice"),
   updatedAt: document.getElementById("updatedAt"),
+  source: document.getElementById("source"),
   query: document.getElementById("query"),
   priceMin: document.getElementById("priceMin"),
   priceMax: document.getElementById("priceMax"),
@@ -90,6 +98,14 @@ function parseNumber(value) {
   return Number.isFinite(x) ? x : null;
 }
 
+function sourceLabel(sourceKey) {
+  return sourceMeta.find((source) => source.key === sourceKey)?.name || sourceKey || "不明";
+}
+
+function sourceHref(sourceKey) {
+  return sourceMeta.find((source) => source.key === sourceKey)?.url || "";
+}
+
 function matchCatalogCard(item) {
   if (!torecaCards.length) return item.catalog || null;
   const itemModelKey = normalize(item.model || "");
@@ -114,20 +130,56 @@ function matchCatalogCard(item) {
   return { ...best, score: bestScore };
 }
 
+function getGroupKey(item) {
+  return item.catalog?.pageUrl || `${item.sourceKey || "bank"}::${item.rawKey || item.itemKey || `${item.name}:${item.model || ""}`}`;
+}
+
 function groupByCatalog(items) {
   const groups = new Map();
   for (const item of items || []) {
-    const key = item.catalog?.pageUrl || `${item.name}::${item.model || ""}`;
+    const key = getGroupKey(item);
     const current = groups.get(key);
     if (!current) {
       groups.set(key, {
         ...item,
         groupKey: key,
         sources: [item],
+        sourceBreakdown: {
+          [item.sourceKey || "bank"]: {
+            sourceKey: item.sourceKey || "bank",
+            sourceName: item.sourceName || sourceLabel(item.sourceKey || "bank"),
+            sourceUrl: item.sourceUrl || sourceHref(item.sourceKey || "bank"),
+            count7: item.count7 || 0,
+            count30: item.count30 || 0,
+            price: item.price || 0,
+            priceText: item.priceText || priceText(item.price || 0),
+            items: [item],
+          },
+        },
       });
       continue;
     }
 
+    const sourceKey = item.sourceKey || "bank";
+    const breakdown = current.sourceBreakdown[sourceKey] || {
+      sourceKey,
+      sourceName: item.sourceName || sourceLabel(sourceKey),
+      sourceUrl: item.sourceUrl || sourceHref(sourceKey),
+      count7: 0,
+      count30: 0,
+      price: 0,
+      priceText: "-",
+      items: [],
+    };
+    breakdown.count7 = (breakdown.count7 || 0) + (item.count7 || 0);
+    breakdown.count30 = (breakdown.count30 || 0) + (item.count30 || 0);
+    if ((item.price || 0) >= (breakdown.price || 0)) {
+      breakdown.price = item.price || 0;
+      breakdown.priceText = item.priceText || priceText(item.price || 0);
+      breakdown.sourceUrl = item.sourceUrl || breakdown.sourceUrl;
+    }
+    breakdown.items.push(item);
+    current.sourceBreakdown[sourceKey] = breakdown;
     current.count7 = (current.count7 || 0) + (item.count7 || 0);
     current.count30 = (current.count30 || 0) + (item.count30 || 0);
     current.sources.push(item);
@@ -142,16 +194,98 @@ function groupByCatalog(items) {
       current.tag = item.tag;
       current.catalog = item.catalog || current.catalog || null;
     }
+    if (item.catalog && (!current.catalog || (item.catalog.score || 0) > (current.catalog.score || 0))) {
+      current.catalog = item.catalog;
+    }
   }
 
   return [...groups.values()];
 }
 
-let items = groupByCatalog(data.items || []);
+const rawItems = Array.isArray(data.items) ? data.items : [];
+let items = groupByCatalog(rawItems);
+
+function buildSourceStats(list) {
+  const stats = new Map();
+  for (const source of sourceMeta) {
+    stats.set(source.key, {
+      key: source.key,
+      name: source.name,
+      url: source.url,
+      total: 0,
+      matchedCount: 0,
+      matchRate: 0,
+      minPrice: 0,
+      maxPrice: 0,
+      avgPrice: 0,
+      count7: 0,
+      count30: 0,
+      pageCount: 0,
+    });
+  }
+  for (const item of list || []) {
+    const key = item.sourceKey || "bank";
+    if (!stats.has(key)) {
+      stats.set(key, {
+        key,
+        name: sourceLabel(key),
+        url: sourceHref(key),
+        total: 0,
+        matchedCount: 0,
+        matchRate: 0,
+        minPrice: 0,
+        maxPrice: 0,
+        avgPrice: 0,
+        count7: 0,
+        count30: 0,
+        pageCount: 0,
+      });
+    }
+    const stat = stats.get(key);
+    stat.total += 1;
+    stat.matchedCount += item.catalog ? 1 : 0;
+    stat.count7 += item.count7 || 0;
+    stat.count30 += item.count30 || 0;
+    stat.minPrice = stat.minPrice ? Math.min(stat.minPrice, item.price || 0) : item.price || 0;
+    stat.maxPrice = Math.max(stat.maxPrice || 0, item.price || 0);
+    if (!stat._prices) stat._prices = [];
+    if (item.price > 0) stat._prices.push(item.price);
+  }
+  for (const stat of stats.values()) {
+    const prices = stat._prices || [];
+    stat.matchRate = stat.total ? Math.round((stat.matchedCount / stat.total) * 100) : 0;
+    stat.avgPrice = prices.length ? Math.round(prices.reduce((a, b) => a + b, 0) / prices.length) : 0;
+    delete stat._prices;
+  }
+  return [...stats.values()];
+}
+
+function renderSourceSummary() {
+  if (!els.sourceSummary) return;
+  const stats = buildSourceStats(rawItems);
+  els.sourceSummary.innerHTML = stats
+    .map(
+      (stat) => `
+        <article class="source-stat">
+          <div class="source-stat-head">
+            <strong>${stat.name}</strong>
+            <a href="${stat.url}" target="_blank" rel="noreferrer">開く</a>
+          </div>
+          <div class="source-stat-grid">
+            <span><em>掲載</em><b>${stat.total}</b></span>
+            <span><em>7日</em><b>${stat.count7}</b></span>
+            <span><em>30日</em><b>${stat.count30}</b></span>
+            <span><em>照合</em><b>${stat.matchRate}%</b></span>
+          </div>
+        </article>`
+    )
+    .join("");
+}
 
 function applyFilters(items) {
   const q = normalize(state.query);
   return items.filter((item) => {
+    if (state.source !== "all" && !(item.sourceBreakdown && item.sourceBreakdown[state.source])) return false;
     if (state.priceMin != null && item.price < state.priceMin) return false;
     if (state.priceMax != null && item.price > state.priceMax) return false;
     if (!q) return true;
@@ -163,6 +297,9 @@ function applyFilters(items) {
       item.sources?.map((source) => source.itemId).join(" "),
       item.catalog?.shortName || "",
       item.catalog?.name || "",
+      Object.values(item.sourceBreakdown || {})
+        .map((entry) => `${entry.sourceName} ${entry.count7} ${entry.count30}`)
+        .join(" "),
     ].join(" "));
     return haystack.includes(q);
   });
@@ -196,25 +333,37 @@ function sortItems(items) {
 
 function renderStats() {
   const stats = data.stats || {};
-  els.sourceUrl.textContent = data.source?.url || "-";
-  els.sourceUrl.title = data.source?.url || "";
   const historyCount = Array.isArray(data.history) ? data.history.length : 0;
   const total30 = Array.isArray(data.history) ? data.history.reduce((sum, item) => sum + (item.count30 || 0), 0) : 0;
-  const matchedCount = items.filter((item) => item.catalog).length;
-  const matchRate = items.length ? Math.round((matchedCount / items.length) * 100) : 0;
-  els.statsLine.textContent = `${stats.pageCount || 0}ページ分を走査 / ${items.length || 0}件の現在一覧 / ${historyCount}件の30日蓄積`;
-  els.totalCount.textContent = String(stats.total || 0);
+  const matchedCount = rawItems.filter((item) => item.catalog).length;
+  const matchRate = rawItems.length ? Math.round((matchedCount / rawItems.length) * 100) : 0;
+  const groupCount = items.length || 0;
+  const sourceCount = sourceMeta.length || 0;
+  els.sourceUrl.textContent = sourceMeta.map((source) => source.name).join(" / ") || "-";
+  els.sourceUrl.title = sourceMeta.map((source) => source.url).join("\n");
+  els.statsLine.textContent = `${sourceCount}サイト / ${rawItems.length || 0}件の掲載 / ${groupCount}件に整理 / ${historyCount}件の30日蓄積`;
+  els.totalCount.textContent = String(stats.total || rawItems.length || 0);
   els.matchRate.textContent = matchedCount ? `${matchRate}%` : "準備中";
   els.avgPrice.textContent = priceText(stats.avgPrice || 0);
   els.updatedAt.textContent = data.updatedAt ? new Date(data.updatedAt).toLocaleString("ja-JP") : "-";
   els.totalCount.title = `${total30}回分の掲載回数を蓄積`;
+  renderSourceSummary();
 }
 
 function renderItem(item) {
   const card = document.createElement("article");
   card.className = "card";
   const catalogUrl = item.catalog?.pageUrl || "";
-  const bankUrl = item.pageUrl || "";
+  const primarySource = Object.values(item.sourceBreakdown || {})[0];
+  const itemHref = catalogUrl || primarySource?.sourceUrl || item.sourceUrl || item.pageUrl || "";
+  const sourceLinks = Object.values(item.sourceBreakdown || {})
+    .map(
+      (entry) => `
+        <a href="${entry.sourceUrl || item.sourceUrl || item.pageUrl}" target="_blank" rel="noreferrer">
+          ${entry.sourceName || sourceLabel(entry.sourceKey)}を開く
+        </a>`
+    )
+    .join("");
 
   const catalogHtml = item.catalog
     ? `
@@ -229,13 +378,15 @@ function renderItem(item) {
     : "";
 
   card.innerHTML = `
-    <a class="thumb" href="${catalogUrl || bankUrl}" target="_blank" rel="noreferrer">
+    <a class="thumb" href="${itemHref}" target="_blank" rel="noreferrer">
       <img src="${item.imageUrl}" alt="${item.imageAlt}" />
     </a>
     <div class="body">
       <div class="title-row">
         <div>
-          <p class="eyebrow">TorecaBank / ${item.tag || "PSA10"}</p>
+          <p class="eyebrow">${Object.keys(item.sourceBreakdown || {})
+            .map((key) => sourceLabel(key))
+            .join(" / ") || "掲載"} / ${item.tag || "PSA10"}</p>
           <h3>${item.name}</h3>
         </div>
         <div class="price">${priceText(item.price)}</div>
@@ -255,10 +406,22 @@ function renderItem(item) {
         ${item.isCustomItem ? '<span class="chip good">カスタム</span>' : '<span class="chip">通常</span>'}
         ${item.catalog ? `<span class="chip warn">照合 ${item.catalog.shortName}</span>` : ""}
       </div>
+      <div class="source-breakdown">
+        ${Object.values(item.sourceBreakdown || {})
+          .map(
+            (entry) => `
+              <div class="source-row">
+                <strong>${entry.sourceName || sourceLabel(entry.sourceKey)}</strong>
+                <span>7日 ${entry.count7 || 0} / 30日 ${entry.count30 || 0}</span>
+                <small>${priceText(entry.price || 0)}</small>
+              </div>`
+          )
+          .join("")}
+      </div>
       ${catalogHtml}
       <div class="links">
         ${item.catalog ? `<a href="${item.catalog.pageUrl}" target="_blank" rel="noreferrer">みんなのトレカ相場を開く</a>` : ""}
-        <a href="${item.pageUrl}" target="_blank" rel="noreferrer">トレカバンクを開く</a>
+        ${sourceLinks}
       </div>
     </div>
   `;
@@ -284,6 +447,12 @@ function render() {
 }
 
 function bind() {
+  if (els.source) {
+    els.source.innerHTML = ['<option value="all">すべてのサイト</option>']
+      .concat(sourceMeta.map((source) => `<option value="${source.key}">${source.name}</option>`))
+      .join("");
+    els.source.value = state.source;
+  }
   els.query.addEventListener("input", (event) => {
     state.query = event.target.value;
     render();
@@ -300,6 +469,12 @@ function bind() {
     state.sort = event.target.value;
     render();
   });
+  if (els.source) {
+    els.source.addEventListener("change", (event) => {
+      state.source = event.target.value;
+      render();
+    });
+  }
 }
 
 function init() {

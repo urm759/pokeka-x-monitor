@@ -90,6 +90,60 @@ h1{
   gap:12px;
   margin-top:16px;
 }
+.source-summary{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:12px;
+  margin-top:14px;
+}
+.source-stat{
+  padding:14px 16px;
+  border-radius:18px;
+  background:rgba(255,255,255,.04);
+  border:1px solid rgba(255,255,255,.08);
+}
+.source-stat-head{
+  display:flex;
+  justify-content:space-between;
+  gap:10px;
+  align-items:center;
+}
+.source-stat-head strong{
+  font-size:16px;
+}
+.source-stat-head a{
+  color:var(--text);
+  font-size:12px;
+  font-weight:800;
+  padding:6px 10px;
+  border-radius:999px;
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.08);
+}
+.source-stat-grid{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:8px;
+  margin-top:12px;
+}
+.source-stat-grid span{
+  display:flex;
+  flex-direction:column;
+  gap:3px;
+  padding:10px 10px;
+  border-radius:14px;
+  background:rgba(5,8,15,.38);
+  border:1px solid rgba(255,255,255,.06);
+}
+.source-stat-grid em{
+  font-style:normal;
+  color:var(--muted);
+  font-size:11px;
+  font-weight:700;
+}
+.source-stat-grid b{
+  font-size:18px;
+}
 .stat{
   padding:15px 16px;
   border-radius:18px;
@@ -230,6 +284,29 @@ h1{
   gap:8px;
   margin-top:10px;
 }
+.source-breakdown{
+  display:grid;
+  gap:8px;
+  margin-top:12px;
+}
+.source-row{
+  display:grid;
+  grid-template-columns:minmax(0,1.2fr) auto auto;
+  gap:10px;
+  align-items:center;
+  padding:10px 12px;
+  border-radius:14px;
+  background:rgba(5,8,15,.30);
+  border:1px solid rgba(255,255,255,.06);
+}
+.source-row strong{
+  font-size:13px;
+}
+.source-row span,.source-row small{
+  color:var(--muted);
+  font-size:12px;
+  white-space:nowrap;
+}
 .chip{
   display:inline-flex;
   align-items:center;
@@ -312,4 +389,7 @@ h1{
   .meta-grid{grid-template-columns:1fr}
   .catalog{grid-template-columns:72px minmax(0,1fr)}
   .catalog img{width:72px;height:72px}
+  .source-stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .source-row{grid-template-columns:1fr auto}
+  .source-row small{grid-column:1/-1}
 }

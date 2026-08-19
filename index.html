@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>トレカバンク PSA10 一覧</title>
-  <meta name="description" content="トレカバンクの郵送買取一覧から、ポケモンカードのPSA10を画像つきで見やすく並べ、30日分の掲載日数を蓄積するページ。" />
+  <title>トレカ買取相場一覧</title>
+  <meta name="description" content="トレカバンクとトレカラウンジのポケモンカードPSA10を画像つきで見やすく並べ、30日分の掲載日数を蓄積するページ。" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
@@ -12,12 +12,12 @@
   <div class="backdrop backdrop-b"></div>
   <main class="shell">
     <header class="hero">
-      <div class="eyebrow">torecabank / pokemon / psa10</div>
+      <div class="eyebrow">torecabank / torecalounge / pokemon / psa10</div>
       <div class="hero-grid">
         <div>
-          <h1>トレカバンク PSA10 一覧</h1>
+          <h1>トレカ買取相場一覧</h1>
           <p class="lede">
-            郵送買取一覧からポケモンカードのPSA10だけを集めて、画像・価格・掲載日数をひと目で比較できるようにしています。
+            トレカバンクとトレカラウンジのポケモンカードPSA10をまとめて見比べながら、サイト別の掲載数と30日蓄積をひと目で確認できます。
             みんなのトレカ相場のカード画像にも照合して、元カード側の確認もしやすくしています。
           </p>
         </div>
@@ -33,9 +33,14 @@
         <article class="stat"><span>平均価格</span><strong id="avgPrice">-</strong></article>
         <article class="stat"><span>取得日</span><strong id="updatedAt">-</strong></article>
       </div>
+      <div class="source-summary" id="sourceSummary"></div>
     </header>
 
     <section class="controls">
+      <label class="field">
+        <span>サイト</span>
+        <select id="source"></select>
+      </label>
       <label class="field field-wide">
         <span>検索</span>
         <input id="query" type="search" placeholder="カード名 / 型番 / 価格 / 商品ID" />
