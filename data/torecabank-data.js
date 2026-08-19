@@ -1,5 +1,5 @@
 window.TORECABANK_DATA = {
-  "updatedAt": "2026-08-19T06:01:23.292Z",
+  "updatedAt": "2026-08-19T06:03:26.528Z",
   "source": {
     "kind": "torecabank-mail-buy-list",
     "url": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1",
@@ -8,12 +8,12 @@ window.TORECABANK_DATA = {
     "pageCount": 5
   },
   "stats": {
-    "total": 418,
-    "matchedCount": 276,
-    "matchRate": 66,
+    "total": 417,
+    "matchedCount": 343,
+    "matchRate": 82,
     "minPrice": 4400,
     "maxPrice": 10864000,
-    "avgPrice": 195483,
+    "avgPrice": 195916,
     "pageCount": 5
   },
   "pages": [
@@ -40,12 +40,20 @@ window.TORECABANK_DATA = {
   ],
   "items": [
     {
-      "key": "tb-2",
+      "key": "x-93051",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-93051",
+        "name": "リーリエ エクストラバトルの日: プロモ[SM-P 397](プロモーションカード「SM-P」)",
+        "shortName": "リーリエ エクストラバトルの日: プロモ",
+        "model": "SM-P 397",
+        "pageUrl": "https://toreca-souba.com/cards/x-93051",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-93051.webp",
+        "score": 12
+      },
       "itemId": 2,
       "itemKey": "tb-2",
       "dataMax": 4,
@@ -65,11 +73,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "リーリエエクストラバトルの日promo397smppsa10リーリエエクストラバトルの日promo397smp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.202Z"
+      "model": "SM-P 397",
+      "modelKey": "SM-P397",
+      "setKey": "SM-P",
+      "numberKey": "397",
+      "collectedAt": "2026-08-19T06:03:26.424Z"
     },
     {
       "key": "tb-2669",
@@ -97,11 +105,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "マリィクリーチャーズ25周年記念sr198190psa10マリィクリーチャーズ25周年記念sr198190",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.203Z"
+      "model": "SR 198/190",
+      "modelKey": "SR198/190",
+      "setKey": "SR",
+      "numberKey": "198/190",
+      "collectedAt": "2026-08-19T06:03:26.424Z"
     },
     {
       "key": "tb-3914",
@@ -133,15 +141,23 @@ window.TORECABANK_DATA = {
       "modelKey": "",
       "setKey": "",
       "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.203Z"
+      "collectedAt": "2026-08-19T06:03:26.424Z"
     },
     {
-      "key": "tb-8",
+      "key": "pk-1148",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "pk-1148",
+        "name": "ピカチュウ: プロモ[279/XY-P](プロモーションカード「XY-P」)",
+        "shortName": "ピカチュウ: プロモ",
+        "model": "279/XY-P",
+        "pageUrl": "https://toreca-souba.com/cards/pk-1148",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-1148.webp",
+        "score": 12
+      },
       "itemId": 8,
       "itemKey": "tb-8",
       "dataMax": 0,
@@ -161,11 +177,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "ピカチュウポケモンカードゲーム20thアニバーサリーフェスタpromo279xyppsa10ピカチュウポケモンカードゲーム20thアニバーサリーフェスタpromo279xyp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.203Z"
+      "model": "XY-P 279",
+      "modelKey": "XY-P279",
+      "setKey": "XY-P",
+      "numberKey": "279",
+      "collectedAt": "2026-08-19T06:03:26.424Z"
     },
     {
       "key": "tb-19",
@@ -197,15 +213,23 @@ window.TORECABANK_DATA = {
       "modelKey": "",
       "setKey": "",
       "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.203Z"
+      "collectedAt": "2026-08-19T06:03:26.424Z"
     },
     {
-      "key": "tb-18",
+      "key": "x-93056",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-93056",
+        "name": "ミミッキュ ムンク展: プロモ[SM-P 289](プロモーションカード「SM-P」)",
+        "shortName": "ミミッキュ ムンク展: プロモ",
+        "model": "SM-P 289",
+        "pageUrl": "https://toreca-souba.com/cards/x-93056",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-93056.webp",
+        "score": 12
+      },
       "itemId": 18,
       "itemKey": "tb-18",
       "dataMax": 2,
@@ -225,19 +249,27 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "ミミッキュムンク展promo289smppsa10ミミッキュムンク展promo289smp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.203Z"
+      "model": "SM-P 289",
+      "modelKey": "SM-P289",
+      "setKey": "SM-P",
+      "numberKey": "289",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
-      "key": "tb-16",
+      "key": "pk-1418",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "pk-1418",
+        "name": "ポンチョを着たピカチュウ: プロモ[XY-P 231/XY-P](プロモーションカード「XY-P」)",
+        "shortName": "ポンチョを着たピカチュウ: プロモ",
+        "model": "231/XY-P",
+        "pageUrl": "https://toreca-souba.com/cards/pk-1418",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-1418.webp",
+        "score": 12
+      },
       "itemId": 16,
       "itemKey": "tb-16",
       "dataMax": 1,
@@ -257,19 +289,27 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "ポンチョを着たピカチュウ黒いレックウザverpromo231xyppsa10ポンチョを着たピカチュウ黒いレックウザverpromo231xyp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.203Z"
+      "model": "XY-P 231",
+      "modelKey": "XY-P231",
+      "setKey": "XY-P",
+      "numberKey": "231",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
-      "key": "tb-13",
+      "key": "pk-14720",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "pk-14720",
+        "name": "ルイージピカチュウ [XY-P 296/XY-P](プロモーションカード「ルイージピカチュウスペシャルBOX」)",
+        "shortName": "ルイージピカチュウ",
+        "model": "296/XY-P",
+        "pageUrl": "https://toreca-souba.com/cards/pk-14720",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-14720.webp",
+        "score": 12
+      },
       "itemId": 13,
       "itemKey": "tb-13",
       "dataMax": 6,
@@ -289,11 +329,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "ルイージピカチュウ大promo296xyppsa10ルイージピカチュウ大promo296xyp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.203Z"
+      "model": "XY-P 296",
+      "modelKey": "XY-P296",
+      "setKey": "XY-P",
+      "numberKey": "296",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "tb-4",
@@ -321,19 +361,27 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "リーリエsm4sr119114psa10リーリエsm4sr119114",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.203Z"
+      "model": "SR 119/114",
+      "modelKey": "SR119/114",
+      "setKey": "SR",
+      "numberKey": "119/114",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
-      "key": "tb-17",
+      "key": "pk-14717",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "pk-14717",
+        "name": "ポンチョを着たピカチュウ: プロモ[XY-P 230/XY-P](プロモーションカード「XY-P」)",
+        "shortName": "ポンチョを着たピカチュウ: プロモ",
+        "model": "230/XY-P",
+        "pageUrl": "https://toreca-souba.com/cards/pk-14717",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-14717.webp",
+        "score": 12
+      },
       "itemId": 17,
       "itemKey": "tb-17",
       "dataMax": 0,
@@ -353,19 +401,27 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "ポンチョを着たピカチュウレックウザverpromo230xyppsa10ポンチョを着たピカチュウレックウザverpromo230xyp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.203Z"
+      "model": "XY-P 230",
+      "modelKey": "XY-P230",
+      "setKey": "XY-P",
+      "numberKey": "230",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
-      "key": "tb-27",
+      "key": "x-100090",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-100090",
+        "name": "ピカチュウ ムンク展: プロモ[SM-P 288](プロモーションカード「SM-P」)",
+        "shortName": "ピカチュウ ムンク展: プロモ",
+        "model": "SM-P 288",
+        "pageUrl": "https://toreca-souba.com/cards/x-100090",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-100090.webp",
+        "score": 12
+      },
       "itemId": 27,
       "itemKey": "tb-27",
       "dataMax": 10,
@@ -385,19 +441,27 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "ピカチュウムンク展promo288smppsa10ピカチュウムンク展promo288smp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.203Z"
+      "model": "SM-P 288",
+      "modelKey": "SM-P288",
+      "setKey": "SM-P",
+      "numberKey": "288",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
-      "key": "tb-24",
+      "key": "x-91218",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-91218",
+        "name": "スカル団ごっこピカチュウ: プロモ[SM-P 013](スペシャルBOX「団員ごっこピカチュウ」)",
+        "shortName": "スカル団ごっこピカチュウ: プロモ",
+        "model": "SM-P 013",
+        "pageUrl": "https://toreca-souba.com/cards/x-91218",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-91218.webp",
+        "score": 12
+      },
       "itemId": 24,
       "itemKey": "tb-24",
       "dataMax": 0,
@@ -417,19 +481,27 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "スカル団ごっこピカチュウpromo013smppsa10スカル団ごっこピカチュウpromo013smp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "model": "SM-P 013",
+      "modelKey": "SM-P013",
+      "setKey": "SM-P",
+      "numberKey": "013",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
-      "key": "tb-21",
+      "key": "pk-14713",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "pk-14713",
+        "name": "ギャラドスごっこピカチュウ: プロモ[XY-P 151/XY-P](プロモーションカード「XY-P」)",
+        "shortName": "ギャラドスごっこピカチュウ: プロモ",
+        "model": "151/XY-P",
+        "pageUrl": "https://toreca-souba.com/cards/pk-14713",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-14713.webp",
+        "score": 12
+      },
       "itemId": 21,
       "itemKey": "tb-21",
       "dataMax": 4,
@@ -449,11 +521,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "ギャラドスごっこピカチュウpromo151xyppsa10ギャラドスごっこピカチュウpromo151xyp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "model": "XY-P 151",
+      "modelKey": "XY-P151",
+      "setKey": "XY-P",
+      "numberKey": "151",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "tb-12",
@@ -481,11 +553,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "アセロラsm2sr056049psa10アセロラsm2sr056049",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "model": "SR 056/049",
+      "modelKey": "SR056/049",
+      "setKey": "SR",
+      "numberKey": "056/049",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "pk-6201",
@@ -525,15 +597,23 @@ window.TORECABANK_DATA = {
       "modelKey": "XY4090/088",
       "setKey": "XY4",
       "numberKey": "090/088",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
-      "key": "tb-25",
+      "key": "x-93332",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-93332",
+        "name": "シャワーズVMAX 夏ポケカ: プロモ[S-P 187](プロモーションカード「S-P」)",
+        "shortName": "シャワーズVMAX 夏ポケカ: プロモ",
+        "model": "S-P 187",
+        "pageUrl": "https://toreca-souba.com/cards/x-93332",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-93332.webp",
+        "score": 12
+      },
       "itemId": 25,
       "itemKey": "tb-25",
       "dataMax": 0,
@@ -553,11 +633,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "シャワーズvmax夏ポケカpromo187sppsa10シャワーズvmax夏ポケカpromo187sp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "model": "S-P 187",
+      "modelKey": "S-P187",
+      "setKey": "S-P",
+      "numberKey": "187",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "pk-1586",
@@ -597,7 +677,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM1M066/060",
       "setKey": "SM1M",
       "numberKey": "066/060",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "tb-47",
@@ -629,15 +709,23 @@ window.TORECABANK_DATA = {
       "modelKey": "",
       "setKey": "",
       "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
-      "key": "tb-60",
+      "key": "x-100093",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-100093",
+        "name": "イーブイ ムンク展: プロモ[SM-P 287](プロモーションカード「SM-P」)",
+        "shortName": "イーブイ ムンク展: プロモ",
+        "model": "SM-P 287",
+        "pageUrl": "https://toreca-souba.com/cards/x-100093",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-100093.webp",
+        "score": 12
+      },
       "itemId": 60,
       "itemKey": "tb-60",
       "dataMax": 5,
@@ -657,11 +745,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "イーブイムンク展promo287smppsa10イーブイムンク展promo287smp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "model": "SM-P 287",
+      "modelKey": "SM-P287",
+      "setKey": "SM-P",
+      "numberKey": "287",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "x-91290",
@@ -701,15 +789,23 @@ window.TORECABANK_DATA = {
       "modelKey": "SM9101/095",
       "setKey": "SM9",
       "numberKey": "101/095",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
-      "key": "tb-45",
+      "key": "x-91233",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-91233",
+        "name": "ポンチョを着たイーブイ: プロモ[SM-P 137](プロモーションカード「SM-P」)",
+        "shortName": "ポンチョを着たイーブイ: プロモ",
+        "model": "SM-P 137",
+        "pageUrl": "https://toreca-souba.com/cards/x-91233",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-91233.webp",
+        "score": 12
+      },
       "itemId": 45,
       "itemKey": "tb-45",
       "dataMax": 1,
@@ -729,11 +825,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "ポンチョを着たイーブイシャワーズpromo137smppsa10ポンチョを着たイーブイシャワーズpromo137smp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "model": "SM-P 137",
+      "modelKey": "SM-P137",
+      "setKey": "SM-P",
+      "numberKey": "137",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "tb-26",
@@ -765,7 +861,7 @@ window.TORECABANK_DATA = {
       "modelKey": "-181/171",
       "setKey": "-",
       "numberKey": "181/171",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "pk-20761",
@@ -805,15 +901,23 @@ window.TORECABANK_DATA = {
       "modelKey": "S6A095/069",
       "setKey": "S6A",
       "numberKey": "095/069",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
-      "key": "tb-28",
+      "key": "x-93046",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-93046",
+        "name": "アローラの仲間たち: プロモ[SM-P 401](プロモーションカード「SM-P」)",
+        "shortName": "アローラの仲間たち: プロモ",
+        "model": "SM-P 401",
+        "pageUrl": "https://toreca-souba.com/cards/x-93046",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-93046.webp",
+        "score": 12
+      },
       "itemId": 28,
       "itemKey": "tb-28",
       "dataMax": 4,
@@ -833,11 +937,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "アローラの仲間たちリミテッドコレクションマスターバトルセットpromo401smppsa10アローラの仲間たちリミテッドコレクションマスターバトルセットpromo401smp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "model": "SM-P 401",
+      "modelKey": "SM-P401",
+      "setKey": "SM-P",
+      "numberKey": "401",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "tb-560",
@@ -869,7 +973,7 @@ window.TORECABANK_DATA = {
       "modelKey": "-010/018",
       "setKey": "-",
       "numberKey": "010/018",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "pk-5055",
@@ -909,7 +1013,7 @@ window.TORECABANK_DATA = {
       "modelKey": "CP6091/087",
       "setKey": "CP6",
       "numberKey": "091/087",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "tb-1591",
@@ -941,7 +1045,7 @@ window.TORECABANK_DATA = {
       "modelKey": "",
       "setKey": "",
       "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "pk-3840",
@@ -981,7 +1085,7 @@ window.TORECABANK_DATA = {
       "modelKey": "CP6090/087",
       "setKey": "CP6",
       "numberKey": "090/087",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "x-93096",
@@ -1021,7 +1125,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM9103/095",
       "setKey": "SM9",
       "numberKey": "103/095",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "x-91282",
@@ -1061,7 +1165,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM11098/094",
       "setKey": "SM11",
       "numberKey": "098/094",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "tb-81",
@@ -1089,11 +1193,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "ゴッホピカチュウ英語版svpenp085svppsa10ゴッホピカチュウ英語版svpenp085svp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "model": "SV-P 085",
+      "modelKey": "SV-P085",
+      "setKey": "SV-P",
+      "numberKey": "085",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "pk-4303",
@@ -1133,15 +1237,23 @@ window.TORECABANK_DATA = {
       "modelKey": "CP3026/032",
       "setKey": "CP3",
       "numberKey": "026/032",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
-      "key": "tb-91",
+      "key": "x-91220",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-91220",
+        "name": "ピカチュウ: プロモ[SM-P 061](プロモーションカード「ポケモンカードフェスタ2017」)",
+        "shortName": "ピカチュウ: プロモ",
+        "model": "SM-P 061",
+        "pageUrl": "https://toreca-souba.com/cards/x-91220",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-91220.webp",
+        "score": 12
+      },
       "itemId": 91,
       "itemKey": "tb-91",
       "dataMax": 6,
@@ -1161,11 +1273,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "ピカチュウポケモンカードフェスタ2017promo061smppsa10ピカチュウポケモンカードフェスタ2017promo061smp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "model": "SM-P 061",
+      "modelKey": "SM-P061",
+      "setKey": "SM-P",
+      "numberKey": "061",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "tb-40",
@@ -1193,19 +1305,27 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "ルザミーネsm4sr120114psa10ルザミーネsm4sr120114",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "model": "SR 120/114",
+      "modelKey": "SR120/114",
+      "setKey": "SR",
+      "numberKey": "120/114",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
-      "key": "tb-803",
+      "key": "x-459741",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-459741",
+        "name": "ピカチュウ (皮卡丘) P [SV-P 153]【中国語版】(プロモーションカード「5周年記念カード」)",
+        "shortName": "ピカチュウ",
+        "model": "SV-P 153",
+        "pageUrl": "https://toreca-souba.com/cards/x-459741",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-459741.webp",
+        "score": 12
+      },
       "itemId": 803,
       "itemKey": "tb-803",
       "dataMax": 14,
@@ -1225,19 +1345,27 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "ピカチュウ中国繁体字版svppromo153svppsa10ピカチュウ中国繁体字版svppromo153svp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "model": "SV-P 153",
+      "modelKey": "SV-P153",
+      "setKey": "SV-P",
+      "numberKey": "153",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
-      "key": "tb-86",
+      "key": "x-91235",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-91235",
+        "name": "ポンチョを着たイーブイ: プロモ[SM-P 139](プロモーションカード「SM-P」)",
+        "shortName": "ポンチョを着たイーブイ: プロモ",
+        "model": "SM-P 139",
+        "pageUrl": "https://toreca-souba.com/cards/x-91235",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-91235.webp",
+        "score": 12
+      },
       "itemId": 86,
       "itemKey": "tb-86",
       "dataMax": 0,
@@ -1257,11 +1385,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "ポンチョを着たイーブイブースターpromo139smppsa10ポンチョを着たイーブイブースターpromo139smp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "model": "SM-P 139",
+      "modelKey": "SM-P139",
+      "setKey": "SM-P",
+      "numberKey": "139",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "pk-71719",
@@ -1301,7 +1429,7 @@ window.TORECABANK_DATA = {
       "modelKey": "M2116/080",
       "setKey": "M2",
       "numberKey": "116/080",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "tb-80",
@@ -1333,15 +1461,23 @@ window.TORECABANK_DATA = {
       "modelKey": "-020/019",
       "setKey": "-",
       "numberKey": "020/019",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
-      "key": "tb-104",
+      "key": "x-91241",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-91241",
+        "name": "ポンチョを着たイーブイ: プロモ[SM-P 143](プロモーションカード「SM-P」)",
+        "shortName": "ポンチョを着たイーブイ: プロモ",
+        "model": "SM-P 143",
+        "pageUrl": "https://toreca-souba.com/cards/x-91241",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-91241.webp",
+        "score": 12
+      },
       "itemId": 104,
       "itemKey": "tb-104",
       "dataMax": 3,
@@ -1361,11 +1497,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "ポンチョを着たイーブイp143smppsa10ポンチョを着たイーブイp143smp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "model": "SM-P 143",
+      "modelKey": "SM-P143",
+      "setKey": "SM-P",
+      "numberKey": "143",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "x-91289",
@@ -1405,15 +1541,23 @@ window.TORECABANK_DATA = {
       "modelKey": "SM9A061/055",
       "setKey": "SM9A",
       "numberKey": "061/055",
-      "collectedAt": "2026-08-19T06:01:23.204Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
-      "key": "tb-495",
+      "key": "x-585230",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-585230",
+        "name": "ビクティニ P [SV-P 288](プロモーションカード「ビクティニBWR争奪戦 上位賞 / おうちでブラックボルト・ホワイトフレア デッキ構築戦キャンペーン",
+        "shortName": "ビクティニ P",
+        "model": "SV-P 288",
+        "pageUrl": "https://toreca-souba.com/cards/x-585230",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-585230.webp",
+        "score": 12
+      },
       "itemId": 495,
       "itemKey": "tb-495",
       "dataMax": 0,
@@ -1433,11 +1577,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "ビクティニビクティニbwr争奪戦promo288svppsa10ビクティニビクティニbwr争奪戦promo288svp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "model": "SV-P 288",
+      "modelKey": "SV-P288",
+      "setKey": "SV-P",
+      "numberKey": "288",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "pk-36378",
@@ -1477,7 +1621,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S11111/100",
       "setKey": "S11",
       "numberKey": "111/100",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "x-93082",
@@ -1517,47 +1661,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM12A182/173",
       "setKey": "SM12A",
       "numberKey": "182/173",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
-    },
-    {
-      "key": "pk-6077",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-6077",
-        "name": "かんこうきゃく SR[SM12a 192/173](ハイクラスパック「TAG TEAM GX タッグオールスターズ」)",
-        "shortName": "かんこうきゃく SR",
-        "model": "192/173",
-        "pageUrl": "https://toreca-souba.com/cards/pk-6077",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-6077.webp",
-        "score": 12
-      },
-      "itemId": 53,
-      "itemKey": "tb-53",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "かんこうきゃく[SM12a] SR 192/173",
-      "tag": "PSA10",
-      "price": 300000,
-      "priceText": "300,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1769857067_b4d9a359ea27c463b80f.jpg",
-      "imageAlt": "かんこうきゃく[SM12a] SR 192/173",
-      "addUrl": "",
-      "pageNumber": 1,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
-      "searchKey": "かんこうきゃくsm12asr192173psa10かんこうきゃくsm12asr192173",
-      "model": "SM12A 192/173",
-      "modelKey": "SM12A192/173",
-      "setKey": "SM12A",
-      "numberKey": "192/173",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "pk-1631",
@@ -1597,7 +1701,47 @@ window.TORECABANK_DATA = {
       "modelKey": "SM7104/096",
       "setKey": "SM7",
       "numberKey": "104/096",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
+    },
+    {
+      "key": "pk-6077",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-6077",
+        "name": "かんこうきゃく SR[SM12a 192/173](ハイクラスパック「TAG TEAM GX タッグオールスターズ」)",
+        "shortName": "かんこうきゃく SR",
+        "model": "192/173",
+        "pageUrl": "https://toreca-souba.com/cards/pk-6077",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-6077.webp",
+        "score": 12
+      },
+      "itemId": 53,
+      "itemKey": "tb-53",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "かんこうきゃく[SM12a] SR 192/173",
+      "tag": "PSA10",
+      "price": 300000,
+      "priceText": "300,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1769857067_b4d9a359ea27c463b80f.jpg",
+      "imageAlt": "かんこうきゃく[SM12a] SR 192/173",
+      "addUrl": "",
+      "pageNumber": 1,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
+      "searchKey": "かんこうきゃくsm12asr192173psa10かんこうきゃくsm12asr192173",
+      "model": "SM12A 192/173",
+      "modelKey": "SM12A192/173",
+      "setKey": "SM12A",
+      "numberKey": "192/173",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "tb-2392",
@@ -1629,15 +1773,23 @@ window.TORECABANK_DATA = {
       "modelKey": "-764/742",
       "setKey": "-",
       "numberKey": "764/742",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
-      "key": "tb-191",
+      "key": "x-93068",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-93068",
+        "name": "ヨコハマのピカチュウ: プロモ[SM-P 281](プロモーションカード「SM-P」)",
+        "shortName": "ヨコハマのピカチュウ: プロモ",
+        "model": "SM-P 281",
+        "pageUrl": "https://toreca-souba.com/cards/x-93068",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-93068.webp",
+        "score": 12
+      },
       "itemId": 191,
       "itemKey": "tb-191",
       "dataMax": 16,
@@ -1657,11 +1809,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "ヨコハマのピカチュウスワンナボートpromo281smppsa10ヨコハマのピカチュウスワンナボートpromo281smp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "model": "SM-P 281",
+      "modelKey": "SM-P281",
+      "setKey": "SM-P",
+      "numberKey": "281",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "pk-18490",
@@ -1701,7 +1853,7 @@ window.TORECABANK_DATA = {
       "modelKey": "CP5017/036",
       "setKey": "CP5",
       "numberKey": "017/036",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "pk-2497",
@@ -1741,15 +1893,23 @@ window.TORECABANK_DATA = {
       "modelKey": "SM8B240/150",
       "setKey": "SM8B",
       "numberKey": "240/150",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
-      "key": "tb-202",
+      "key": "x-91246",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-91246",
+        "name": "トウホクのピカチュウ: プロモ[SM-P 088](プロモーションカード「SM-P」)",
+        "shortName": "トウホクのピカチュウ: プロモ",
+        "model": "SM-P 088",
+        "pageUrl": "https://toreca-souba.com/cards/x-91246",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-91246.webp",
+        "score": 12
+      },
       "itemId": 202,
       "itemKey": "tb-202",
       "dataMax": 5,
@@ -1769,11 +1929,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "トウホクのピカチュウポケモンセンタートウホクリニューアルキャンペーンpromo088smppsa10トウホクのピカチュウポケモンセンタートウホクリニューアルキャンペーンpromo088smp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "model": "SM-P 088",
+      "modelKey": "SM-P088",
+      "setKey": "SM-P",
+      "numberKey": "088",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "x-91507",
@@ -1813,7 +1973,7 @@ window.TORECABANK_DATA = {
       "modelKey": "XY8-B063/059",
       "setKey": "XY8-B",
       "numberKey": "063/059",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "pk-6030",
@@ -1853,7 +2013,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM12A190/173",
       "setKey": "SM12A",
       "numberKey": "190/173",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "tb-67",
@@ -1881,11 +2041,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "スイレンsm4sr118114psa10スイレンsm4sr118114",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "model": "SR 118/114",
+      "modelKey": "SR118/114",
+      "setKey": "SR",
+      "numberKey": "118/114",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "pk-2392",
@@ -1925,7 +2085,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM8B229/150",
       "setKey": "SM8B",
       "numberKey": "229/150",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "x-91274",
@@ -1965,39 +2125,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM12100/095",
       "setKey": "SM12",
       "numberKey": "100/095",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
-    },
-    {
-      "key": "tb-551",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": null,
-      "itemId": 551,
-      "itemKey": "tb-551",
-      "dataMax": 3,
-      "isCustomItem": false,
-      "className": "item ",
-      "name": "サトシのピカチュウGX[SMD] - 005/026",
-      "tag": "PSA10",
-      "price": 223000,
-      "priceText": "223,000円",
-      "stockText": "残り3点",
-      "isClosed": false,
-      "isRecruiting": true,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1782876112_9c4a071617d6357f214a.jpg",
-      "imageAlt": "サトシのピカチュウGX[SMD] - 005/026",
-      "addUrl": "https://store.torecabank.com/line",
-      "pageNumber": 1,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
-      "searchKey": "サトシのピカチュウgxsmd005026psa10サトシのピカチュウgxsmd005026",
-      "model": "- 005/026",
-      "modelKey": "-005/026",
-      "setKey": "-",
-      "numberKey": "005/026",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "pk-37612",
@@ -2037,15 +2165,55 @@ window.TORECABANK_DATA = {
       "modelKey": "S12110/098",
       "setKey": "S12",
       "numberKey": "110/098",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
-      "key": "tb-216",
+      "key": "tb-551",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
       "catalog": null,
+      "itemId": 551,
+      "itemKey": "tb-551",
+      "dataMax": 3,
+      "isCustomItem": false,
+      "className": "item ",
+      "name": "サトシのピカチュウGX[SMD] - 005/026",
+      "tag": "PSA10",
+      "price": 223000,
+      "priceText": "223,000円",
+      "stockText": "残り3点",
+      "isClosed": false,
+      "isRecruiting": true,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1782876112_9c4a071617d6357f214a.jpg",
+      "imageAlt": "サトシのピカチュウGX[SMD] - 005/026",
+      "addUrl": "https://store.torecabank.com/line",
+      "pageNumber": 1,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
+      "searchKey": "サトシのピカチュウgxsmd005026psa10サトシのピカチュウgxsmd005026",
+      "model": "- 005/026",
+      "modelKey": "-005/026",
+      "setKey": "-",
+      "numberKey": "005/026",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
+    },
+    {
+      "key": "x-93381",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "x-93381",
+        "name": "ピカチュウ セブンイレブン: プロモ[S-P 001](プロモーションカード「S-P」)",
+        "shortName": "ピカチュウ セブンイレブン: プロモ",
+        "model": "S-P 001",
+        "pageUrl": "https://toreca-souba.com/cards/x-93381",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-93381.webp",
+        "score": 12
+      },
       "itemId": 216,
       "itemKey": "tb-216",
       "dataMax": 13,
@@ -2065,11 +2233,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "ピカチュウソードシールドゲーム購入特典promo001sppsa10ピカチュウソードampシールドゲーム購入特典promo001sp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "model": "S-P 001",
+      "modelKey": "S-P001",
+      "setKey": "S-P",
+      "numberKey": "001",
+      "collectedAt": "2026-08-19T06:03:26.425Z"
     },
     {
       "key": "pk-21476",
@@ -2109,7 +2277,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S7R076/067",
       "setKey": "S7R",
       "numberKey": "076/067",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "tb-802",
@@ -2141,7 +2309,7 @@ window.TORECABANK_DATA = {
       "modelKey": "151C171/151",
       "setKey": "151C",
       "numberKey": "171/151",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "x-91284",
@@ -2181,7 +2349,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM10A057/054",
       "setKey": "SM10A",
       "numberKey": "057/054",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "tb-1838",
@@ -2209,11 +2377,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "ヤドンコダックgxsasr096094psa10ヤドンコダックgxsasr096094",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "model": "SR 096/094",
+      "modelKey": "SR096/094",
+      "setKey": "SR",
+      "numberKey": "096/094",
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "pk-731",
@@ -2253,15 +2421,23 @@ window.TORECABANK_DATA = {
       "modelKey": "SM5M070/066",
       "setKey": "SM5M",
       "numberKey": "070/066",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
-      "key": "tb-276",
+      "key": "x-91252",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-91252",
+        "name": "ピカチュウ: プロモ[SM-P 224](プロモーションカード「SM-P」)",
+        "shortName": "ピカチュウ: プロモ",
+        "model": "SM-P 224",
+        "pageUrl": "https://toreca-souba.com/cards/x-91252",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-91252.webp",
+        "score": 12
+      },
       "itemId": 276,
       "itemKey": "tb-276",
       "dataMax": 3,
@@ -2281,11 +2457,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "ピカチュウポケモンセンター20周年記念キャンペーンpromo224smppsa10ピカチュウポケモンセンター20周年記念キャンペーンpromo224smp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "model": "SM-P 224",
+      "modelKey": "SM-P224",
+      "setKey": "SM-P",
+      "numberKey": "224",
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "pk-71713",
@@ -2325,7 +2501,7 @@ window.TORECABANK_DATA = {
       "modelKey": "M2110/080",
       "setKey": "M2",
       "numberKey": "110/080",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "tb-2025",
@@ -2357,15 +2533,23 @@ window.TORECABANK_DATA = {
       "modelKey": "-003/009",
       "setKey": "-",
       "numberKey": "003/009",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
-      "key": "tb-233",
+      "key": "x-93078",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-93078",
+        "name": "ヨコハマのピカチュウ: プロモ[SM-P 283](プロモーションカード「SM-P」)",
+        "shortName": "ヨコハマのピカチュウ: プロモ",
+        "model": "SM-P 283",
+        "pageUrl": "https://toreca-souba.com/cards/x-93078",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-93078.webp",
+        "score": 12
+      },
       "itemId": 233,
       "itemKey": "tb-233",
       "dataMax": 2,
@@ -2385,11 +2569,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "ヨコハマのピカチュウpromo283smppsa10ヨコハマのピカチュウpromo283smp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "model": "SM-P 283",
+      "modelKey": "SM-P283",
+      "setKey": "SM-P",
+      "numberKey": "283",
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "pk-79905",
@@ -2429,7 +2613,7 @@ window.TORECABANK_DATA = {
       "modelKey": "M4120/083",
       "setKey": "M4",
       "numberKey": "120/083",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "x-91281",
@@ -2469,7 +2653,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM11A068/064",
       "setKey": "SM11A",
       "numberKey": "068/064",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "pk-1446",
@@ -2509,7 +2693,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM2L055/050",
       "setKey": "SM2L",
       "numberKey": "055/050",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "tb-2393",
@@ -2541,15 +2725,23 @@ window.TORECABANK_DATA = {
       "modelKey": "-765/742",
       "setKey": "-",
       "numberKey": "765/742",
-      "collectedAt": "2026-08-19T06:01:23.205Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
-      "key": "tb-593",
+      "key": "x-91121",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-91121",
+        "name": "救助隊DXのピカチュウ: プロモ[S-P 036](プロモーションカード「S-P」)",
+        "shortName": "救助隊DXのピカチュウ: プロモ",
+        "model": "S-P 036",
+        "pageUrl": "https://toreca-souba.com/cards/x-91121",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-91121.webp",
+        "score": 12
+      },
       "itemId": 593,
       "itemKey": "tb-593",
       "dataMax": 9,
@@ -2569,11 +2761,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "救助隊dxのピカチュウpromo036sppsa10救助隊dxのピカチュウpromo036sp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "model": "S-P 036",
+      "modelKey": "S-P036",
+      "setKey": "S-P",
+      "numberKey": "036",
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "pk-51076",
@@ -2613,7 +2805,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV4A347/190",
       "setKey": "SV4A",
       "numberKey": "347/190",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "pk-6036",
@@ -2653,15 +2845,23 @@ window.TORECABANK_DATA = {
       "modelKey": "SM12A196/173",
       "setKey": "SM12A",
       "numberKey": "196/173",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
-      "key": "tb-556",
+      "key": "x-91258",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-91258",
+        "name": "サトシのピカチュウ: プロモ[SM-P 075](プロモーションカード「SM-P」)",
+        "shortName": "サトシのピカチュウ: プロモ",
+        "model": "SM-P 075",
+        "pageUrl": "https://toreca-souba.com/cards/x-91258",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-91258.webp",
+        "score": 12
+      },
       "itemId": 556,
       "itemKey": "tb-556",
       "dataMax": 0,
@@ -2681,11 +2881,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "サトシのピカチュウカロスキャップverpromo075smppsa10サトシのピカチュウカロスキャップverpromo075smp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "model": "SM-P 075",
+      "modelKey": "SM-P075",
+      "setKey": "SM-P",
+      "numberKey": "075",
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "x-91271",
@@ -2725,7 +2925,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM12A177/173",
       "setKey": "SM12A",
       "numberKey": "177/173",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "pk-70051",
@@ -2765,7 +2965,47 @@ window.TORECABANK_DATA = {
       "modelKey": "M1L092/063",
       "setKey": "M1L",
       "numberKey": "092/063",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
+    },
+    {
+      "key": "x-91256",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "x-91256",
+        "name": "サトシのピカチュウ: プロモ[SM-P 073](プロモーションカード「SM-P」)",
+        "shortName": "サトシのピカチュウ: プロモ",
+        "model": "SM-P 073",
+        "pageUrl": "https://toreca-souba.com/cards/x-91256",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-91256.webp",
+        "score": 12
+      },
+      "itemId": 554,
+      "itemKey": "tb-554",
+      "dataMax": 1,
+      "isCustomItem": false,
+      "className": "item ",
+      "name": "サトシのピカチュウ(シンオウキャップver) P 073/SM-P",
+      "tag": "PSA10",
+      "price": 129000,
+      "priceText": "129,000円",
+      "stockText": "残り1点",
+      "isClosed": false,
+      "isRecruiting": true,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1753034270_ce22a592fb69a118d758.jpg",
+      "imageAlt": "サトシのピカチュウ(シンオウキャップver) P 073/SM-P",
+      "addUrl": "https://store.torecabank.com/line",
+      "pageNumber": 1,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
+      "searchKey": "サトシのピカチュウシンオウキャップverp073smppsa10サトシのピカチュウシンオウキャップverp073smp",
+      "model": "SM-P 073",
+      "modelKey": "SM-P073",
+      "setKey": "SM-P",
+      "numberKey": "073",
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "pk-21474",
@@ -2805,39 +3045,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S7R074/067",
       "setKey": "S7R",
       "numberKey": "074/067",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
-    },
-    {
-      "key": "tb-554",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": null,
-      "itemId": 554,
-      "itemKey": "tb-554",
-      "dataMax": 1,
-      "isCustomItem": false,
-      "className": "item ",
-      "name": "サトシのピカチュウ(シンオウキャップver) P 073/SM-P",
-      "tag": "PSA10",
-      "price": 129000,
-      "priceText": "129,000円",
-      "stockText": "残り1点",
-      "isClosed": false,
-      "isRecruiting": true,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1753034270_ce22a592fb69a118d758.jpg",
-      "imageAlt": "サトシのピカチュウ(シンオウキャップver) P 073/SM-P",
-      "addUrl": "https://store.torecabank.com/line",
-      "pageNumber": 1,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
-      "searchKey": "サトシのピカチュウシンオウキャップverp073smppsa10サトシのピカチュウシンオウキャップverp073smp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "x-128147",
@@ -2877,7 +3085,39 @@ window.TORECABANK_DATA = {
       "modelKey": "SV2A025/165",
       "setKey": "SV2A",
       "numberKey": "025/165",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
+    },
+    {
+      "key": "tb-142",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": null,
+      "itemId": 142,
+      "itemKey": "tb-142",
+      "dataMax": 2,
+      "isCustomItem": false,
+      "className": "item ",
+      "name": "ニンフィアGX[SM1+] SR 057/051",
+      "tag": "PSA10",
+      "price": 120000,
+      "priceText": "120,000円",
+      "stockText": "残り2点",
+      "isClosed": false,
+      "isRecruiting": true,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1769922436_82b418a497667aaf18e0.jpg",
+      "imageAlt": "ニンフィアGX[SM1+] SR 057/051",
+      "addUrl": "https://store.torecabank.com/line",
+      "pageNumber": 1,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
+      "searchKey": "ニンフィアgxsm1sr057051psa10ニンフィアgxsm1sr057051",
+      "model": "SR 057/051",
+      "modelKey": "SR057/051",
+      "setKey": "SR",
+      "numberKey": "057/051",
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "pk-67583",
@@ -2917,39 +3157,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV11W174/086",
       "setKey": "SV11W",
       "numberKey": "174/086",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
-    },
-    {
-      "key": "tb-142",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": null,
-      "itemId": 142,
-      "itemKey": "tb-142",
-      "dataMax": 2,
-      "isCustomItem": false,
-      "className": "item ",
-      "name": "ニンフィアGX[SM1+] SR 057/051",
-      "tag": "PSA10",
-      "price": 120000,
-      "priceText": "120,000円",
-      "stockText": "残り2点",
-      "isClosed": false,
-      "isRecruiting": true,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1769922436_82b418a497667aaf18e0.jpg",
-      "imageAlt": "ニンフィアGX[SM1+] SR 057/051",
-      "addUrl": "https://store.torecabank.com/line",
-      "pageNumber": 1,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
-      "searchKey": "ニンフィアgxsm1sr057051psa10ニンフィアgxsm1sr057051",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "pk-67343",
@@ -2989,7 +3197,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV11B174/086",
       "setKey": "SV11B",
       "numberKey": "174/086",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "pk-4376",
@@ -3029,7 +3237,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM10B062/054",
       "setKey": "SM10B",
       "numberKey": "062/054",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "pk-65285",
@@ -3069,7 +3277,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV10125/098",
       "setKey": "SV10",
       "numberKey": "125/098",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "pk-20755",
@@ -3109,15 +3317,23 @@ window.TORECABANK_DATA = {
       "modelKey": "S6A089/069",
       "setKey": "S6A",
       "numberKey": "089/069",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
-      "key": "tb-1256",
+      "key": "x-93069",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-93069",
+        "name": "ピカチュウGX: プロモ[SM-P 393](プロモーションカード「SM-P」)",
+        "shortName": "ピカチュウGX: プロモ",
+        "model": "SM-P 393",
+        "pageUrl": "https://toreca-souba.com/cards/x-93069",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-93069.webp",
+        "score": 12
+      },
       "itemId": 1256,
       "itemKey": "tb-1256",
       "dataMax": 23,
@@ -3137,11 +3353,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "ピカチュウgxpromo393smppsa10ピカチュウgxpromo393smp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "model": "SM-P 393",
+      "modelKey": "SM-P393",
+      "setKey": "SM-P",
+      "numberKey": "393",
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "pk-20751",
@@ -3181,7 +3397,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S6A085/069",
       "setKey": "S6A",
       "numberKey": "085/069",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "pk-14602",
@@ -3221,7 +3437,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S4114/100",
       "setKey": "S4",
       "numberKey": "114/100",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "pk-18261",
@@ -3261,7 +3477,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S5R084/070",
       "setKey": "S5R",
       "numberKey": "084/070",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "tb-1716",
@@ -3293,15 +3509,23 @@ window.TORECABANK_DATA = {
       "modelKey": "CBB1C0709/09",
       "setKey": "CBB1C",
       "numberKey": "0709/09",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
-      "key": "tb-119",
+      "key": "pk-1213",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "pk-1213",
+        "name": "フウロ: プロモ[XY-P 164/XY-P](プロモーションカード「XY-P」)",
+        "shortName": "フウロ: プロモ",
+        "model": "164/XY-P",
+        "pageUrl": "https://toreca-souba.com/cards/pk-1213",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-1213.webp",
+        "score": 12
+      },
       "itemId": 119,
       "itemKey": "tb-119",
       "dataMax": 0,
@@ -3321,19 +3545,27 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "フウロ青い衝撃赤い閃光ボックス購入キャンペーンpromo164xyppsa10フウロ青い衝撃赤い閃光ボックス購入キャンペーンpromo164xyp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "model": "XY-P 164",
+      "modelKey": "XY-P164",
+      "setKey": "XY-P",
+      "numberKey": "164",
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
-      "key": "tb-201",
+      "key": "pk-38030",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "pk-38030",
+        "name": "ピカチュウ: プロモ[323 S-P](プロモーションカード「プレシャス コレクターボックス ソード&シールド」)",
+        "shortName": "ピカチュウ: プロモ",
+        "model": "323/S-P",
+        "pageUrl": "https://toreca-souba.com/cards/pk-38030",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-38030.webp",
+        "score": 12
+      },
       "itemId": 201,
       "itemKey": "tb-201",
       "dataMax": 0,
@@ -3353,19 +3585,27 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "ピカチュウプレシャスコレクターボックスソードシールドpromo323sppsa10ピカチュウプレシャスコレクターボックスソードampシールドpromo323sp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "model": "S-P 323",
+      "modelKey": "S-P323",
+      "setKey": "S-P",
+      "numberKey": "323",
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
-      "key": "tb-289",
+      "key": "x-91119",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-91119",
+        "name": "ウッウ: プロモ[S-P 226](ポケモン切手BOXプロモーションカード 見返り美人・月に雁「S-P」)",
+        "shortName": "ウッウ: プロモ",
+        "model": "S-P 226",
+        "pageUrl": "https://toreca-souba.com/cards/x-91119",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-91119.webp",
+        "score": 12
+      },
       "itemId": 289,
       "itemKey": "tb-289",
       "dataMax": 0,
@@ -3385,11 +3625,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "ウッウp226sppsa10ウッウp226sp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "model": "S-P 226",
+      "modelKey": "S-P226",
+      "setKey": "S-P",
+      "numberKey": "226",
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "pk-43860",
@@ -3429,7 +3669,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV2A201/165",
       "setKey": "SV2A",
       "numberKey": "201/165",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "pk-7040",
@@ -3469,15 +3709,23 @@ window.TORECABANK_DATA = {
       "modelKey": "S1H068/060",
       "setKey": "S1H",
       "numberKey": "068/060",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
-      "key": "tb-148",
+      "key": "x-93048",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-93048",
+        "name": "ピッピ (リーリエ) : プロモ[SM-P 381](プロモーションカード「SM-P」)",
+        "shortName": "ピッピ",
+        "model": "SM-P 381",
+        "pageUrl": "https://toreca-souba.com/cards/x-93048",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-93048.webp",
+        "score": 12
+      },
       "itemId": 148,
       "itemKey": "tb-148",
       "dataMax": 0,
@@ -3497,11 +3745,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=1",
       "searchKey": "ピッピ強化拡張パックドリームリーグbox購入キャンペーンpromo381smppsa10ピッピ強化拡張パックドリームリーグbox購入キャンペーンpromo381smp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "model": "SM-P 381",
+      "modelKey": "SM-P381",
+      "setKey": "SM-P",
+      "numberKey": "381",
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "pk-62018",
@@ -3541,7 +3789,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV8A217/187",
       "setKey": "SV8A",
       "numberKey": "217/187",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "pk-46194",
@@ -3581,7 +3829,7 @@ window.TORECABANK_DATA = {
       "modelKey": "WCS23001/030",
       "setKey": "WCS23",
       "numberKey": "001/030",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "pk-41858",
@@ -3621,87 +3869,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV2D096/071",
       "setKey": "SV2D",
       "numberKey": "096/071",
-      "collectedAt": "2026-08-19T06:01:23.206Z"
-    },
-    {
-      "key": "pk-38385",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-38385",
-        "name": "ピカチュウ AR[s12a 205/172](ハイクラスパック「VSTARユニバース」)",
-        "shortName": "ピカチュウ AR",
-        "model": "205/172",
-        "pageUrl": "https://toreca-souba.com/cards/pk-38385",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-38385.webp",
-        "score": 12
-      },
-      "itemId": 273,
-      "itemKey": "tb-273",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "ピカチュウ[S12a] AR 205/172",
-      "tag": "PSA10",
-      "price": 89000,
-      "priceText": "89,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/CR_S12a_57.jpg",
-      "imageAlt": "ピカチュウ[S12a] AR 205/172",
-      "addUrl": "",
-      "pageNumber": 2,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "searchKey": "ピカチュウs12aar205172psa10ピカチュウs12aar205172",
-      "model": "S12A 205/172",
-      "modelKey": "S12A205/172",
-      "setKey": "S12A",
-      "numberKey": "205/172",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
-    },
-    {
-      "key": "pk-5202",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-5202",
-        "name": "リーリエの全力 SR[SM11b 068/049](強化拡張パック「ドリームリーグ」)",
-        "shortName": "リーリエの全力 SR",
-        "model": "068/049",
-        "pageUrl": "https://toreca-souba.com/cards/pk-5202",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-5202.webp",
-        "score": 12
-      },
-      "itemId": 135,
-      "itemKey": "tb-135",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "リーリエの全力[SM11b] SR 068/049",
-      "tag": "PSA10",
-      "price": 89000,
-      "priceText": "89,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1769854173_7cfa1169753670c2e57e.jpg",
-      "imageAlt": "リーリエの全力[SM11b] SR 068/049",
-      "addUrl": "",
-      "pageNumber": 2,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "searchKey": "リーリエの全力sm11bsr068049psa10リーリエの全力sm11bsr068049",
-      "model": "SM11B 068/049",
-      "modelKey": "SM11B068/049",
-      "setKey": "SM11B",
-      "numberKey": "068/049",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.426Z"
     },
     {
       "key": "x-91279",
@@ -3741,7 +3909,87 @@ window.TORECABANK_DATA = {
       "modelKey": "SM11B063/049",
       "setKey": "SM11B",
       "numberKey": "063/049",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
+    },
+    {
+      "key": "pk-38385",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-38385",
+        "name": "ピカチュウ AR[s12a 205/172](ハイクラスパック「VSTARユニバース」)",
+        "shortName": "ピカチュウ AR",
+        "model": "205/172",
+        "pageUrl": "https://toreca-souba.com/cards/pk-38385",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-38385.webp",
+        "score": 12
+      },
+      "itemId": 273,
+      "itemKey": "tb-273",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "ピカチュウ[S12a] AR 205/172",
+      "tag": "PSA10",
+      "price": 89000,
+      "priceText": "89,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/CR_S12a_57.jpg",
+      "imageAlt": "ピカチュウ[S12a] AR 205/172",
+      "addUrl": "",
+      "pageNumber": 2,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "searchKey": "ピカチュウs12aar205172psa10ピカチュウs12aar205172",
+      "model": "S12A 205/172",
+      "modelKey": "S12A205/172",
+      "setKey": "S12A",
+      "numberKey": "205/172",
+      "collectedAt": "2026-08-19T06:03:26.440Z"
+    },
+    {
+      "key": "pk-5202",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-5202",
+        "name": "リーリエの全力 SR[SM11b 068/049](強化拡張パック「ドリームリーグ」)",
+        "shortName": "リーリエの全力 SR",
+        "model": "068/049",
+        "pageUrl": "https://toreca-souba.com/cards/pk-5202",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-5202.webp",
+        "score": 12
+      },
+      "itemId": 135,
+      "itemKey": "tb-135",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "リーリエの全力[SM11b] SR 068/049",
+      "tag": "PSA10",
+      "price": 89000,
+      "priceText": "89,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1769854173_7cfa1169753670c2e57e.jpg",
+      "imageAlt": "リーリエの全力[SM11b] SR 068/049",
+      "addUrl": "",
+      "pageNumber": 2,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "searchKey": "リーリエの全力sm11bsr068049psa10リーリエの全力sm11bsr068049",
+      "model": "SM11B 068/049",
+      "modelKey": "SM11B068/049",
+      "setKey": "SM11B",
+      "numberKey": "068/049",
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "pk-5201",
@@ -3781,15 +4029,23 @@ window.TORECABANK_DATA = {
       "modelKey": "SM11B067/049",
       "setKey": "SM11B",
       "numberKey": "067/049",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
-      "key": "tb-301",
+      "key": "x-107497",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-107497",
+        "name": "イーブイ&カビゴンGX: プロモ [SM-P 297](プロモーションカード「SM-P」)",
+        "shortName": "イーブイ&カビゴンGX: プロモ",
+        "model": "SM-P 297",
+        "pageUrl": "https://toreca-souba.com/cards/x-107497",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-107497.webp",
+        "score": 12
+      },
       "itemId": 301,
       "itemKey": "tb-301",
       "dataMax": 0,
@@ -3809,11 +4065,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "searchKey": "イーブイカビゴンgxsr297smppsa10イーブイカビゴンgxsr297smp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "model": "SM-P 297",
+      "modelKey": "SM-P297",
+      "setKey": "SM-P",
+      "numberKey": "297",
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "pk-45925",
@@ -3853,7 +4109,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV3134/108",
       "setKey": "SV3",
       "numberKey": "134/108",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "x-91272",
@@ -3893,7 +4149,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM12A191/173",
       "setKey": "SM12A",
       "numberKey": "191/173",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "x-91280",
@@ -3933,7 +4189,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM11B064/049",
       "setKey": "SM11B",
       "numberKey": "064/049",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "pk-73747",
@@ -3973,7 +4229,7 @@ window.TORECABANK_DATA = {
       "modelKey": "M2A250/193",
       "setKey": "M2A",
       "numberKey": "250/193",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "pk-43864",
@@ -4013,7 +4269,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV2A205/165",
       "setKey": "SV2A",
       "numberKey": "205/165",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "pk-22423",
@@ -4053,7 +4309,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8A030/028",
       "setKey": "S8A",
       "numberKey": "030/028",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "pk-51078",
@@ -4093,15 +4349,23 @@ window.TORECABANK_DATA = {
       "modelKey": "SV4A349/190",
       "setKey": "SV4A",
       "numberKey": "349/190",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
-      "key": "tb-239",
+      "key": "x-93004",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-93004",
+        "name": "エーフィVMAX: SA/プロモ[S-P 189](プロモーションカード「S-P」)",
+        "shortName": "エーフィVMAX: SA/プロモ",
+        "model": "S-P 189",
+        "pageUrl": "https://toreca-souba.com/cards/x-93004",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-93004.webp",
+        "score": 12
+      },
       "itemId": 239,
       "itemKey": "tb-239",
       "dataMax": 7,
@@ -4121,11 +4385,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "searchKey": "エーフィvmaxイーブイズセットpromo189sppsa10エーフィvmaxイーブイズセットpromo189sp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "model": "S-P 189",
+      "modelKey": "S-P189",
+      "setKey": "S-P",
+      "numberKey": "189",
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "pk-20205",
@@ -4165,7 +4429,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S6H085/070",
       "setKey": "S6H",
       "numberKey": "085/070",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "pk-18475",
@@ -4205,7 +4469,7 @@ window.TORECABANK_DATA = {
       "modelKey": "CP5002/036",
       "setKey": "CP5",
       "numberKey": "002/036",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "pk-18995",
@@ -4245,7 +4509,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S5A078/070",
       "setKey": "S5A",
       "numberKey": "078/070",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "pk-55727",
@@ -4285,15 +4549,23 @@ window.TORECABANK_DATA = {
       "modelKey": "SV6130/101",
       "setKey": "SV6",
       "numberKey": "130/101",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
-      "key": "tb-308",
+      "key": "x-91130",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-91130",
+        "name": "ピカチュウVMAX(バンザイピカチュウ): プロモ[S-P 123](ピカピカ!ピカチュウ!プロモカードキャンペーン)",
+        "shortName": "ピカチュウVMAX",
+        "model": "S-P 123",
+        "pageUrl": "https://toreca-souba.com/cards/x-91130",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-91130.webp",
+        "score": 12
+      },
       "itemId": 308,
       "itemKey": "tb-308",
       "dataMax": 1,
@@ -4313,11 +4585,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "searchKey": "ピカチュウvmaxピカピカピカチュウプロモカードキャンペーンpromo123sppsa10ピカチュウvmaxピカピカピカチュウプロモカードキャンペーンpromo123sp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "model": "S-P 123",
+      "modelKey": "S-P123",
+      "setKey": "S-P",
+      "numberKey": "123",
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "pk-24415",
@@ -4357,15 +4629,23 @@ window.TORECABANK_DATA = {
       "modelKey": "S9103/100",
       "setKey": "S9",
       "numberKey": "103/100",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
-      "key": "tb-333",
+      "key": "x-120250",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-120250",
+        "name": "カナザワのピカチュウ: プロモ (マークあり) [S-P 144](プロモーションカード「S-P」)",
+        "shortName": "カナザワのピカチュウ: プロモ",
+        "model": "S-P 144",
+        "pageUrl": "https://toreca-souba.com/cards/x-120250",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-120250.webp",
+        "score": 12
+      },
       "itemId": 333,
       "itemKey": "tb-333",
       "dataMax": 0,
@@ -4385,11 +4665,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "searchKey": "カナザワのピカチュウマークありpromo144sppsa10カナザワのピカチュウマークありpromo144sp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "model": "S-P 144",
+      "modelKey": "S-P144",
+      "setKey": "S-P",
+      "numberKey": "144",
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "tb-2397",
@@ -4421,7 +4701,7 @@ window.TORECABANK_DATA = {
       "modelKey": "-755/742",
       "setKey": "-",
       "numberKey": "755/742",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "pk-5188",
@@ -4461,7 +4741,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM11B054/049",
       "setKey": "SM11B",
       "numberKey": "054/049",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "pk-2426",
@@ -4501,7 +4781,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM8B219/150",
       "setKey": "SM8B",
       "numberKey": "219/150",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "pk-70050",
@@ -4541,7 +4821,7 @@ window.TORECABANK_DATA = {
       "modelKey": "M1L091/063",
       "setKey": "M1L",
       "numberKey": "091/063",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "pk-3123",
@@ -4581,7 +4861,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM9B061/054",
       "setKey": "SM9B",
       "numberKey": "061/054",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "x-706805",
@@ -4621,7 +4901,7 @@ window.TORECABANK_DATA = {
       "modelKey": "CBB3C0307/07",
       "setKey": "CBB3C",
       "numberKey": "0307/07",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "pk-54810",
@@ -4661,7 +4941,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV5A090/066",
       "setKey": "SV5A",
       "numberKey": "090/066",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "pk-2282",
@@ -4701,7 +4981,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM8B153/150",
       "setKey": "SM8B",
       "numberKey": "153/150",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "pk-6015",
@@ -4741,7 +5021,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM12A175/173",
       "setKey": "SM12A",
       "numberKey": "175/173",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "pk-4687",
@@ -4781,15 +5061,23 @@ window.TORECABANK_DATA = {
       "modelKey": "SM11104/094",
       "setKey": "SM11",
       "numberKey": "104/094",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
-      "key": "tb-354",
+      "key": "x-135232",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-135232",
+        "name": "名探偵ピカチュウ: プロモ [SV-P 098](プロモーションカード「SV-P」)",
+        "shortName": "名探偵ピカチュウ: プロモ",
+        "model": "SV-P 098",
+        "pageUrl": "https://toreca-souba.com/cards/x-135232",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-135232.webp",
+        "score": 12
+      },
       "itemId": 354,
       "itemKey": "tb-354",
       "dataMax": 0,
@@ -4809,11 +5097,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "searchKey": "名探偵ピカチュウpromo098svppsa10名探偵ピカチュウpromo098svp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "model": "SV-P 098",
+      "modelKey": "SV-P098",
+      "setKey": "SV-P",
+      "numberKey": "098",
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "pk-64586",
@@ -4853,7 +5141,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV9A087/063",
       "setKey": "SV9A",
       "numberKey": "087/063",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "pk-296",
@@ -4893,7 +5181,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM6100/094",
       "setKey": "SM6",
       "numberKey": "100/094",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.440Z"
     },
     {
       "key": "x-104534",
@@ -4933,7 +5221,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM12A181/173",
       "setKey": "SM12A",
       "numberKey": "181/173",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "tb-246",
@@ -4965,7 +5253,7 @@ window.TORECABANK_DATA = {
       "modelKey": "-003/032",
       "setKey": "-",
       "numberKey": "003/032",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-22390",
@@ -5005,7 +5293,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8A-P012/025",
       "setKey": "S8A-P",
       "numberKey": "012/025",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-971",
@@ -5045,7 +5333,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM5S070/066",
       "setKey": "SM5S",
       "numberKey": "070/066",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-14592",
@@ -5085,7 +5373,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S4104/100",
       "setKey": "S4",
       "numberKey": "104/100",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-20747",
@@ -5125,7 +5413,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S6A081/069",
       "setKey": "S6A",
       "numberKey": "081/069",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "x-387059",
@@ -5165,15 +5453,23 @@ window.TORECABANK_DATA = {
       "modelKey": "SM9038/095",
       "setKey": "SM9",
       "numberKey": "038/095",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
-      "key": "tb-343",
+      "key": "x-106796",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-106796",
+        "name": "ピカチュウ:プロモ [S-P 208](「YU NAGABA×ポケモンカードゲーム」プロモーションカード「S-P」)",
+        "shortName": "ピカチュウ:プロモ",
+        "model": "S-P 208",
+        "pageUrl": "https://toreca-souba.com/cards/x-106796",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-106796.webp",
+        "score": 12
+      },
       "itemId": 343,
       "itemKey": "tb-343",
       "dataMax": 0,
@@ -5193,11 +5489,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "searchKey": "ピカチュウyunagabapromo208sppsa10ピカチュウyunagabapromo208sp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.214Z"
+      "model": "S-P 208",
+      "modelKey": "S-P208",
+      "setKey": "S-P",
+      "numberKey": "208",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "tb-2081",
@@ -5229,47 +5525,7 @@ window.TORECABANK_DATA = {
       "modelKey": "-051/049",
       "setKey": "-",
       "numberKey": "051/049",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
-    },
-    {
-      "key": "pk-23055",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-23055",
-        "name": "ピカチュウVMAX UR[S8b 279/184](ハイクラスパック「VMAXクライマックス」)",
-        "shortName": "ピカチュウVMAX UR",
-        "model": "279/184",
-        "pageUrl": "https://toreca-souba.com/cards/pk-23055",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-23055.webp",
-        "score": 12
-      },
-      "itemId": 454,
-      "itemKey": "tb-454",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "ピカチュウVMAX[S8b] UR 279/184",
-      "tag": "PSA10",
-      "price": 47000,
-      "priceText": "47,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1780734382_d6e0a278e957031139ce.jpg",
-      "imageAlt": "ピカチュウVMAX[S8b] UR 279/184",
-      "addUrl": "",
-      "pageNumber": 2,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "searchKey": "ピカチュウvmaxs8bur279184psa10ピカチュウvmaxs8bur279184",
-      "model": "S8B 279/184",
-      "modelKey": "S8B279/184",
-      "setKey": "S8B",
-      "numberKey": "279/184",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-38441",
@@ -5309,151 +5565,47 @@ window.TORECABANK_DATA = {
       "modelKey": "S12A261/172",
       "setKey": "S12A",
       "numberKey": "261/172",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
-      "key": "tb-1714",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": null,
-      "itemId": 1714,
-      "itemKey": "tb-1714",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "メタモン(韓国語版) PROMO 173/SV-P",
-      "tag": "PSA10",
-      "price": 46000,
-      "priceText": "46,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1763365133_ae2c6ca3dfaedf3821ee.jpg",
-      "imageAlt": "メタモン(韓国語版) PROMO 173/SV-P",
-      "addUrl": "",
-      "pageNumber": 2,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "searchKey": "メタモン韓国語版promo173svppsa10メタモン韓国語版promo173svp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
-    },
-    {
-      "key": "x-104606",
+      "key": "pk-23055",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
       "catalog": {
-        "id": "x-104606",
-        "name": "ファイヤー&サンダー&フリーザーGX SR[SM10b 059/054](強化拡張パック「スカイレジェンド」)",
-        "shortName": "ファイヤー&サンダー&フリーザーGX SR",
-        "model": "059/054",
-        "pageUrl": "https://toreca-souba.com/cards/x-104606",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-104606.webp",
+        "id": "pk-23055",
+        "name": "ピカチュウVMAX UR[S8b 279/184](ハイクラスパック「VMAXクライマックス」)",
+        "shortName": "ピカチュウVMAX UR",
+        "model": "279/184",
+        "pageUrl": "https://toreca-souba.com/cards/pk-23055",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-23055.webp",
         "score": 12
       },
-      "itemId": 3841,
-      "itemKey": "tb-3841",
+      "itemId": 454,
+      "itemKey": "tb-454",
       "dataMax": 0,
       "isCustomItem": false,
       "className": "item closed",
-      "name": "ファイヤー＆サンダー＆フリーザーGX [SM10b] SR 059/054",
+      "name": "ピカチュウVMAX[S8b] UR 279/184",
       "tag": "PSA10",
-      "price": 46000,
-      "priceText": "46,000円",
+      "price": 47000,
+      "priceText": "47,000円",
       "stockText": "受付終了",
       "isClosed": true,
       "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1776867485_690d4f4c2b68f8b5fcfb.jpg",
-      "imageAlt": "ファイヤー＆サンダー＆フリーザーGX [SM10b] SR 059/054",
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1780734382_d6e0a278e957031139ce.jpg",
+      "imageAlt": "ピカチュウVMAX[S8b] UR 279/184",
       "addUrl": "",
       "pageNumber": 2,
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "searchKey": "ファイヤーサンダーフリーザーgxsm10bsr059054psa10ファイヤーサンダーフリーザーgxsm10bsr059054",
-      "model": "SM10B 059/054",
-      "modelKey": "SM10B059/054",
-      "setKey": "SM10B",
-      "numberKey": "059/054",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
-    },
-    {
-      "key": "tb-302",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": null,
-      "itemId": 302,
-      "itemKey": "tb-302",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "グレイシアV SR 077/069",
-      "tag": "PSA10",
-      "price": 46000,
-      "priceText": "46,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/20210527_e8256c.jpg",
-      "imageAlt": "グレイシアV SR 077/069",
-      "addUrl": "",
-      "pageNumber": 2,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "searchKey": "グレイシアvsr077069psa10グレイシアvsr077069",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
-    },
-    {
-      "key": "pk-20749",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-20749",
-        "name": "ニンフィアV SR: SA[S6a 083/069](強化拡張パック「イーブイヒーローズ」)",
-        "shortName": "ニンフィアV SR: SA",
-        "model": "083/069",
-        "pageUrl": "https://toreca-souba.com/cards/pk-20749",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-20749.webp",
-        "score": 12
-      },
-      "itemId": 277,
-      "itemKey": "tb-277",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "ニンフィアV[S6a] SR(SA) 083/069",
-      "tag": "PSA10",
-      "price": 46000,
-      "priceText": "46,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1784882647_14fcf554cfe9d030ad69.jpg",
-      "imageAlt": "ニンフィアV[S6a] SR(SA) 083/069",
-      "addUrl": "",
-      "pageNumber": 2,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "searchKey": "ニンフィアvs6asrsa083069psa10ニンフィアvs6asrsa083069",
-      "model": "S6A 083/069",
-      "modelKey": "S6A083/069",
-      "setKey": "S6A",
-      "numberKey": "083/069",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "searchKey": "ピカチュウvmaxs8bur279184psa10ピカチュウvmaxs8bur279184",
+      "model": "S8B 279/184",
+      "modelKey": "S8B279/184",
+      "setKey": "S8B",
+      "numberKey": "279/184",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-23001",
@@ -5493,7 +5645,159 @@ window.TORECABANK_DATA = {
       "modelKey": "S8B222/184",
       "setKey": "S8B",
       "numberKey": "222/184",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
+    },
+    {
+      "key": "x-606347",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "x-606347",
+        "name": "メタモン P [SV-P 173]【韓国語版】(ポケモンタウン2025 with ロッテ)",
+        "shortName": "メタモン P",
+        "model": "SV-P 173",
+        "pageUrl": "https://toreca-souba.com/cards/x-606347",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-606347.webp",
+        "score": 12
+      },
+      "itemId": 1714,
+      "itemKey": "tb-1714",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "メタモン(韓国語版) PROMO 173/SV-P",
+      "tag": "PSA10",
+      "price": 46000,
+      "priceText": "46,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1763365133_ae2c6ca3dfaedf3821ee.jpg",
+      "imageAlt": "メタモン(韓国語版) PROMO 173/SV-P",
+      "addUrl": "",
+      "pageNumber": 2,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "searchKey": "メタモン韓国語版promo173svppsa10メタモン韓国語版promo173svp",
+      "model": "SV-P 173",
+      "modelKey": "SV-P173",
+      "setKey": "SV-P",
+      "numberKey": "173",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
+    },
+    {
+      "key": "tb-302",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": null,
+      "itemId": 302,
+      "itemKey": "tb-302",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "グレイシアV SR 077/069",
+      "tag": "PSA10",
+      "price": 46000,
+      "priceText": "46,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/20210527_e8256c.jpg",
+      "imageAlt": "グレイシアV SR 077/069",
+      "addUrl": "",
+      "pageNumber": 2,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "searchKey": "グレイシアvsr077069psa10グレイシアvsr077069",
+      "model": "SR 077/069",
+      "modelKey": "SR077/069",
+      "setKey": "SR",
+      "numberKey": "077/069",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
+    },
+    {
+      "key": "x-104606",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "x-104606",
+        "name": "ファイヤー&サンダー&フリーザーGX SR[SM10b 059/054](強化拡張パック「スカイレジェンド」)",
+        "shortName": "ファイヤー&サンダー&フリーザーGX SR",
+        "model": "059/054",
+        "pageUrl": "https://toreca-souba.com/cards/x-104606",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-104606.webp",
+        "score": 12
+      },
+      "itemId": 3841,
+      "itemKey": "tb-3841",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "ファイヤー＆サンダー＆フリーザーGX [SM10b] SR 059/054",
+      "tag": "PSA10",
+      "price": 46000,
+      "priceText": "46,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1776867485_690d4f4c2b68f8b5fcfb.jpg",
+      "imageAlt": "ファイヤー＆サンダー＆フリーザーGX [SM10b] SR 059/054",
+      "addUrl": "",
+      "pageNumber": 2,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "searchKey": "ファイヤーサンダーフリーザーgxsm10bsr059054psa10ファイヤーサンダーフリーザーgxsm10bsr059054",
+      "model": "SM10B 059/054",
+      "modelKey": "SM10B059/054",
+      "setKey": "SM10B",
+      "numberKey": "059/054",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
+    },
+    {
+      "key": "pk-20749",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-20749",
+        "name": "ニンフィアV SR: SA[S6a 083/069](強化拡張パック「イーブイヒーローズ」)",
+        "shortName": "ニンフィアV SR: SA",
+        "model": "083/069",
+        "pageUrl": "https://toreca-souba.com/cards/pk-20749",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-20749.webp",
+        "score": 12
+      },
+      "itemId": 277,
+      "itemKey": "tb-277",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "ニンフィアV[S6a] SR(SA) 083/069",
+      "tag": "PSA10",
+      "price": 46000,
+      "priceText": "46,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1784882647_14fcf554cfe9d030ad69.jpg",
+      "imageAlt": "ニンフィアV[S6a] SR(SA) 083/069",
+      "addUrl": "",
+      "pageNumber": 2,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "searchKey": "ニンフィアvs6asrsa083069psa10ニンフィアvs6asrsa083069",
+      "model": "S6A 083/069",
+      "modelKey": "S6A083/069",
+      "setKey": "S6A",
+      "numberKey": "083/069",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "tb-1843",
@@ -5521,11 +5825,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "searchKey": "モクローアローラナッシーgxsasr056054psa10モクローアローラナッシーgxsasr056054",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "model": "SR 056/054",
+      "modelKey": "SR056/054",
+      "setKey": "SR",
+      "numberKey": "056/054",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-22191",
@@ -5565,7 +5869,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8106/100",
       "setKey": "S8",
       "numberKey": "106/100",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-23002",
@@ -5605,7 +5909,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8B223/184",
       "setKey": "S8B",
       "numberKey": "223/184",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-33707",
@@ -5645,7 +5949,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S9A083/067",
       "setKey": "S9A",
       "numberKey": "083/067",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-2704",
@@ -5685,7 +5989,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM9107/095",
       "setKey": "SM9",
       "numberKey": "107/095",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-2190",
@@ -5725,7 +6029,39 @@ window.TORECABANK_DATA = {
       "modelKey": "SM8B220/150",
       "setKey": "SM8B",
       "numberKey": "220/150",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
+    },
+    {
+      "key": "tb-447",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": null,
+      "itemId": 447,
+      "itemKey": "tb-447",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "ヒビキのホウオウex SAR 086/063",
+      "tag": "PSA10",
+      "price": 43000,
+      "priceText": "43,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1760522683_eae3d20fa3e902c18d08.jpg",
+      "imageAlt": "ヒビキのホウオウex SAR 086/063",
+      "addUrl": "",
+      "pageNumber": 2,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "searchKey": "ヒビキのホウオウexsar086063psa10ヒビキのホウオウexsar086063",
+      "model": "SAR 086/063",
+      "modelKey": "SAR086/063",
+      "setKey": "SAR",
+      "numberKey": "086/063",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "tb-478",
@@ -5757,7 +6093,7 @@ window.TORECABANK_DATA = {
       "modelKey": "-415/414",
       "setKey": "-",
       "numberKey": "415/414",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "x-127036",
@@ -5797,7 +6133,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM11B070/049",
       "setKey": "SM11B",
       "numberKey": "070/049",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-20739",
@@ -5837,223 +6173,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S6A073/069",
       "setKey": "S6A",
       "numberKey": "073/069",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
-    },
-    {
-      "key": "tb-447",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": null,
-      "itemId": 447,
-      "itemKey": "tb-447",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "ヒビキのホウオウex SAR 086/063",
-      "tag": "PSA10",
-      "price": 43000,
-      "priceText": "43,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1760522683_eae3d20fa3e902c18d08.jpg",
-      "imageAlt": "ヒビキのホウオウex SAR 086/063",
-      "addUrl": "",
-      "pageNumber": 2,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "searchKey": "ヒビキのホウオウexsar086063psa10ヒビキのホウオウexsar086063",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
-    },
-    {
-      "key": "pk-40582",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-40582",
-        "name": "コイキング AR[SV1a 080/073](スカーレット&バイオレット 拡張パック「トリプレットビート」)",
-        "shortName": "コイキング AR",
-        "model": "080/073",
-        "pageUrl": "https://toreca-souba.com/cards/pk-40582",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-40582.webp",
-        "score": 12
-      },
-      "itemId": 347,
-      "itemKey": "tb-347",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "コイキング[SV1a] AR 080/073",
-      "tag": "PSA10",
-      "price": 42000,
-      "priceText": "42,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/CRSV1a_AR_6.jpg",
-      "imageAlt": "コイキング[SV1a] AR 080/073",
-      "addUrl": "",
-      "pageNumber": 2,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "searchKey": "コイキングsv1aar080073psa10コイキングsv1aar080073",
-      "model": "SV1A 080/073",
-      "modelKey": "SV1A080/073",
-      "setKey": "SV1A",
-      "numberKey": "080/073",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
-    },
-    {
-      "key": "pk-59575",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-59575",
-        "name": "ラティアスex SAR [SV7a 087/064](強化拡張パック「楽園ドラゴーナ」)",
-        "shortName": "ラティアスex SAR",
-        "model": "087/064",
-        "pageUrl": "https://toreca-souba.com/cards/pk-59575",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-59575.webp",
-        "score": 12
-      },
-      "itemId": 309,
-      "itemKey": "tb-309",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "ラティアスex[SV7a] SAR 087/064",
-      "tag": "PSA10",
-      "price": 42000,
-      "priceText": "42,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1747587337_b0502c8c1987e7b8dc74.jpg",
-      "imageAlt": "ラティアスex[SV7a] SAR 087/064",
-      "addUrl": "",
-      "pageNumber": 2,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "searchKey": "ラティアスexsv7asar087064psa10ラティアスexsv7asar087064",
-      "model": "SV7A 087/064",
-      "modelKey": "SV7A087/064",
-      "setKey": "SV7A",
-      "numberKey": "087/064",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
-    },
-    {
-      "key": "pk-78744",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-78744",
-        "name": "メガジガルデex MUR [M3 117/080](拡張パック「ムニキスゼロ」)",
-        "shortName": "メガジガルデex MUR",
-        "model": "117/080",
-        "pageUrl": "https://toreca-souba.com/cards/pk-78744",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-78744.webp",
-        "score": 12
-      },
-      "itemId": 2907,
-      "itemKey": "tb-2907",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "メガジガルデex[M3] MUR 117/080",
-      "tag": "PSA10",
-      "price": 42000,
-      "priceText": "42,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1774163513_324831f32ae57b567617.jpg",
-      "imageAlt": "メガジガルデex[M3] MUR 117/080",
-      "addUrl": "",
-      "pageNumber": 2,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "searchKey": "メガジガルデexm3mur117080psa10メガジガルデexm3mur117080",
-      "model": "M3 117/080",
-      "modelKey": "M3117/080",
-      "setKey": "M3",
-      "numberKey": "117/080",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
-    },
-    {
-      "key": "tb-1743",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": null,
-      "itemId": 1743,
-      "itemKey": "tb-1743",
-      "dataMax": 5,
-      "isCustomItem": false,
-      "className": "item ",
-      "name": "臺北的皮?丘(繁体字版:台北のピカチュウ) P 057/SV-P",
-      "tag": "PSA10",
-      "price": 42000,
-      "priceText": "42,000円",
-      "stockText": "残り5点",
-      "isClosed": false,
-      "isRecruiting": true,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1763688920_1a81f87741837c496983.jpg",
-      "imageAlt": "臺北的皮?丘(繁体字版:台北のピカチュウ) P 057/SV-P",
-      "addUrl": "https://store.torecabank.com/line",
-      "pageNumber": 2,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "searchKey": "臺北的皮丘繁体字版台北のピカチュウp057svppsa10臺北的皮丘繁体字版台北のピカチュウp057svp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
-    },
-    {
-      "key": "tb-305",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": null,
-      "itemId": 305,
-      "itemKey": "tb-305",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "サーナイトex SAR 101/078",
-      "tag": "PSA10",
-      "price": 42000,
-      "priceText": "42,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/SV1S_SAR_4.jpg",
-      "imageAlt": "サーナイトex SAR 101/078",
-      "addUrl": "",
-      "pageNumber": 2,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "searchKey": "サーナイトexsar101078psa10サーナイトexsar101078",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "x-110938",
@@ -6093,7 +6213,199 @@ window.TORECABANK_DATA = {
       "modelKey": "SV1V105/078",
       "setKey": "SV1V",
       "numberKey": "105/078",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
+    },
+    {
+      "key": "pk-40582",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-40582",
+        "name": "コイキング AR[SV1a 080/073](スカーレット&バイオレット 拡張パック「トリプレットビート」)",
+        "shortName": "コイキング AR",
+        "model": "080/073",
+        "pageUrl": "https://toreca-souba.com/cards/pk-40582",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-40582.webp",
+        "score": 12
+      },
+      "itemId": 347,
+      "itemKey": "tb-347",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "コイキング[SV1a] AR 080/073",
+      "tag": "PSA10",
+      "price": 42000,
+      "priceText": "42,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/CRSV1a_AR_6.jpg",
+      "imageAlt": "コイキング[SV1a] AR 080/073",
+      "addUrl": "",
+      "pageNumber": 2,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "searchKey": "コイキングsv1aar080073psa10コイキングsv1aar080073",
+      "model": "SV1A 080/073",
+      "modelKey": "SV1A080/073",
+      "setKey": "SV1A",
+      "numberKey": "080/073",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
+    },
+    {
+      "key": "pk-78744",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-78744",
+        "name": "メガジガルデex MUR [M3 117/080](拡張パック「ムニキスゼロ」)",
+        "shortName": "メガジガルデex MUR",
+        "model": "117/080",
+        "pageUrl": "https://toreca-souba.com/cards/pk-78744",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-78744.webp",
+        "score": 12
+      },
+      "itemId": 2907,
+      "itemKey": "tb-2907",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "メガジガルデex[M3] MUR 117/080",
+      "tag": "PSA10",
+      "price": 42000,
+      "priceText": "42,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1774163513_324831f32ae57b567617.jpg",
+      "imageAlt": "メガジガルデex[M3] MUR 117/080",
+      "addUrl": "",
+      "pageNumber": 2,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "searchKey": "メガジガルデexm3mur117080psa10メガジガルデexm3mur117080",
+      "model": "M3 117/080",
+      "modelKey": "M3117/080",
+      "setKey": "M3",
+      "numberKey": "117/080",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
+    },
+    {
+      "key": "pk-59575",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-59575",
+        "name": "ラティアスex SAR [SV7a 087/064](強化拡張パック「楽園ドラゴーナ」)",
+        "shortName": "ラティアスex SAR",
+        "model": "087/064",
+        "pageUrl": "https://toreca-souba.com/cards/pk-59575",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-59575.webp",
+        "score": 12
+      },
+      "itemId": 309,
+      "itemKey": "tb-309",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "ラティアスex[SV7a] SAR 087/064",
+      "tag": "PSA10",
+      "price": 42000,
+      "priceText": "42,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1747587337_b0502c8c1987e7b8dc74.jpg",
+      "imageAlt": "ラティアスex[SV7a] SAR 087/064",
+      "addUrl": "",
+      "pageNumber": 2,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "searchKey": "ラティアスexsv7asar087064psa10ラティアスexsv7asar087064",
+      "model": "SV7A 087/064",
+      "modelKey": "SV7A087/064",
+      "setKey": "SV7A",
+      "numberKey": "087/064",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
+    },
+    {
+      "key": "x-520383",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "x-520383",
+        "name": "ピカチュウ P [SV-P 057]【中国語版】(プロモーションカード「台北オープン記念」)",
+        "shortName": "ピカチュウ P",
+        "model": "SV-P 057",
+        "pageUrl": "https://toreca-souba.com/cards/x-520383",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-520383.webp",
+        "score": 12
+      },
+      "itemId": 1743,
+      "itemKey": "tb-1743",
+      "dataMax": 5,
+      "isCustomItem": false,
+      "className": "item ",
+      "name": "臺北的皮?丘(繁体字版:台北のピカチュウ) P 057/SV-P",
+      "tag": "PSA10",
+      "price": 42000,
+      "priceText": "42,000円",
+      "stockText": "残り5点",
+      "isClosed": false,
+      "isRecruiting": true,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1763688920_1a81f87741837c496983.jpg",
+      "imageAlt": "臺北的皮?丘(繁体字版:台北のピカチュウ) P 057/SV-P",
+      "addUrl": "https://store.torecabank.com/line",
+      "pageNumber": 2,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "searchKey": "臺北的皮丘繁体字版台北のピカチュウp057svppsa10臺北的皮丘繁体字版台北のピカチュウp057svp",
+      "model": "SV-P 057",
+      "modelKey": "SV-P057",
+      "setKey": "SV-P",
+      "numberKey": "057",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
+    },
+    {
+      "key": "tb-305",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": null,
+      "itemId": 305,
+      "itemKey": "tb-305",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "サーナイトex SAR 101/078",
+      "tag": "PSA10",
+      "price": 42000,
+      "priceText": "42,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/SV1S_SAR_4.jpg",
+      "imageAlt": "サーナイトex SAR 101/078",
+      "addUrl": "",
+      "pageNumber": 2,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "searchKey": "サーナイトexsar101078psa10サーナイトexsar101078",
+      "model": "SAR 101/078",
+      "modelKey": "SAR101/078",
+      "setKey": "SAR",
+      "numberKey": "101/078",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-17457",
@@ -6133,7 +6445,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S4A308/190",
       "setKey": "S4A",
       "numberKey": "308/190",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "x-91276",
@@ -6173,7 +6485,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM12106/095",
       "setKey": "SM12",
       "numberKey": "106/095",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-63635",
@@ -6213,7 +6525,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV9126/100",
       "setKey": "SV9",
       "numberKey": "126/100",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-35810",
@@ -6253,15 +6565,23 @@ window.TORECABANK_DATA = {
       "modelKey": "S10B074/071",
       "setKey": "S10B",
       "numberKey": "074/071",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
-      "key": "tb-266",
+      "key": "x-91128",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-91128",
+        "name": "ポケモンセンターのお姉さん: プロモ[S-P 069](プロモーションカード「S-P」)",
+        "shortName": "ポケモンセンターのお姉さん: プロモ",
+        "model": "S-P 069",
+        "pageUrl": "https://toreca-souba.com/cards/x-91128",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-91128.webp",
+        "score": 12
+      },
       "itemId": 266,
       "itemKey": "tb-266",
       "dataMax": 0,
@@ -6281,11 +6601,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "searchKey": "ポケモンセンターのお姉さん拡張パックムゲンゾーン2box購入キャンペーンpromo069sppsa10ポケモンセンターのお姉さん拡張パックムゲンゾーン2box購入キャンペーンpromo069sp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "model": "S-P 069",
+      "modelKey": "S-P069",
+      "setKey": "S-P",
+      "numberKey": "069",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-59579",
@@ -6325,15 +6645,23 @@ window.TORECABANK_DATA = {
       "modelKey": "SV7A091/064",
       "setKey": "SV7A",
       "numberKey": "091/064",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
-      "key": "tb-338",
+      "key": "x-122059",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-122059",
+        "name": "ブラッキー: プロモ (ナガバブラッキー) [SV-P 067](「YU NAGABA×ポケモンカードゲーム」プロモーションカード「SV-P」)",
+        "shortName": "ブラッキー: プロモ",
+        "model": "SV-P 067",
+        "pageUrl": "https://toreca-souba.com/cards/x-122059",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-122059.webp",
+        "score": 12
+      },
       "itemId": 338,
       "itemKey": "tb-338",
       "dataMax": 0,
@@ -6353,211 +6681,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "searchKey": "ブラッキーyunagabap067svppsa10ブラッキーyunagabap067svp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
-    },
-    {
-      "key": "pk-23028",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-23028",
-        "name": "レックウザVMAX CSR[S8b 252/184](ハイクラスパック「VMAXクライマックス」)",
-        "shortName": "レックウザVMAX CSR",
-        "model": "252/184",
-        "pageUrl": "https://toreca-souba.com/cards/pk-23028",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-23028.webp",
-        "score": 12
-      },
-      "itemId": 461,
-      "itemKey": "tb-461",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "レックウザVMAX[S8b] CSR 252/184",
-      "tag": "PSA10",
-      "price": 39000,
-      "priceText": "39,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1766315902_ffc378b4c90281f15283.jpg",
-      "imageAlt": "レックウザVMAX[S8b] CSR 252/184",
-      "addUrl": "",
-      "pageNumber": 2,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "searchKey": "レックウザvmaxs8bcsr252184psa10レックウザvmaxs8bcsr252184",
-      "model": "S8B 252/184",
-      "modelKey": "S8B252/184",
-      "setKey": "S8B",
-      "numberKey": "252/184",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
-    },
-    {
-      "key": "pk-17456",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-17456",
-        "name": "リザードンV SSR[S4a 307/190](ハイクラスパック「シャイニースターV」)",
-        "shortName": "リザードンV SSR",
-        "model": "307/190",
-        "pageUrl": "https://toreca-souba.com/cards/pk-17456",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-17456.webp",
-        "score": 12
-      },
-      "itemId": 324,
-      "itemKey": "tb-324",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "リザードンV[S4a] SSR 307/190",
-      "tag": "PSA10",
-      "price": 39000,
-      "priceText": "39,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1780286944_26fa231b489aebfc649c.jpg",
-      "imageAlt": "リザードンV[S4a] SSR 307/190",
-      "addUrl": "",
-      "pageNumber": 2,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "searchKey": "リザードンvs4assr307190psa10リザードンvs4assr307190",
-      "model": "S4A 307/190",
-      "modelKey": "S4A307/190",
-      "setKey": "S4A",
-      "numberKey": "307/190",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
-    },
-    {
-      "key": "pk-67338",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-67338",
-        "name": "ゼクロムex SAR [SV11B 169/086](拡張パック「ブラックボルト」)",
-        "shortName": "ゼクロムex SAR",
-        "model": "169/086",
-        "pageUrl": "https://toreca-souba.com/cards/pk-67338",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-67338.webp",
-        "score": 12
-      },
-      "itemId": 497,
-      "itemKey": "tb-497",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "ゼクロムex[SV11B] SAR 169/086",
-      "tag": "PSA10",
-      "price": 39000,
-      "priceText": "39,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1760242704_51a079c43524d08abac2.jpg",
-      "imageAlt": "ゼクロムex[SV11B] SAR 169/086",
-      "addUrl": "",
-      "pageNumber": 2,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "searchKey": "ゼクロムexsv11bsar169086psa10ゼクロムexsv11bsar169086",
-      "model": "SV11B 169/086",
-      "modelKey": "SV11B169/086",
-      "setKey": "SV11B",
-      "numberKey": "169/086",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
-    },
-    {
-      "key": "pk-60261",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-60261",
-        "name": "ピカチュウex UR [SV8 136/106](拡張パック「超電ブレイカー」)",
-        "shortName": "ピカチュウex UR",
-        "model": "136/106",
-        "pageUrl": "https://toreca-souba.com/cards/pk-60261",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-60261.webp",
-        "score": 12
-      },
-      "itemId": 353,
-      "itemKey": "tb-353",
-      "dataMax": 3,
-      "isCustomItem": false,
-      "className": "item ",
-      "name": "ピカチュウex[SV8] UR 136/106",
-      "tag": "PSA10",
-      "price": 39000,
-      "priceText": "39,000円",
-      "stockText": "残り3点",
-      "isClosed": false,
-      "isRecruiting": true,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1747586974_9e740a102d7720973849.jpg",
-      "imageAlt": "ピカチュウex[SV8] UR 136/106",
-      "addUrl": "https://store.torecabank.com/line",
-      "pageNumber": 2,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "searchKey": "ピカチュウexsv8ur136106psa10ピカチュウexsv8ur136106",
-      "model": "SV8 136/106",
-      "modelKey": "SV8136/106",
-      "setKey": "SV8",
-      "numberKey": "136/106",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
-    },
-    {
-      "key": "pk-51077",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-51077",
-        "name": "サーナイトex SAR [SV4a 348/190](ハイクラスパック「シャイニートレジャーex」)",
-        "shortName": "サーナイトex SAR",
-        "model": "348/190",
-        "pageUrl": "https://toreca-souba.com/cards/pk-51077",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-51077.webp",
-        "score": 12
-      },
-      "itemId": 322,
-      "itemKey": "tb-322",
-      "dataMax": 2,
-      "isCustomItem": false,
-      "className": "item ",
-      "name": "サーナイトex[SV4a] SAR 348/190",
-      "tag": "PSA10",
-      "price": 39000,
-      "priceText": "39,000円",
-      "stockText": "残り2点",
-      "isClosed": false,
-      "isRecruiting": true,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1760187661_aba7ef12de1ad8422254.jpg",
-      "imageAlt": "サーナイトex[SV4a] SAR 348/190",
-      "addUrl": "https://store.torecabank.com/line",
-      "pageNumber": 2,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "searchKey": "サーナイトexsv4asar348190psa10サーナイトexsv4asar348190",
-      "model": "SV4A 348/190",
-      "modelKey": "SV4A348/190",
-      "setKey": "SV4A",
-      "numberKey": "348/190",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "model": "SV-P 067",
+      "modelKey": "SV-P067",
+      "setKey": "SV-P",
+      "numberKey": "067",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-20745",
@@ -6597,15 +6725,223 @@ window.TORECABANK_DATA = {
       "modelKey": "S6A079/069",
       "setKey": "S6A",
       "numberKey": "079/069",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
-      "key": "tb-2371",
+      "key": "pk-23028",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "pk-23028",
+        "name": "レックウザVMAX CSR[S8b 252/184](ハイクラスパック「VMAXクライマックス」)",
+        "shortName": "レックウザVMAX CSR",
+        "model": "252/184",
+        "pageUrl": "https://toreca-souba.com/cards/pk-23028",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-23028.webp",
+        "score": 12
+      },
+      "itemId": 461,
+      "itemKey": "tb-461",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "レックウザVMAX[S8b] CSR 252/184",
+      "tag": "PSA10",
+      "price": 39000,
+      "priceText": "39,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1766315902_ffc378b4c90281f15283.jpg",
+      "imageAlt": "レックウザVMAX[S8b] CSR 252/184",
+      "addUrl": "",
+      "pageNumber": 2,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "searchKey": "レックウザvmaxs8bcsr252184psa10レックウザvmaxs8bcsr252184",
+      "model": "S8B 252/184",
+      "modelKey": "S8B252/184",
+      "setKey": "S8B",
+      "numberKey": "252/184",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
+    },
+    {
+      "key": "pk-67338",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-67338",
+        "name": "ゼクロムex SAR [SV11B 169/086](拡張パック「ブラックボルト」)",
+        "shortName": "ゼクロムex SAR",
+        "model": "169/086",
+        "pageUrl": "https://toreca-souba.com/cards/pk-67338",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-67338.webp",
+        "score": 12
+      },
+      "itemId": 497,
+      "itemKey": "tb-497",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "ゼクロムex[SV11B] SAR 169/086",
+      "tag": "PSA10",
+      "price": 39000,
+      "priceText": "39,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1760242704_51a079c43524d08abac2.jpg",
+      "imageAlt": "ゼクロムex[SV11B] SAR 169/086",
+      "addUrl": "",
+      "pageNumber": 2,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "searchKey": "ゼクロムexsv11bsar169086psa10ゼクロムexsv11bsar169086",
+      "model": "SV11B 169/086",
+      "modelKey": "SV11B169/086",
+      "setKey": "SV11B",
+      "numberKey": "169/086",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
+    },
+    {
+      "key": "pk-17456",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-17456",
+        "name": "リザードンV SSR[S4a 307/190](ハイクラスパック「シャイニースターV」)",
+        "shortName": "リザードンV SSR",
+        "model": "307/190",
+        "pageUrl": "https://toreca-souba.com/cards/pk-17456",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-17456.webp",
+        "score": 12
+      },
+      "itemId": 324,
+      "itemKey": "tb-324",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "リザードンV[S4a] SSR 307/190",
+      "tag": "PSA10",
+      "price": 39000,
+      "priceText": "39,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1780286944_26fa231b489aebfc649c.jpg",
+      "imageAlt": "リザードンV[S4a] SSR 307/190",
+      "addUrl": "",
+      "pageNumber": 2,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "searchKey": "リザードンvs4assr307190psa10リザードンvs4assr307190",
+      "model": "S4A 307/190",
+      "modelKey": "S4A307/190",
+      "setKey": "S4A",
+      "numberKey": "307/190",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
+    },
+    {
+      "key": "pk-60261",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-60261",
+        "name": "ピカチュウex UR [SV8 136/106](拡張パック「超電ブレイカー」)",
+        "shortName": "ピカチュウex UR",
+        "model": "136/106",
+        "pageUrl": "https://toreca-souba.com/cards/pk-60261",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-60261.webp",
+        "score": 12
+      },
+      "itemId": 353,
+      "itemKey": "tb-353",
+      "dataMax": 3,
+      "isCustomItem": false,
+      "className": "item ",
+      "name": "ピカチュウex[SV8] UR 136/106",
+      "tag": "PSA10",
+      "price": 39000,
+      "priceText": "39,000円",
+      "stockText": "残り3点",
+      "isClosed": false,
+      "isRecruiting": true,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1747586974_9e740a102d7720973849.jpg",
+      "imageAlt": "ピカチュウex[SV8] UR 136/106",
+      "addUrl": "https://store.torecabank.com/line",
+      "pageNumber": 2,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "searchKey": "ピカチュウexsv8ur136106psa10ピカチュウexsv8ur136106",
+      "model": "SV8 136/106",
+      "modelKey": "SV8136/106",
+      "setKey": "SV8",
+      "numberKey": "136/106",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
+    },
+    {
+      "key": "pk-51077",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-51077",
+        "name": "サーナイトex SAR [SV4a 348/190](ハイクラスパック「シャイニートレジャーex」)",
+        "shortName": "サーナイトex SAR",
+        "model": "348/190",
+        "pageUrl": "https://toreca-souba.com/cards/pk-51077",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-51077.webp",
+        "score": 12
+      },
+      "itemId": 322,
+      "itemKey": "tb-322",
+      "dataMax": 2,
+      "isCustomItem": false,
+      "className": "item ",
+      "name": "サーナイトex[SV4a] SAR 348/190",
+      "tag": "PSA10",
+      "price": 39000,
+      "priceText": "39,000円",
+      "stockText": "残り2点",
+      "isClosed": false,
+      "isRecruiting": true,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1760187661_aba7ef12de1ad8422254.jpg",
+      "imageAlt": "サーナイトex[SV4a] SAR 348/190",
+      "addUrl": "https://store.torecabank.com/line",
+      "pageNumber": 2,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "searchKey": "サーナイトexsv4asar348190psa10サーナイトexsv4asar348190",
+      "model": "SV4A 348/190",
+      "modelKey": "SV4A348/190",
+      "setKey": "SV4A",
+      "numberKey": "348/190",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
+    },
+    {
+      "key": "x-100543",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "x-100543",
+        "name": "ルギアV : プロモ[S-P 322](プロモーションカード「S-P」)",
+        "shortName": "ルギアV : プロモ",
+        "model": "S-P 322",
+        "pageUrl": "https://toreca-souba.com/cards/x-100543",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-100543.webp",
+        "score": 12
+      },
       "itemId": 2371,
       "itemKey": "tb-2371",
       "dataMax": 4,
@@ -6625,11 +6961,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "searchKey": "ルギアvミステリーボックスpromo322sppsa10ルギアvミステリーボックスpromo322sp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "model": "S-P 322",
+      "modelKey": "S-P322",
+      "setKey": "S-P",
+      "numberKey": "322",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-43859",
@@ -6669,7 +7005,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV2A200/165",
       "setKey": "SV2A",
       "numberKey": "200/165",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-65284",
@@ -6709,7 +7045,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV10124/098",
       "setKey": "SV10",
       "numberKey": "124/098",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "x-128265",
@@ -6749,7 +7085,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV2A150/165",
       "setKey": "SV2A",
       "numberKey": "150/165",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "tb-226",
@@ -6777,43 +7113,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "searchKey": "ポケモンブリーダーsm3sr077072psa10ポケモンブリーダーsm3sr077072",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
-    },
-    {
-      "key": "tb-240",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": null,
-      "itemId": 240,
-      "itemKey": "tb-240",
-      "dataMax": 11,
-      "isCustomItem": false,
-      "className": "item ",
-      "name": "ブラッキー(マスターボールミラー) - 092/187",
-      "tag": "PSA10",
-      "price": 36000,
-      "priceText": "36,000円",
-      "stockText": "残り11点",
-      "isClosed": false,
-      "isRecruiting": true,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1745782579_07c3fc4b8532ff330691.jpg",
-      "imageAlt": "ブラッキー(マスターボールミラー) - 092/187",
-      "addUrl": "https://store.torecabank.com/line",
-      "pageNumber": 2,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "searchKey": "ブラッキーマスターボールミラー092187psa10ブラッキーマスターボールミラー092187",
-      "model": "- 092/187",
-      "modelKey": "-092/187",
-      "setKey": "-",
-      "numberKey": "092/187",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "model": "SR 077/072",
+      "modelKey": "SR077/072",
+      "setKey": "SR",
+      "numberKey": "077/072",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "tb-2396",
@@ -6845,47 +7149,55 @@ window.TORECABANK_DATA = {
       "modelKey": "-763/742",
       "setKey": "-",
       "numberKey": "763/742",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
-      "key": "tb-477",
+      "key": "tb-240",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
       "catalog": null,
-      "itemId": 477,
-      "itemKey": "tb-477",
-      "dataMax": 6,
+      "itemId": 240,
+      "itemKey": "tb-240",
+      "dataMax": 11,
       "isCustomItem": false,
       "className": "item ",
-      "name": "イーブイ(YU NAGABA) P 062/SV-P",
+      "name": "ブラッキー(マスターボールミラー) - 092/187",
       "tag": "PSA10",
-      "price": 35000,
-      "priceText": "35,000円",
-      "stockText": "残り6点",
+      "price": 36000,
+      "priceText": "36,000円",
+      "stockText": "残り11点",
       "isClosed": false,
       "isRecruiting": true,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1750823203_e24bd2d28a046d98c5d9.jpg",
-      "imageAlt": "イーブイ(YU NAGABA) P 062/SV-P",
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1745782579_07c3fc4b8532ff330691.jpg",
+      "imageAlt": "ブラッキー(マスターボールミラー) - 092/187",
       "addUrl": "https://store.torecabank.com/line",
       "pageNumber": 2,
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "searchKey": "イーブイyunagabap062svppsa10イーブイyunagabap062svp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "searchKey": "ブラッキーマスターボールミラー092187psa10ブラッキーマスターボールミラー092187",
+      "model": "- 092/187",
+      "modelKey": "-092/187",
+      "setKey": "-",
+      "numberKey": "092/187",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
-      "key": "tb-1796",
+      "key": "x-91126",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-91126",
+        "name": "セレビィV: プロモ[S-P 175](プロモーションカード「白銀のランス・漆黒のガイスト 2BOX購入キャンペーン」)",
+        "shortName": "セレビィV: プロモ",
+        "model": "S-P 175",
+        "pageUrl": "https://toreca-souba.com/cards/x-91126",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-91126.webp",
+        "score": 12
+      },
       "itemId": 1796,
       "itemKey": "tb-1796",
       "dataMax": 2,
@@ -6905,11 +7217,51 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "searchKey": "セレビィv白銀のランス漆黒のガイスト2box購入キャンペーンpromo175sppsa10セレビィv白銀のランス漆黒のガイスト2box購入キャンペーンpromo175sp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "model": "S-P 175",
+      "modelKey": "S-P175",
+      "setKey": "S-P",
+      "numberKey": "175",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
+    },
+    {
+      "key": "x-122054",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "x-122054",
+        "name": "イーブイ: プロモ [SV-P 062](「YU NAGABA×ポケモンカードゲーム」プロモーションカード「SV-P」)",
+        "shortName": "イーブイ: プロモ",
+        "model": "SV-P 062",
+        "pageUrl": "https://toreca-souba.com/cards/x-122054",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-122054.webp",
+        "score": 12
+      },
+      "itemId": 477,
+      "itemKey": "tb-477",
+      "dataMax": 6,
+      "isCustomItem": false,
+      "className": "item ",
+      "name": "イーブイ(YU NAGABA) P 062/SV-P",
+      "tag": "PSA10",
+      "price": 35000,
+      "priceText": "35,000円",
+      "stockText": "残り6点",
+      "isClosed": false,
+      "isRecruiting": true,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1750823203_e24bd2d28a046d98c5d9.jpg",
+      "imageAlt": "イーブイ(YU NAGABA) P 062/SV-P",
+      "addUrl": "https://store.torecabank.com/line",
+      "pageNumber": 2,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "searchKey": "イーブイyunagabap062svppsa10イーブイyunagabap062svp",
+      "model": "SV-P 062",
+      "modelKey": "SV-P062",
+      "setKey": "SV-P",
+      "numberKey": "062",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-73734",
@@ -6949,7 +7301,7 @@ window.TORECABANK_DATA = {
       "modelKey": "M2A237/193",
       "setKey": "M2A",
       "numberKey": "237/193",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-1894",
@@ -6989,7 +7341,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM8101/095",
       "setKey": "SM8",
       "numberKey": "101/095",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-38401",
@@ -7029,7 +7381,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S12A221/172",
       "setKey": "S12A",
       "numberKey": "221/172",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-38442",
@@ -7069,7 +7421,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S12A262/172",
       "setKey": "S12A",
       "numberKey": "262/172",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "tb-278",
@@ -7101,7 +7453,7 @@ window.TORECABANK_DATA = {
       "modelKey": "-419/414",
       "setKey": "-",
       "numberKey": "419/414",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-20737",
@@ -7141,7 +7493,47 @@ window.TORECABANK_DATA = {
       "modelKey": "S6A071/069",
       "setKey": "S6A",
       "numberKey": "071/069",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
+    },
+    {
+      "key": "x-91114",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "x-91114",
+        "name": "マリィ(マリィの練習): プロモ[S-P 140](プロモーションカード「S-P」)",
+        "shortName": "マリィ",
+        "model": "S-P 140",
+        "pageUrl": "https://toreca-souba.com/cards/x-91114",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-91114.webp",
+        "score": 12
+      },
+      "itemId": 1267,
+      "itemKey": "tb-1267",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "マリィ(トレーナーカードコレクション マリィの練習) PROMO 140/S-P",
+      "tag": "PSA10",
+      "price": 34000,
+      "priceText": "34,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1782800418_6f34df42c5a38e17fa77.jpg",
+      "imageAlt": "マリィ(トレーナーカードコレクション マリィの練習) PROMO 140/S-P",
+      "addUrl": "",
+      "pageNumber": 2,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
+      "searchKey": "マリィトレーナーカードコレクションマリィの練習promo140sppsa10マリィトレーナーカードコレクションマリィの練習promo140sp",
+      "model": "S-P 140",
+      "modelKey": "S-P140",
+      "setKey": "S-P",
+      "numberKey": "140",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-78742",
@@ -7181,7 +7573,7 @@ window.TORECABANK_DATA = {
       "modelKey": "M3115/080",
       "setKey": "M3",
       "numberKey": "115/080",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "x-321522",
@@ -7221,47 +7613,23 @@ window.TORECABANK_DATA = {
       "modelKey": "SM11011/094",
       "setKey": "SM11",
       "numberKey": "011/094",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
-      "key": "tb-1267",
+      "key": "x-407854",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
-      "itemId": 1267,
-      "itemKey": "tb-1267",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "マリィ(トレーナーカードコレクション マリィの練習) PROMO 140/S-P",
-      "tag": "PSA10",
-      "price": 34000,
-      "priceText": "34,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1782800418_6f34df42c5a38e17fa77.jpg",
-      "imageAlt": "マリィ(トレーナーカードコレクション マリィの練習) PROMO 140/S-P",
-      "addUrl": "",
-      "pageNumber": 2,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
-      "searchKey": "マリィトレーナーカードコレクションマリィの練習promo140sppsa10マリィトレーナーカードコレクションマリィの練習promo140sp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
-    },
-    {
-      "key": "tb-587",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-407854",
+        "name": "ピカチュウ P [SM-P 367](プロモーションカード「スペシャルジャンボカードパック ミュウツー&ミュウGX」)",
+        "shortName": "ピカチュウ P",
+        "model": "SM-P 367",
+        "pageUrl": "https://toreca-souba.com/cards/x-407854",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-407854.webp",
+        "score": 12
+      },
       "itemId": 587,
       "itemKey": "tb-587",
       "dataMax": 1,
@@ -7281,11 +7649,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=2",
       "searchKey": "ピカチュウスペシャルジャンボカードパックミュウツーミュウgxpromo367smppsa10ピカチュウスペシャルジャンボカードパックミュウツーampミュウgxpromo367smp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "model": "SM-P 367",
+      "modelKey": "SM-P367",
+      "setKey": "SM-P",
+      "numberKey": "367",
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-53298",
@@ -7325,7 +7693,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV5K097/071",
       "setKey": "SV5K",
       "numberKey": "097/071",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-43861",
@@ -7365,7 +7733,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV2A202/165",
       "setKey": "SV2A",
       "numberKey": "202/165",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-54812",
@@ -7405,7 +7773,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV5A092/066",
       "setKey": "SV5A",
       "numberKey": "092/066",
-      "collectedAt": "2026-08-19T06:01:23.215Z"
+      "collectedAt": "2026-08-19T06:03:26.441Z"
     },
     {
       "key": "pk-22392",
@@ -7445,7 +7813,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8A-P014/025",
       "setKey": "S8A-P",
       "numberKey": "014/025",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-23010",
@@ -7485,7 +7853,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8B234/184",
       "setKey": "S8B",
       "numberKey": "234/184",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-36373",
@@ -7525,15 +7893,23 @@ window.TORECABANK_DATA = {
       "modelKey": "S11106/100",
       "setKey": "S11",
       "numberKey": "106/100",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
-      "key": "tb-2037",
+      "key": "x-139119",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-139119",
+        "name": "イーブイ: プロモ [SV-P 033](「 ポケモンカードゲーム教室」プロモーションカード「SV-P」)",
+        "shortName": "イーブイ: プロモ",
+        "model": "SV-P 033",
+        "pageUrl": "https://toreca-souba.com/cards/x-139119",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-139119.webp",
+        "score": 12
+      },
       "itemId": 2037,
       "itemKey": "tb-2037",
       "dataMax": 4,
@@ -7553,11 +7929,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "searchKey": "イーブイポケモンカードゲーム教室promo033svppsa10イーブイポケモンカードゲーム教室promo033svp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "model": "SV-P 033",
+      "modelKey": "SV-P033",
+      "setKey": "SV-P",
+      "numberKey": "033",
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-50965",
@@ -7597,7 +7973,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV4A236/190",
       "setKey": "SV4A",
       "numberKey": "236/190",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-23009",
@@ -7637,7 +8013,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8B233/184",
       "setKey": "S8B",
       "numberKey": "233/184",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-17347",
@@ -7677,7 +8053,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S4A198/190",
       "setKey": "S4A",
       "numberKey": "198/190",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-43865",
@@ -7717,7 +8093,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV2A206/165",
       "setKey": "SV2A",
       "numberKey": "206/165",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-22388",
@@ -7757,7 +8133,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8A-P010/025",
       "setKey": "S8A-P",
       "numberKey": "010/025",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "x-91275",
@@ -7797,7 +8173,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM12107/095",
       "setKey": "SM12",
       "numberKey": "107/095",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-62037",
@@ -7837,7 +8213,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV8A236/187",
       "setKey": "SV8A",
       "numberKey": "236/187",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-47878",
@@ -7877,7 +8253,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV3A089/062",
       "setKey": "SV3A",
       "numberKey": "089/062",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "tb-352",
@@ -7909,7 +8285,7 @@ window.TORECABANK_DATA = {
       "modelKey": "-008/032",
       "setKey": "-",
       "numberKey": "008/032",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-38392",
@@ -7949,15 +8325,23 @@ window.TORECABANK_DATA = {
       "modelKey": "S12A212/172",
       "setKey": "S12A",
       "numberKey": "212/172",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
-      "key": "tb-486",
+      "key": "x-332798",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-332798",
+        "name": "ピカチュウ P [SV-P 218](プロモカードパック「ポケカの夏がキタ!プロモカードGetキャンペーン!」)",
+        "shortName": "ピカチュウ P",
+        "model": "SV-P 218",
+        "pageUrl": "https://toreca-souba.com/cards/x-332798",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-332798.webp",
+        "score": 12
+      },
       "itemId": 486,
       "itemKey": "tb-486",
       "dataMax": 0,
@@ -7977,11 +8361,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "searchKey": "ピカチュウポケカの夏がキタプロモカードgetキャンペーンpromo218svppsa10ピカチュウポケカの夏がキタプロモカードgetキャンペーンpromo218svp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "model": "SV-P 218",
+      "modelKey": "SV-P218",
+      "setKey": "SV-P",
+      "numberKey": "218",
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-23008",
@@ -8021,15 +8405,23 @@ window.TORECABANK_DATA = {
       "modelKey": "S8B232/184",
       "setKey": "S8B",
       "numberKey": "232/184",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
-      "key": "tb-2040",
+      "key": "x-334018",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-334018",
+        "name": "ピカチュウ: プロモ P [S-P 124](ピカピカ!ピカチュウ!プロモカードキャンペーン)",
+        "shortName": "ピカチュウ: プロモ P",
+        "model": "S-P 124",
+        "pageUrl": "https://toreca-souba.com/cards/x-334018",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-334018.webp",
+        "score": 12
+      },
       "itemId": 2040,
       "itemKey": "tb-2040",
       "dataMax": 13,
@@ -8049,19 +8441,27 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "searchKey": "ピカチュウピカピカピカチュウプロモカードキャンペーンp124sppsa10ピカチュウピカピカピカチュウプロモカードキャンペーンp124sp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "model": "S-P 124",
+      "modelKey": "S-P124",
+      "setKey": "S-P",
+      "numberKey": "124",
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
-      "key": "tb-510",
+      "key": "x-122056",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-122056",
+        "name": "サンダース: プロモ [SV-P 064](「YU NAGABA×ポケモンカードゲーム」プロモーションカード「SV-P」)",
+        "shortName": "サンダース: プロモ",
+        "model": "SV-P 064",
+        "pageUrl": "https://toreca-souba.com/cards/x-122056",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-122056.webp",
+        "score": 12
+      },
       "itemId": 510,
       "itemKey": "tb-510",
       "dataMax": 0,
@@ -8081,19 +8481,27 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "searchKey": "サンダースyunagabap064svppsa10サンダースyunagabap064svp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "model": "SV-P 064",
+      "modelKey": "SV-P064",
+      "setKey": "SV-P",
+      "numberKey": "064",
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
-      "key": "tb-480",
+      "key": "x-122055",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-122055",
+        "name": "シャワーズ: プロモ [SV-P 063](「YU NAGABA×ポケモンカードゲーム」プロモーションカード「SV-P」)",
+        "shortName": "シャワーズ: プロモ",
+        "model": "SV-P 063",
+        "pageUrl": "https://toreca-souba.com/cards/x-122055",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-122055.webp",
+        "score": 12
+      },
       "itemId": 480,
       "itemKey": "tb-480",
       "dataMax": 1,
@@ -8113,11 +8521,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "searchKey": "シャワーズyunagabapromo063svppsa10シャワーズyunagabapromo063svp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "model": "SV-P 063",
+      "modelKey": "SV-P063",
+      "setKey": "SV-P",
+      "numberKey": "063",
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-51079",
@@ -8157,15 +8565,23 @@ window.TORECABANK_DATA = {
       "modelKey": "SV4A350/190",
       "setKey": "SV4A",
       "numberKey": "350/190",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
-      "key": "tb-501",
+      "key": "x-122060",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-122060",
+        "name": "リーフィア: プロモ [SV-P 068](「YU NAGABA×ポケモンカードゲーム」プロモーションカード「SV-P」)",
+        "shortName": "リーフィア: プロモ",
+        "model": "SV-P 068",
+        "pageUrl": "https://toreca-souba.com/cards/x-122060",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-122060.webp",
+        "score": 12
+      },
       "itemId": 501,
       "itemKey": "tb-501",
       "dataMax": 0,
@@ -8185,11 +8601,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "searchKey": "リーフィアyunagabap068svppsa10リーフィアyunagabap068svp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "model": "SV-P 068",
+      "modelKey": "SV-P068",
+      "setKey": "SV-P",
+      "numberKey": "068",
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-43863",
@@ -8229,15 +8645,23 @@ window.TORECABANK_DATA = {
       "modelKey": "SV2A204/165",
       "setKey": "SV2A",
       "numberKey": "204/165",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
-      "key": "tb-487",
+      "key": "x-122058",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-122058",
+        "name": "エーフィ: プロモ [SV-P 066](「YU NAGABA×ポケモンカードゲーム」プロモーションカード「SV-P」)",
+        "shortName": "エーフィ: プロモ",
+        "model": "SV-P 066",
+        "pageUrl": "https://toreca-souba.com/cards/x-122058",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-122058.webp",
+        "score": 12
+      },
       "itemId": 487,
       "itemKey": "tb-487",
       "dataMax": 0,
@@ -8257,19 +8681,27 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "searchKey": "エーフィyunagabap066svppsa10エーフィyunagabap066svp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "model": "SV-P 066",
+      "modelKey": "SV-P066",
+      "setKey": "SV-P",
+      "numberKey": "066",
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
-      "key": "tb-482",
+      "key": "x-122061",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-122061",
+        "name": "グレイシア: プロモ [SV-P 069](「YU NAGABA×ポケモンカードゲーム」プロモーションカード「SV-P」)",
+        "shortName": "グレイシア: プロモ",
+        "model": "SV-P 069",
+        "pageUrl": "https://toreca-souba.com/cards/x-122061",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-122061.webp",
+        "score": 12
+      },
       "itemId": 482,
       "itemKey": "tb-482",
       "dataMax": 7,
@@ -8289,11 +8721,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "searchKey": "グレイシアyunagabap069svppsa10グレイシアyunagabap069svp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "model": "SV-P 069",
+      "modelKey": "SV-P069",
+      "setKey": "SV-P",
+      "numberKey": "069",
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-2463",
@@ -8333,7 +8765,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM8B206/150",
       "setKey": "SM8B",
       "numberKey": "206/150",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "x-128245",
@@ -8373,7 +8805,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV2A129/165",
       "setKey": "SV2A",
       "numberKey": "129/165",
-      "collectedAt": "2026-08-19T06:01:23.222Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-23020",
@@ -8413,7 +8845,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8B244/184",
       "setKey": "S8B",
       "numberKey": "244/184",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-38440",
@@ -8453,7 +8885,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S12A260/172",
       "setKey": "S12A",
       "numberKey": "260/172",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-22381",
@@ -8493,7 +8925,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8A-P003/025",
       "setKey": "S8A-P",
       "numberKey": "003/025",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-38439",
@@ -8533,15 +8965,23 @@ window.TORECABANK_DATA = {
       "modelKey": "S12A259/172",
       "setKey": "S12A",
       "numberKey": "259/172",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
-      "key": "tb-484",
+      "key": "x-122062",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-122062",
+        "name": "ニンフィア: プロモ [SV-P 070](「YU NAGABA×ポケモンカードゲーム」プロモーションカード「SV-P」)",
+        "shortName": "ニンフィア: プロモ",
+        "model": "SV-P 070",
+        "pageUrl": "https://toreca-souba.com/cards/x-122062",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-122062.webp",
+        "score": 12
+      },
       "itemId": 484,
       "itemKey": "tb-484",
       "dataMax": 0,
@@ -8561,11 +9001,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "searchKey": "ニンフィアyunagabap070svppsa10ニンフィアyunagabap070svp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "model": "SV-P 070",
+      "modelKey": "SV-P070",
+      "setKey": "SV-P",
+      "numberKey": "070",
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-24424",
@@ -8605,15 +9045,23 @@ window.TORECABANK_DATA = {
       "modelKey": "S9112/100",
       "setKey": "S9",
       "numberKey": "112/100",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
-      "key": "tb-792",
+      "key": "x-441212",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-441212",
+        "name": "ニャース P [SV-P 192](スタートデッキ Generations「スペシャルバトルセット」)",
+        "shortName": "ニャース P",
+        "model": "SV-P 192",
+        "pageUrl": "https://toreca-souba.com/cards/x-441212",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-441212.webp",
+        "score": 12
+      },
       "itemId": 792,
       "itemKey": "tb-792",
       "dataMax": 0,
@@ -8633,11 +9081,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "searchKey": "ニャーススタートデッキgenerationsスペシャルバトルセットpromo192svppsa10ニャーススタートデッキgenerationsスペシャルバトルセットpromo192svp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "model": "SV-P 192",
+      "modelKey": "SV-P192",
+      "setKey": "SV-P",
+      "numberKey": "192",
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-53327",
@@ -8677,7 +9125,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV5M097/071",
       "setKey": "SV5M",
       "numberKey": "097/071",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-38419",
@@ -8717,7 +9165,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S12A239/172",
       "setKey": "S12A",
       "numberKey": "239/172",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-59574",
@@ -8757,7 +9205,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV7A086/064",
       "setKey": "SV7A",
       "numberKey": "086/064",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-35352",
@@ -8797,7 +9245,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S10A073/071",
       "setKey": "S10A",
       "numberKey": "073/071",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-58241",
@@ -8837,7 +9285,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV7131/102",
       "setKey": "SV7",
       "numberKey": "131/102",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-5192",
@@ -8877,7 +9325,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM11B058/049",
       "setKey": "SM11B",
       "numberKey": "058/049",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-65286",
@@ -8917,7 +9365,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV10126/098",
       "setKey": "SV10",
       "numberKey": "126/098",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-34743",
@@ -8957,7 +9405,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S10D075/067",
       "setKey": "S10D",
       "numberKey": "075/067",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-2706",
@@ -8997,7 +9445,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM9109/095",
       "setKey": "SM9",
       "numberKey": "109/095",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "pk-22398",
@@ -9037,7 +9485,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8A-P020/025",
       "setKey": "S8A-P",
       "numberKey": "020/025",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.450Z"
     },
     {
       "key": "tb-326",
@@ -9065,11 +9513,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "searchKey": "カヒリsr065060psa10カヒリsr065060",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "model": "SR 065/060",
+      "modelKey": "SR065/060",
+      "setKey": "SR",
+      "numberKey": "065/060",
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-37020",
@@ -9109,7 +9557,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S11A081/068",
       "setKey": "S11A",
       "numberKey": "081/068",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-67278",
@@ -9149,7 +9597,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV11B109/086",
       "setKey": "SV11B",
       "numberKey": "109/086",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "tb-1334",
@@ -9177,11 +9625,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "searchKey": "メガサーナイトexsar087063psa10メガサーナイトexsar087063",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "model": "SAR 087/063",
+      "modelKey": "SAR087/063",
+      "setKey": "SAR",
+      "numberKey": "087/063",
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-60247",
@@ -9200,14 +9648,14 @@ window.TORECABANK_DATA = {
       },
       "itemId": 417,
       "itemKey": "tb-417",
-      "dataMax": 44,
+      "dataMax": 38,
       "isCustomItem": false,
       "className": "item ",
       "name": "ピカチュウex[SV8] SR 122/106",
       "tag": "PSA10",
       "price": 23000,
       "priceText": "23,000円",
-      "stockText": "残り44点",
+      "stockText": "残り38点",
       "isClosed": false,
       "isRecruiting": true,
       "imageUrl": "https://store.torecabank.com/uploads/product_master/1746259834_0ffbaad42f1ccbda3e43.jpg",
@@ -9221,7 +9669,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV8122/106",
       "setKey": "SV8",
       "numberKey": "122/106",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-43862",
@@ -9261,7 +9709,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV2A203/165",
       "setKey": "SV2A",
       "numberKey": "203/165",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-67582",
@@ -9301,7 +9749,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV11W173/086",
       "setKey": "SV11W",
       "numberKey": "173/086",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-45930",
@@ -9341,7 +9789,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV3139/108",
       "setKey": "SV3",
       "numberKey": "139/108",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "tb-531",
@@ -9373,7 +9821,7 @@ window.TORECABANK_DATA = {
       "modelKey": "-001/028",
       "setKey": "-",
       "numberKey": "001/028",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-62012",
@@ -9413,7 +9861,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV8A211/187",
       "setKey": "SV8A",
       "numberKey": "211/187",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-20177",
@@ -9453,7 +9901,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S6K080/070",
       "setKey": "S6K",
       "numberKey": "080/070",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-2020",
@@ -9493,7 +9941,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM8A058/052",
       "setKey": "SM8A",
       "numberKey": "058/052",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "x-128129",
@@ -9533,7 +9981,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV2A004/165",
       "setKey": "SV2A",
       "numberKey": "004/165",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-2242",
@@ -9573,7 +10021,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM8B215/150",
       "setKey": "SM8B",
       "numberKey": "215/150",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-70047",
@@ -9613,7 +10061,7 @@ window.TORECABANK_DATA = {
       "modelKey": "M1L088/063",
       "setKey": "M1L",
       "numberKey": "088/063",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "tb-438",
@@ -9641,11 +10089,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "searchKey": "ロケット団のミュウツーexur130098psa10ロケット団のミュウツーexur130098",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "model": "UR 130/098",
+      "modelKey": "UR130/098",
+      "setKey": "UR",
+      "numberKey": "130/098",
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "tb-316",
@@ -9673,19 +10121,27 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "searchKey": "クララsr082070psa10クララsr082070",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "model": "SR 082/070",
+      "modelKey": "SR082/070",
+      "setKey": "SR",
+      "numberKey": "082/070",
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
-      "key": "tb-342",
+      "key": "x-111991",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-111991",
+        "name": "コライドン: プロモ [SV-P 049](プロモーションカード「SV-P」)",
+        "shortName": "コライドン: プロモ",
+        "model": "SV-P 049",
+        "pageUrl": "https://toreca-souba.com/cards/x-111991",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-111991.webp",
+        "score": 12
+      },
       "itemId": 342,
       "itemKey": "tb-342",
       "dataMax": 0,
@@ -9705,11 +10161,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "searchKey": "コライドンシールド戦トリプレットビートpromo049svppsa10コライドンシールド戦トリプレットビートpromo049svp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "model": "SV-P 049",
+      "modelKey": "SV-P049",
+      "setKey": "SV-P",
+      "numberKey": "049",
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-43855",
@@ -9749,7 +10205,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV2A196/165",
       "setKey": "SV2A",
       "numberKey": "196/165",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-40601",
@@ -9789,7 +10245,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV1A099/073",
       "setKey": "SV1A",
       "numberKey": "099/073",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-18256",
@@ -9829,7 +10285,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S5R074/070",
       "setKey": "S5R",
       "numberKey": "074/070",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-22399",
@@ -9869,7 +10325,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8A-P021/025",
       "setKey": "S8A-P",
       "numberKey": "021/025",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-22380",
@@ -9909,7 +10365,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8A-P002/025",
       "setKey": "S8A-P",
       "numberKey": "002/025",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "x-128131",
@@ -9949,7 +10405,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV2A007/165",
       "setKey": "SV2A",
       "numberKey": "007/165",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-67342",
@@ -9989,7 +10445,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV11B173/086",
       "setKey": "SV11B",
       "numberKey": "173/086",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-63634",
@@ -10029,15 +10485,23 @@ window.TORECABANK_DATA = {
       "modelKey": "SV9125/100",
       "setKey": "SV9",
       "numberKey": "125/100",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
-      "key": "tb-596",
+      "key": "x-289056",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-289056",
+        "name": "ピカチュウ: プロモ P [S-P 272](プロモーションカード「S-P」)",
+        "shortName": "ピカチュウ: プロモ P",
+        "model": "S-P 272",
+        "pageUrl": "https://toreca-souba.com/cards/x-289056",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-289056.webp",
+        "score": 12
+      },
       "itemId": 596,
       "itemKey": "tb-596",
       "dataMax": 0,
@@ -10057,11 +10521,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "searchKey": "ピカチュウpokémongoカードファイルセットpromo272sppsa10ピカチュウpokémongoカードファイルセットpromo272sp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "model": "S-P 272",
+      "modelKey": "S-P272",
+      "setKey": "S-P",
+      "numberKey": "272",
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-22369",
@@ -10101,7 +10565,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8A024/028",
       "setKey": "S8A",
       "numberKey": "024/028",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-22367",
@@ -10141,7 +10605,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8A022/028",
       "setKey": "S8A",
       "numberKey": "022/028",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "tb-356",
@@ -10169,11 +10633,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "searchKey": "ラフレシアgxsr062049psa10ラフレシアgxsr062049",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "model": "SR 062/049",
+      "modelKey": "SR062/049",
+      "setKey": "SR",
+      "numberKey": "062/049",
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-62001",
@@ -10213,7 +10677,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV8A200/187",
       "setKey": "SV8A",
       "numberKey": "200/187",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-38363",
@@ -10253,7 +10717,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S12A183/172",
       "setKey": "S12A",
       "numberKey": "183/172",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-60256",
@@ -10293,7 +10757,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV8131/106",
       "setKey": "SV8",
       "numberKey": "131/106",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-22383",
@@ -10333,7 +10797,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8A-P005/025",
       "setKey": "S8A-P",
       "numberKey": "005/025",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-23007",
@@ -10373,7 +10837,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8B231/184",
       "setKey": "S8B",
       "numberKey": "231/184",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "tb-2400",
@@ -10405,7 +10869,7 @@ window.TORECABANK_DATA = {
       "modelKey": "-743/742",
       "setKey": "-",
       "numberKey": "743/742",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "tb-413",
@@ -10437,7 +10901,7 @@ window.TORECABANK_DATA = {
       "modelKey": "-062/187",
       "setKey": "-",
       "numberKey": "062/187",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-41853",
@@ -10477,7 +10941,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV2D091/071",
       "setKey": "SV2D",
       "numberKey": "091/071",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-70078",
@@ -10517,7 +10981,7 @@ window.TORECABANK_DATA = {
       "modelKey": "M1S090/063",
       "setKey": "M1S",
       "numberKey": "090/063",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-43842",
@@ -10557,7 +11021,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV2A183/165",
       "setKey": "SV2A",
       "numberKey": "183/165",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-23031",
@@ -10597,15 +11061,23 @@ window.TORECABANK_DATA = {
       "modelKey": "S8B255/184",
       "setKey": "S8B",
       "numberKey": "255/184",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
-      "key": "tb-4316",
+      "key": "x-334017",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-334017",
+        "name": "ピカチュウV: プロモ P [S-P 122](ピカピカ!ピカチュウ!プロモカードキャンペーン)",
+        "shortName": "ピカチュウV: プロモ P",
+        "model": "S-P 122",
+        "pageUrl": "https://toreca-souba.com/cards/x-334017",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-334017.webp",
+        "score": 12
+      },
       "itemId": 4316,
       "itemKey": "tb-4316",
       "dataMax": 4,
@@ -10625,19 +11097,27 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "searchKey": "ピカチュウvピカピカピカチュウプロモカードキャンペーンpromo122sppsa10ピカチュウvピカピカピカチュウプロモカードキャンペーンpromo122sp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "model": "S-P 122",
+      "modelKey": "S-P122",
+      "setKey": "S-P",
+      "numberKey": "122",
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
-      "key": "tb-4502",
+      "key": "x-413429",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
+      "catalog": {
+        "id": "x-413429",
+        "name": "カメックスEX P [XY-P 234](スペシャルパック「カメックスメガバトル」)",
+        "shortName": "カメックスEX P",
+        "model": "XY-P 234",
+        "pageUrl": "https://toreca-souba.com/cards/x-413429",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-413429.webp",
+        "score": 12
+      },
       "itemId": 4502,
       "itemKey": "tb-4502",
       "dataMax": 1,
@@ -10657,11 +11137,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "searchKey": "カメックスexカメックスメガバトルスペシャルパックpromo234xyppsa10カメックスexカメックスメガバトルスペシャルパックpromo234xyp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "model": "XY-P 234",
+      "modelKey": "XY-P234",
+      "setKey": "XY-P",
+      "numberKey": "234",
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-23052",
@@ -10701,7 +11181,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8B276/184",
       "setKey": "S8B",
       "numberKey": "276/184",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-62007",
@@ -10741,7 +11221,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV8A206/187",
       "setKey": "SV8A",
       "numberKey": "206/187",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-39551",
@@ -10781,7 +11261,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV1V100/078",
       "setKey": "SV1V",
       "numberKey": "100/078",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "tb-466",
@@ -10809,11 +11289,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=3",
       "searchKey": "ヒスイの仲間たちsr249172psa10ヒスイの仲間たちsr249172",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "model": "SR 249/172",
+      "modelKey": "SR249/172",
+      "setKey": "SR",
+      "numberKey": "249/172",
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-62024",
@@ -10853,7 +11333,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV8A223/187",
       "setKey": "SV8A",
       "numberKey": "223/187",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-54798",
@@ -10893,7 +11373,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV5A078/066",
       "setKey": "SV5A",
       "numberKey": "078/066",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-43830",
@@ -10933,7 +11413,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV2A171/165",
       "setKey": "SV2A",
       "numberKey": "171/165",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-43844",
@@ -10973,7 +11453,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV2A185/165",
       "setKey": "SV2A",
       "numberKey": "185/165",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-43832",
@@ -11013,7 +11493,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV2A173/165",
       "setKey": "SV2A",
       "numberKey": "173/165",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-63636",
@@ -11053,7 +11533,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV9127/100",
       "setKey": "SV9",
       "numberKey": "127/100",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-38390",
@@ -11093,7 +11573,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S12A210/172",
       "setKey": "S12A",
       "numberKey": "210/172",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-43827",
@@ -11133,7 +11613,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV2A168/165",
       "setKey": "SV2A",
       "numberKey": "168/165",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "tb-1702",
@@ -11165,7 +11645,7 @@ window.TORECABANK_DATA = {
       "modelKey": "-002/021",
       "setKey": "-",
       "numberKey": "002/021",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "pk-38397",
@@ -11205,39 +11685,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S12A217/172",
       "setKey": "S12A",
       "numberKey": "217/172",
-      "collectedAt": "2026-08-19T06:01:23.223Z"
-    },
-    {
-      "key": "tb-384",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": null,
-      "itemId": 384,
-      "itemKey": "tb-384",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "イーブイ(マスターボールミラー) - 125/187",
-      "tag": "PSA10",
-      "price": 16000,
-      "priceText": "16,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1745782505_e5f47222346c54708657.jpg",
-      "imageAlt": "イーブイ(マスターボールミラー) - 125/187",
-      "addUrl": "",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "イーブイマスターボールミラー125187psa10イーブイマスターボールミラー125187",
-      "model": "- 125/187",
-      "modelKey": "-125/187",
-      "setKey": "-",
-      "numberKey": "125/187",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.451Z"
     },
     {
       "key": "tb-439",
@@ -11265,11 +11713,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "searchKey": "ロケット団のクロバットexsar127098psa10ロケット団のクロバットexsar127098",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "model": "SAR 127/098",
+      "modelKey": "SAR127/098",
+      "setKey": "SAR",
+      "numberKey": "127/098",
+      "collectedAt": "2026-08-19T06:03:26.459Z"
     },
     {
       "key": "pk-21477",
@@ -11309,159 +11757,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S7R077/067",
       "setKey": "S7R",
       "numberKey": "077/067",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
-    },
-    {
-      "key": "pk-60260",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-60260",
-        "name": "ミカンのまなざし SAR [SV8 135/106](拡張パック「超電ブレイカー」)",
-        "shortName": "ミカンのまなざし SAR",
-        "model": "135/106",
-        "pageUrl": "https://toreca-souba.com/cards/pk-60260",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-60260.webp",
-        "score": 12
-      },
-      "itemId": 396,
-      "itemKey": "tb-396",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "ミカンのまなざし[SV8] SAR 135/106",
-      "tag": "PSA10",
-      "price": 15000,
-      "priceText": "15,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1760522458_e2cc56dec5e16d5d1eb9.jpg",
-      "imageAlt": "ミカンのまなざし[SV8] SAR 135/106",
-      "addUrl": "",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "ミカンのまなざしsv8sar135106psa10ミカンのまなざしsv8sar135106",
-      "model": "SV8 135/106",
-      "modelKey": "SV8135/106",
-      "setKey": "SV8",
-      "numberKey": "135/106",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
-    },
-    {
-      "key": "pk-54813",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-54813",
-        "name": "スイレンのお世話 SAR [SV5a 093/066](強化拡張パック「クリムゾンヘイズ」)",
-        "shortName": "スイレンのお世話 SAR",
-        "model": "093/066",
-        "pageUrl": "https://toreca-souba.com/cards/pk-54813",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-54813.webp",
-        "score": 12
-      },
-      "itemId": 388,
-      "itemKey": "tb-388",
-      "dataMax": 12,
-      "isCustomItem": false,
-      "className": "item ",
-      "name": "スイレンのお世話[SV5a] SAR 093/066",
-      "tag": "PSA10",
-      "price": 15000,
-      "priceText": "15,000円",
-      "stockText": "残り12点",
-      "isClosed": false,
-      "isRecruiting": true,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1760188015_3c117bb06ae6a4dd786a.jpg",
-      "imageAlt": "スイレンのお世話[SV5a] SAR 093/066",
-      "addUrl": "https://store.torecabank.com/line",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "スイレンのお世話sv5asar093066psa10スイレンのお世話sv5asar093066",
-      "model": "SV5A 093/066",
-      "modelKey": "SV5A093/066",
-      "setKey": "SV5A",
-      "numberKey": "093/066",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
-    },
-    {
-      "key": "tb-475",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": null,
-      "itemId": 475,
-      "itemKey": "tb-475",
-      "dataMax": 2,
-      "isCustomItem": false,
-      "className": "item ",
-      "name": "カミツレのきらめき SR 113/100",
-      "tag": "PSA10",
-      "price": 15000,
-      "priceText": "15,000円",
-      "stockText": "残り2点",
-      "isClosed": false,
-      "isRecruiting": true,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1750823489_a67f1ef424f99f0af2c0.jpg",
-      "imageAlt": "カミツレのきらめき SR 113/100",
-      "addUrl": "https://store.torecabank.com/line",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "カミツレのきらめきsr113100psa10カミツレのきらめきsr113100",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
-    },
-    {
-      "key": "pk-17344",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-17344",
-        "name": "フウロ SR[S4a 195/190](ハイクラスパック「シャイニースターV」)",
-        "shortName": "フウロ SR",
-        "model": "195/190",
-        "pageUrl": "https://toreca-souba.com/cards/pk-17344",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-17344.webp",
-        "score": 12
-      },
-      "itemId": 378,
-      "itemKey": "tb-378",
-      "dataMax": 1,
-      "isCustomItem": false,
-      "className": "item ",
-      "name": "フウロ[S4a] SR 195/190",
-      "tag": "PSA10",
-      "price": 15000,
-      "priceText": "15,000円",
-      "stockText": "残り1点",
-      "isClosed": false,
-      "isRecruiting": true,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1783342442_67866ec6cf244d8a8ea8.jpg",
-      "imageAlt": "フウロ[S4a] SR 195/190",
-      "addUrl": "https://store.torecabank.com/line",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "フウロs4asr195190psa10フウロs4asr195190",
-      "model": "S4A 195/190",
-      "modelKey": "S4A195/190",
-      "setKey": "S4A",
-      "numberKey": "195/190",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.459Z"
     },
     {
       "key": "pk-62025",
@@ -11501,7 +11797,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV8A224/187",
       "setKey": "SV8A",
       "numberKey": "224/187",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.459Z"
     },
     {
       "key": "tb-1639",
@@ -11533,7 +11829,7 @@ window.TORECABANK_DATA = {
       "modelKey": "-023/022",
       "setKey": "-",
       "numberKey": "023/022",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.459Z"
     },
     {
       "key": "pk-70046",
@@ -11573,7 +11869,7 @@ window.TORECABANK_DATA = {
       "modelKey": "M1L087/063",
       "setKey": "M1L",
       "numberKey": "087/063",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.459Z"
     },
     {
       "key": "tb-449",
@@ -11601,11 +11897,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "searchKey": "カスミのラプラスar072063psa10カスミのラプラスar072063",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "model": "AR 072/063",
+      "modelKey": "AR072/063",
+      "setKey": "AR",
+      "numberKey": "072/063",
+      "collectedAt": "2026-08-19T06:03:26.459Z"
     },
     {
       "key": "pk-22966",
@@ -11645,7 +11941,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8B187/184",
       "setKey": "S8B",
       "numberKey": "187/184",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.459Z"
     },
     {
       "key": "tb-404",
@@ -11673,51 +11969,163 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "searchKey": "ナタネの活気sr078067psa10ナタネの活気sr078067",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "model": "SR 078/067",
+      "modelKey": "SR078/067",
+      "setKey": "SR",
+      "numberKey": "078/067",
+      "collectedAt": "2026-08-19T06:03:26.459Z"
     },
     {
-      "key": "pk-34766",
+      "key": "pk-60260",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
       "catalog": {
-        "id": "pk-34766",
-        "name": "カイ SR[S10P 077/067](拡張パック「スペースジャグラー」)",
-        "shortName": "カイ SR",
-        "model": "077/067",
-        "pageUrl": "https://toreca-souba.com/cards/pk-34766",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-34766.webp",
+        "id": "pk-60260",
+        "name": "ミカンのまなざし SAR [SV8 135/106](拡張パック「超電ブレイカー」)",
+        "shortName": "ミカンのまなざし SAR",
+        "model": "135/106",
+        "pageUrl": "https://toreca-souba.com/cards/pk-60260",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-60260.webp",
         "score": 12
       },
-      "itemId": 341,
-      "itemKey": "tb-341",
-      "dataMax": 7,
+      "itemId": 396,
+      "itemKey": "tb-396",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "ミカンのまなざし[SV8] SAR 135/106",
+      "tag": "PSA10",
+      "price": 15000,
+      "priceText": "15,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1760522458_e2cc56dec5e16d5d1eb9.jpg",
+      "imageAlt": "ミカンのまなざし[SV8] SAR 135/106",
+      "addUrl": "",
+      "pageNumber": 4,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "searchKey": "ミカンのまなざしsv8sar135106psa10ミカンのまなざしsv8sar135106",
+      "model": "SV8 135/106",
+      "modelKey": "SV8135/106",
+      "setKey": "SV8",
+      "numberKey": "135/106",
+      "collectedAt": "2026-08-19T06:03:26.459Z"
+    },
+    {
+      "key": "pk-54813",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-54813",
+        "name": "スイレンのお世話 SAR [SV5a 093/066](強化拡張パック「クリムゾンヘイズ」)",
+        "shortName": "スイレンのお世話 SAR",
+        "model": "093/066",
+        "pageUrl": "https://toreca-souba.com/cards/pk-54813",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-54813.webp",
+        "score": 12
+      },
+      "itemId": 388,
+      "itemKey": "tb-388",
+      "dataMax": 12,
       "isCustomItem": false,
       "className": "item ",
-      "name": "カイ[S10P] SR 077/067",
+      "name": "スイレンのお世話[SV5a] SAR 093/066",
       "tag": "PSA10",
-      "price": 14000,
-      "priceText": "14,000円",
-      "stockText": "残り7点",
+      "price": 15000,
+      "priceText": "15,000円",
+      "stockText": "残り12点",
       "isClosed": false,
       "isRecruiting": true,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1774687734_a4fbe0f3dc698244cb72.jpg",
-      "imageAlt": "カイ[S10P] SR 077/067",
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1760188015_3c117bb06ae6a4dd786a.jpg",
+      "imageAlt": "スイレンのお世話[SV5a] SAR 093/066",
       "addUrl": "https://store.torecabank.com/line",
       "pageNumber": 4,
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "カイs10psr077067psa10カイs10psr077067",
-      "model": "S10P 077/067",
-      "modelKey": "S10P077/067",
-      "setKey": "S10P",
-      "numberKey": "077/067",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "searchKey": "スイレンのお世話sv5asar093066psa10スイレンのお世話sv5asar093066",
+      "model": "SV5A 093/066",
+      "modelKey": "SV5A093/066",
+      "setKey": "SV5A",
+      "numberKey": "093/066",
+      "collectedAt": "2026-08-19T06:03:26.459Z"
+    },
+    {
+      "key": "pk-17344",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-17344",
+        "name": "フウロ SR[S4a 195/190](ハイクラスパック「シャイニースターV」)",
+        "shortName": "フウロ SR",
+        "model": "195/190",
+        "pageUrl": "https://toreca-souba.com/cards/pk-17344",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-17344.webp",
+        "score": 12
+      },
+      "itemId": 378,
+      "itemKey": "tb-378",
+      "dataMax": 1,
+      "isCustomItem": false,
+      "className": "item ",
+      "name": "フウロ[S4a] SR 195/190",
+      "tag": "PSA10",
+      "price": 15000,
+      "priceText": "15,000円",
+      "stockText": "残り1点",
+      "isClosed": false,
+      "isRecruiting": true,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1783342442_67866ec6cf244d8a8ea8.jpg",
+      "imageAlt": "フウロ[S4a] SR 195/190",
+      "addUrl": "https://store.torecabank.com/line",
+      "pageNumber": 4,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "searchKey": "フウロs4asr195190psa10フウロs4asr195190",
+      "model": "S4A 195/190",
+      "modelKey": "S4A195/190",
+      "setKey": "S4A",
+      "numberKey": "195/190",
+      "collectedAt": "2026-08-19T06:03:26.459Z"
+    },
+    {
+      "key": "tb-475",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": null,
+      "itemId": 475,
+      "itemKey": "tb-475",
+      "dataMax": 2,
+      "isCustomItem": false,
+      "className": "item ",
+      "name": "カミツレのきらめき SR 113/100",
+      "tag": "PSA10",
+      "price": 15000,
+      "priceText": "15,000円",
+      "stockText": "残り2点",
+      "isClosed": false,
+      "isRecruiting": true,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1750823489_a67f1ef424f99f0af2c0.jpg",
+      "imageAlt": "カミツレのきらめき SR 113/100",
+      "addUrl": "https://store.torecabank.com/line",
+      "pageNumber": 4,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "searchKey": "カミツレのきらめきsr113100psa10カミツレのきらめきsr113100",
+      "model": "SR 113/100",
+      "modelKey": "SR113/100",
+      "setKey": "SR",
+      "numberKey": "113/100",
+      "collectedAt": "2026-08-19T06:03:26.459Z"
     },
     {
       "key": "x-471586",
@@ -11757,7 +12165,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV8A030/187",
       "setKey": "SV8A",
       "numberKey": "030/187",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.459Z"
     },
     {
       "key": "tb-407",
@@ -11789,7 +12197,7 @@ window.TORECABANK_DATA = {
       "modelKey": "-040/187",
       "setKey": "-",
       "numberKey": "040/187",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.459Z"
     },
     {
       "key": "pk-23034",
@@ -11829,7 +12237,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8B258/184",
       "setKey": "S8B",
       "numberKey": "258/184",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.459Z"
     },
     {
       "key": "tb-415",
@@ -11861,7 +12269,7 @@ window.TORECABANK_DATA = {
       "modelKey": "-021/187",
       "setKey": "-",
       "numberKey": "021/187",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.459Z"
     },
     {
       "key": "pk-20752",
@@ -11901,7 +12309,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S6A086/069",
       "setKey": "S6A",
       "numberKey": "086/069",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.459Z"
     },
     {
       "key": "tb-408",
@@ -11933,7 +12341,7 @@ window.TORECABANK_DATA = {
       "modelKey": "-002/187",
       "setKey": "-",
       "numberKey": "002/187",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.459Z"
     },
     {
       "key": "pk-39553",
@@ -11973,7 +12381,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV1V102/078",
       "setKey": "SV1V",
       "numberKey": "102/078",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.459Z"
     },
     {
       "key": "x-124079",
@@ -12013,7 +12421,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SM11B020/049",
       "setKey": "SM11B",
       "numberKey": "020/049",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.459Z"
     },
     {
       "key": "pk-22366",
@@ -12053,183 +12461,47 @@ window.TORECABANK_DATA = {
       "modelKey": "S8A021/028",
       "setKey": "S8A",
       "numberKey": "021/028",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.459Z"
     },
     {
-      "key": "tb-456",
+      "key": "pk-34766",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
-      "itemId": 456,
-      "itemKey": "tb-456",
-      "dataMax": 1,
+      "catalog": {
+        "id": "pk-34766",
+        "name": "カイ SR[S10P 077/067](拡張パック「スペースジャグラー」)",
+        "shortName": "カイ SR",
+        "model": "077/067",
+        "pageUrl": "https://toreca-souba.com/cards/pk-34766",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-34766.webp",
+        "score": 12
+      },
+      "itemId": 341,
+      "itemKey": "tb-341",
+      "dataMax": 7,
       "isCustomItem": false,
       "className": "item ",
-      "name": "ジャローダV CSR 084/068",
+      "name": "カイ[S10P] SR 077/067",
       "tag": "PSA10",
-      "price": 13000,
-      "priceText": "13,000円",
-      "stockText": "残り1点",
+      "price": 14000,
+      "priceText": "14,000円",
+      "stockText": "残り7点",
       "isClosed": false,
       "isRecruiting": true,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1747379593_55b333b85a7898e9b775.jpg",
-      "imageAlt": "ジャローダV CSR 084/068",
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1774687734_a4fbe0f3dc698244cb72.jpg",
+      "imageAlt": "カイ[S10P] SR 077/067",
       "addUrl": "https://store.torecabank.com/line",
       "pageNumber": 4,
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "ジャローダvcsr084068psa10ジャローダvcsr084068",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
-    },
-    {
-      "key": "pk-49682",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-49682",
-        "name": "チルタリスex SAR[SV4M 090/066](拡張パック「未来の一閃」) PARADOX RIFT",
-        "shortName": "チルタリスex SAR",
-        "model": "090/066",
-        "pageUrl": "https://toreca-souba.com/cards/pk-49682",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-49682.webp",
-        "score": 12
-      },
-      "itemId": 1540,
-      "itemKey": "tb-1540",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "チルタリスex[SV4M] SAR 090/066",
-      "tag": "PSA10",
-      "price": 13000,
-      "priceText": "13,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1782480572_a0b3fa1705100746f315.png",
-      "imageAlt": "チルタリスex[SV4M] SAR 090/066",
-      "addUrl": "",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "チルタリスexsv4msar090066psa10チルタリスexsv4msar090066",
-      "model": "SV4M 090/066",
-      "modelKey": "SV4M090/066",
-      "setKey": "SV4M",
-      "numberKey": "090/066",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
-    },
-    {
-      "key": "tb-419",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": null,
-      "itemId": 419,
-      "itemKey": "tb-419",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "ピカチュウ(ポケットモンスター『スカーレット』『バイオレット』パッケージ版 早期購入特典) PROMO 001/SV-P",
-      "tag": "PSA10",
-      "price": 13000,
-      "priceText": "13,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1774687769_a8f2adbed0bf2fa566ef.jpg",
-      "imageAlt": "ピカチュウ(ポケットモンスター『スカーレット』『バイオレット』パッケージ版 早期購入特典) PROMO 001/SV-P",
-      "addUrl": "",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "ピカチュウポケットモンスタースカーレットバイオレットパッケージ版早期購入特典promo001svppsa10ピカチュウポケットモンスタースカーレットバイオレットパッケージ版早期購入特典promo001svp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
-    },
-    {
-      "key": "pk-70076",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-70076",
-        "name": "メガラティアスex SAR [M1S 088/063](拡張パック「メガシンフォニア」)",
-        "shortName": "メガラティアスex SAR",
-        "model": "088/063",
-        "pageUrl": "https://toreca-souba.com/cards/pk-70076",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-70076.webp",
-        "score": 12
-      },
-      "itemId": 1555,
-      "itemKey": "tb-1555",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "メガラティアスex [M1S] SAR 088/063",
-      "tag": "PSA10",
-      "price": 13000,
-      "priceText": "13,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1761148939_73b9df9d81d9922454f6.jpg",
-      "imageAlt": "メガラティアスex [M1S] SAR 088/063",
-      "addUrl": "",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "メガラティアスexm1ssar088063psa10メガラティアスexm1ssar088063",
-      "model": "M1S 088/063",
-      "modelKey": "M1S088/063",
-      "setKey": "M1S",
-      "numberKey": "088/063",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
-    },
-    {
-      "key": "tb-391",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": null,
-      "itemId": 391,
-      "itemKey": "tb-391",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "スズナ SR 113/098",
-      "tag": "PSA10",
-      "price": 13000,
-      "priceText": "13,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/s12_12.jpg",
-      "imageAlt": "スズナ SR 113/098",
-      "addUrl": "",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "スズナsr113098psa10スズナsr113098",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "searchKey": "カイs10psr077067psa10カイs10psr077067",
+      "model": "S10P 077/067",
+      "modelKey": "S10P077/067",
+      "setKey": "S10P",
+      "numberKey": "077/067",
+      "collectedAt": "2026-08-19T06:03:26.459Z"
     },
     {
       "key": "pk-62019",
@@ -12269,7 +12541,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV8A218/187",
       "setKey": "SV8A",
       "numberKey": "218/187",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.459Z"
     },
     {
       "key": "pk-43828",
@@ -12309,7 +12581,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV2A169/165",
       "setKey": "SV2A",
       "numberKey": "169/165",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.459Z"
     },
     {
       "key": "pk-63624",
@@ -12349,7 +12621,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV9115/100",
       "setKey": "SV9",
       "numberKey": "115/100",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.459Z"
     },
     {
       "key": "pk-67337",
@@ -12389,7 +12661,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV11B168/086",
       "setKey": "SV11B",
       "numberKey": "168/086",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.459Z"
     },
     {
       "key": "pk-60258",
@@ -12429,7 +12701,191 @@ window.TORECABANK_DATA = {
       "modelKey": "SV8133/106",
       "setKey": "SV8",
       "numberKey": "133/106",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.459Z"
+    },
+    {
+      "key": "pk-49682",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-49682",
+        "name": "チルタリスex SAR[SV4M 090/066](拡張パック「未来の一閃」) PARADOX RIFT",
+        "shortName": "チルタリスex SAR",
+        "model": "090/066",
+        "pageUrl": "https://toreca-souba.com/cards/pk-49682",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-49682.webp",
+        "score": 12
+      },
+      "itemId": 1540,
+      "itemKey": "tb-1540",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "チルタリスex[SV4M] SAR 090/066",
+      "tag": "PSA10",
+      "price": 13000,
+      "priceText": "13,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1782480572_a0b3fa1705100746f315.png",
+      "imageAlt": "チルタリスex[SV4M] SAR 090/066",
+      "addUrl": "",
+      "pageNumber": 4,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "searchKey": "チルタリスexsv4msar090066psa10チルタリスexsv4msar090066",
+      "model": "SV4M 090/066",
+      "modelKey": "SV4M090/066",
+      "setKey": "SV4M",
+      "numberKey": "090/066",
+      "collectedAt": "2026-08-19T06:03:26.459Z"
+    },
+    {
+      "key": "tb-456",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": null,
+      "itemId": 456,
+      "itemKey": "tb-456",
+      "dataMax": 1,
+      "isCustomItem": false,
+      "className": "item ",
+      "name": "ジャローダV CSR 084/068",
+      "tag": "PSA10",
+      "price": 13000,
+      "priceText": "13,000円",
+      "stockText": "残り1点",
+      "isClosed": false,
+      "isRecruiting": true,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1747379593_55b333b85a7898e9b775.jpg",
+      "imageAlt": "ジャローダV CSR 084/068",
+      "addUrl": "https://store.torecabank.com/line",
+      "pageNumber": 4,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "searchKey": "ジャローダvcsr084068psa10ジャローダvcsr084068",
+      "model": "CSR 084/068",
+      "modelKey": "CSR084/068",
+      "setKey": "CSR",
+      "numberKey": "084/068",
+      "collectedAt": "2026-08-19T06:03:26.459Z"
+    },
+    {
+      "key": "tb-391",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": null,
+      "itemId": 391,
+      "itemKey": "tb-391",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "スズナ SR 113/098",
+      "tag": "PSA10",
+      "price": 13000,
+      "priceText": "13,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/s12_12.jpg",
+      "imageAlt": "スズナ SR 113/098",
+      "addUrl": "",
+      "pageNumber": 4,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "searchKey": "スズナsr113098psa10スズナsr113098",
+      "model": "SR 113/098",
+      "modelKey": "SR113/098",
+      "setKey": "SR",
+      "numberKey": "113/098",
+      "collectedAt": "2026-08-19T06:03:26.459Z"
+    },
+    {
+      "key": "pk-38015",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-38015",
+        "name": "ピカチュウ: プロモ [001/SV-P](プロモーションカード「SV-P」)",
+        "shortName": "ピカチュウ: プロモ",
+        "model": "001/SV-P",
+        "pageUrl": "https://toreca-souba.com/cards/pk-38015",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-38015.webp",
+        "score": 12
+      },
+      "itemId": 419,
+      "itemKey": "tb-419",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "ピカチュウ(ポケットモンスター『スカーレット』『バイオレット』パッケージ版 早期購入特典) PROMO 001/SV-P",
+      "tag": "PSA10",
+      "price": 13000,
+      "priceText": "13,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1774687769_a8f2adbed0bf2fa566ef.jpg",
+      "imageAlt": "ピカチュウ(ポケットモンスター『スカーレット』『バイオレット』パッケージ版 早期購入特典) PROMO 001/SV-P",
+      "addUrl": "",
+      "pageNumber": 4,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "searchKey": "ピカチュウポケットモンスタースカーレットバイオレットパッケージ版早期購入特典promo001svppsa10ピカチュウポケットモンスタースカーレットバイオレットパッケージ版早期購入特典promo001svp",
+      "model": "SV-P 001",
+      "modelKey": "SV-P001",
+      "setKey": "SV-P",
+      "numberKey": "001",
+      "collectedAt": "2026-08-19T06:03:26.459Z"
+    },
+    {
+      "key": "pk-70076",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-70076",
+        "name": "メガラティアスex SAR [M1S 088/063](拡張パック「メガシンフォニア」)",
+        "shortName": "メガラティアスex SAR",
+        "model": "088/063",
+        "pageUrl": "https://toreca-souba.com/cards/pk-70076",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-70076.webp",
+        "score": 12
+      },
+      "itemId": 1555,
+      "itemKey": "tb-1555",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "メガラティアスex [M1S] SAR 088/063",
+      "tag": "PSA10",
+      "price": 13000,
+      "priceText": "13,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1761148939_73b9df9d81d9922454f6.jpg",
+      "imageAlt": "メガラティアスex [M1S] SAR 088/063",
+      "addUrl": "",
+      "pageNumber": 4,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "searchKey": "メガラティアスexm1ssar088063psa10メガラティアスexm1ssar088063",
+      "model": "M1S 088/063",
+      "modelKey": "M1S088/063",
+      "setKey": "M1S",
+      "numberKey": "088/063",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-22972",
@@ -12469,7 +12925,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8B193/184",
       "setKey": "S8B",
       "numberKey": "193/184",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-23857",
@@ -12509,295 +12965,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8A-G006/015",
       "setKey": "S8A-G",
       "numberKey": "006/015",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
-    },
-    {
-      "key": "tb-2199",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": null,
-      "itemId": 2199,
-      "itemKey": "tb-2199",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "エーフィ＆デオキシスGX[SMM] RR 001/031",
-      "tag": "PSA10",
-      "price": 12000,
-      "priceText": "12,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1768112325_9d5d8d4a6b4811a10b04.jpg",
-      "imageAlt": "エーフィ＆デオキシスGX[SMM] RR 001/031",
-      "addUrl": "",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "エーフィデオキシスgxsmmrr001031psa10エーフィデオキシスgxsmmrr001031",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
-    },
-    {
-      "key": "pk-22368",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-22368",
-        "name": "そらをとぶピカチュウV RR[s8a 023/028](拡張パック「25th アニバーサリーコレクション」)",
-        "shortName": "そらをとぶピカチュウV RR",
-        "model": "023/028",
-        "pageUrl": "https://toreca-souba.com/cards/pk-22368",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-22368.webp",
-        "score": 12
-      },
-      "itemId": 1279,
-      "itemKey": "tb-1279",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "そらをとぶピカチュウV[S8a] RR 023/028",
-      "tag": "PSA10",
-      "price": 12000,
-      "priceText": "12,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1778341199_3086c819150939323dd3.jpg",
-      "imageAlt": "そらをとぶピカチュウV[S8a] RR 023/028",
-      "addUrl": "",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "そらをとぶピカチュウvs8arr023028psa10そらをとぶピカチュウvs8arr023028",
-      "model": "S8A 023/028",
-      "modelKey": "S8A023/028",
-      "setKey": "S8A",
-      "numberKey": "023/028",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
-    },
-    {
-      "key": "tb-2062",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": null,
-      "itemId": 2062,
-      "itemKey": "tb-2062",
-      "dataMax": 1,
-      "isCustomItem": false,
-      "className": "item ",
-      "name": "リザードン(第2回ポケモンカードゲームイラストグランプリ) P 143/S-P",
-      "tag": "PSA10",
-      "price": 12000,
-      "priceText": "12,000円",
-      "stockText": "残り1点",
-      "isClosed": false,
-      "isRecruiting": true,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1766126843_d063ddd711362f093e67.jpg",
-      "imageAlt": "リザードン(第2回ポケモンカードゲームイラストグランプリ) P 143/S-P",
-      "addUrl": "https://store.torecabank.com/line",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "リザードン第2回ポケモンカードゲームイラストグランプリp143sppsa10リザードン第2回ポケモンカードゲームイラストグランプリp143sp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
-    },
-    {
-      "key": "tb-1257",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": null,
-      "itemId": 1257,
-      "itemKey": "tb-1257",
-      "dataMax": 3,
-      "isCustomItem": false,
-      "className": "item ",
-      "name": "ナタネの活気 SAR 243/172",
-      "tag": "PSA10",
-      "price": 12000,
-      "priceText": "12,000円",
-      "stockText": "残り3点",
-      "isClosed": false,
-      "isRecruiting": true,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1755144895_b5992e5497ed732aa8fd.jpg",
-      "imageAlt": "ナタネの活気 SAR 243/172",
-      "addUrl": "https://store.torecabank.com/line",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "ナタネの活気sar243172psa10ナタネの活気sar243172",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
-    },
-    {
-      "key": "pk-20744",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-20744",
-        "name": "サンダースV SR[S6a 078/069](強化拡張パック「イーブイヒーローズ」)",
-        "shortName": "サンダースV SR",
-        "model": "078/069",
-        "pageUrl": "https://toreca-souba.com/cards/pk-20744",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-20744.webp",
-        "score": 12
-      },
-      "itemId": 1982,
-      "itemKey": "tb-1982",
-      "dataMax": 1,
-      "isCustomItem": false,
-      "className": "item ",
-      "name": "サンダースV[S6a] SR 078/069",
-      "tag": "PSA10",
-      "price": 12000,
-      "priceText": "12,000円",
-      "stockText": "残り1点",
-      "isClosed": false,
-      "isRecruiting": true,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1771743719_0821555e6450593274e2.jpg",
-      "imageAlt": "サンダースV[S6a] SR 078/069",
-      "addUrl": "https://store.torecabank.com/line",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "サンダースvs6asr078069psa10サンダースvs6asr078069",
-      "model": "S6A 078/069",
-      "modelKey": "S6A078/069",
-      "setKey": "S6A",
-      "numberKey": "078/069",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
-    },
-    {
-      "key": "pk-20738",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-20738",
-        "name": "ブースターV SR[S6a 072/069](強化拡張パック「イーブイヒーローズ」)",
-        "shortName": "ブースターV SR",
-        "model": "072/069",
-        "pageUrl": "https://toreca-souba.com/cards/pk-20738",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-20738.webp",
-        "score": 12
-      },
-      "itemId": 1874,
-      "itemKey": "tb-1874",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "ブースターV[S6a] SR 072/069",
-      "tag": "PSA10",
-      "price": 12000,
-      "priceText": "12,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1764667930_0801e9102498e8c2238d.jpg",
-      "imageAlt": "ブースターV[S6a] SR 072/069",
-      "addUrl": "",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "ブースターvs6asr072069psa10ブースターvs6asr072069",
-      "model": "S6A 072/069",
-      "modelKey": "S6A072/069",
-      "setKey": "S6A",
-      "numberKey": "072/069",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
-    },
-    {
-      "key": "tb-401",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": null,
-      "itemId": 401,
-      "itemKey": "tb-401",
-      "dataMax": 1,
-      "isCustomItem": false,
-      "className": "item ",
-      "name": "ルミタン SR 157/150",
-      "tag": "PSA10",
-      "price": 12000,
-      "priceText": "12,000円",
-      "stockText": "残り1点",
-      "isClosed": false,
-      "isRecruiting": true,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/usfoil157.jpg",
-      "imageAlt": "ルミタン SR 157/150",
-      "addUrl": "https://store.torecabank.com/line",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "ルミタンsr157150psa10ルミタンsr157150",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
-    },
-    {
-      "key": "pk-35365",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-35365",
-        "name": "ヒナツ SR[S10a 086/071](強化拡張パック「ダークファンタズマ」)",
-        "shortName": "ヒナツ SR",
-        "model": "086/071",
-        "pageUrl": "https://toreca-souba.com/cards/pk-35365",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-35365.webp",
-        "score": 12
-      },
-      "itemId": 1536,
-      "itemKey": "tb-1536",
-      "dataMax": 1,
-      "isCustomItem": false,
-      "className": "item ",
-      "name": "ヒナツ[S10a] SR 086/071",
-      "tag": "PSA10",
-      "price": 12000,
-      "priceText": "12,000円",
-      "stockText": "残り1点",
-      "isClosed": false,
-      "isRecruiting": true,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1782549967_67a8649c1f4522935c82.jpg",
-      "imageAlt": "ヒナツ[S10a] SR 086/071",
-      "addUrl": "https://store.torecabank.com/line",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "ヒナツs10asr086071psa10ヒナツs10asr086071",
-      "model": "S10A 086/071",
-      "modelKey": "S10A086/071",
-      "setKey": "S10A",
-      "numberKey": "086/071",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-71697",
@@ -12837,47 +13005,47 @@ window.TORECABANK_DATA = {
       "modelKey": "M2094/080",
       "setKey": "M2",
       "numberKey": "094/080",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
-      "key": "pk-36381",
+      "key": "pk-35365",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
       "catalog": {
-        "id": "pk-36381",
-        "name": "おじょうさま SR[S11 114/100](拡張パック「ロストアビス」)",
-        "shortName": "おじょうさま SR",
-        "model": "114/100",
-        "pageUrl": "https://toreca-souba.com/cards/pk-36381",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-36381.webp",
+        "id": "pk-35365",
+        "name": "ヒナツ SR[S10a 086/071](強化拡張パック「ダークファンタズマ」)",
+        "shortName": "ヒナツ SR",
+        "model": "086/071",
+        "pageUrl": "https://toreca-souba.com/cards/pk-35365",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-35365.webp",
         "score": 12
       },
-      "itemId": 506,
-      "itemKey": "tb-506",
-      "dataMax": 6,
+      "itemId": 1536,
+      "itemKey": "tb-1536",
+      "dataMax": 1,
       "isCustomItem": false,
       "className": "item ",
-      "name": "おじょうさま[S11] SR 114/100",
+      "name": "ヒナツ[S10a] SR 086/071",
       "tag": "PSA10",
       "price": 12000,
       "priceText": "12,000円",
-      "stockText": "残り6点",
+      "stockText": "残り1点",
       "isClosed": false,
       "isRecruiting": true,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1783488244_ca1e6921fe8130a53782.jpg",
-      "imageAlt": "おじょうさま[S11] SR 114/100",
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1782549967_67a8649c1f4522935c82.jpg",
+      "imageAlt": "ヒナツ[S10a] SR 086/071",
       "addUrl": "https://store.torecabank.com/line",
       "pageNumber": 4,
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "おじょうさまs11sr114100psa10おじょうさまs11sr114100",
-      "model": "S11 114/100",
-      "modelKey": "S11114/100",
-      "setKey": "S11",
-      "numberKey": "114/100",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "searchKey": "ヒナツs10asr086071psa10ヒナツs10asr086071",
+      "model": "S10A 086/071",
+      "modelKey": "S10A086/071",
+      "setKey": "S10A",
+      "numberKey": "086/071",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-22115",
@@ -12917,39 +13085,47 @@ window.TORECABANK_DATA = {
       "modelKey": "S8040/100",
       "setKey": "S8",
       "numberKey": "040/100",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
-      "key": "tb-528",
+      "key": "pk-36381",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
-      "itemId": 528,
-      "itemKey": "tb-528",
-      "dataMax": 0,
+      "catalog": {
+        "id": "pk-36381",
+        "name": "おじょうさま SR[S11 114/100](拡張パック「ロストアビス」)",
+        "shortName": "おじょうさま SR",
+        "model": "114/100",
+        "pageUrl": "https://toreca-souba.com/cards/pk-36381",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-36381.webp",
+        "score": 12
+      },
+      "itemId": 506,
+      "itemKey": "tb-506",
+      "dataMax": 6,
       "isCustomItem": false,
-      "className": "item closed",
-      "name": "ピカチュウ[SV-P] P 242/SV-P",
+      "className": "item ",
+      "name": "おじょうさま[S11] SR 114/100",
       "tag": "PSA10",
       "price": 12000,
       "priceText": "12,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1752956621_adb3259994f589ac199f.jpg",
-      "imageAlt": "ピカチュウ[SV-P] P 242/SV-P",
-      "addUrl": "",
+      "stockText": "残り6点",
+      "isClosed": false,
+      "isRecruiting": true,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1783488244_ca1e6921fe8130a53782.jpg",
+      "imageAlt": "おじょうさま[S11] SR 114/100",
+      "addUrl": "https://store.torecabank.com/line",
       "pageNumber": 4,
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "ピカチュウsvpp242svppsa10ピカチュウsvpp242svp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "searchKey": "おじょうさまs11sr114100psa10おじょうさまs11sr114100",
+      "model": "S11 114/100",
+      "modelKey": "S11114/100",
+      "setKey": "S11",
+      "numberKey": "114/100",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-37021",
@@ -12989,7 +13165,47 @@ window.TORECABANK_DATA = {
       "modelKey": "S11A082/068",
       "setKey": "S11A",
       "numberKey": "082/068",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
+    },
+    {
+      "key": "x-518774",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "x-518774",
+        "name": "ピカチュウ [SV-P 242](プロモカードパック「イラストレーションコンテスト 2024 受賞作品プロモカード化記念キャンペーン」)",
+        "shortName": "ピカチュウ",
+        "model": "SV-P 242",
+        "pageUrl": "https://toreca-souba.com/cards/x-518774",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-518774.webp",
+        "score": 12
+      },
+      "itemId": 528,
+      "itemKey": "tb-528",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "ピカチュウ[SV-P] P 242/SV-P",
+      "tag": "PSA10",
+      "price": 12000,
+      "priceText": "12,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1752956621_adb3259994f589ac199f.jpg",
+      "imageAlt": "ピカチュウ[SV-P] P 242/SV-P",
+      "addUrl": "",
+      "pageNumber": 4,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "searchKey": "ピカチュウsvpp242svppsa10ピカチュウsvpp242svp",
+      "model": "SV-P 242",
+      "modelKey": "SV-P242",
+      "setKey": "SV-P",
+      "numberKey": "242",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-70072",
@@ -13029,7 +13245,7 @@ window.TORECABANK_DATA = {
       "modelKey": "M1S084/063",
       "setKey": "M1S",
       "numberKey": "084/063",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-35754",
@@ -13069,7 +13285,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S10B028/071",
       "setKey": "S10B",
       "numberKey": "028/071",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-38427",
@@ -13109,7 +13325,263 @@ window.TORECABANK_DATA = {
       "modelKey": "S12A247/172",
       "setKey": "S12A",
       "numberKey": "247/172",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
+    },
+    {
+      "key": "pk-20744",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-20744",
+        "name": "サンダースV SR[S6a 078/069](強化拡張パック「イーブイヒーローズ」)",
+        "shortName": "サンダースV SR",
+        "model": "078/069",
+        "pageUrl": "https://toreca-souba.com/cards/pk-20744",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-20744.webp",
+        "score": 12
+      },
+      "itemId": 1982,
+      "itemKey": "tb-1982",
+      "dataMax": 1,
+      "isCustomItem": false,
+      "className": "item ",
+      "name": "サンダースV[S6a] SR 078/069",
+      "tag": "PSA10",
+      "price": 12000,
+      "priceText": "12,000円",
+      "stockText": "残り1点",
+      "isClosed": false,
+      "isRecruiting": true,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1771743719_0821555e6450593274e2.jpg",
+      "imageAlt": "サンダースV[S6a] SR 078/069",
+      "addUrl": "https://store.torecabank.com/line",
+      "pageNumber": 4,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "searchKey": "サンダースvs6asr078069psa10サンダースvs6asr078069",
+      "model": "S6A 078/069",
+      "modelKey": "S6A078/069",
+      "setKey": "S6A",
+      "numberKey": "078/069",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
+    },
+    {
+      "key": "tb-2199",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": null,
+      "itemId": 2199,
+      "itemKey": "tb-2199",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "エーフィ＆デオキシスGX[SMM] RR 001/031",
+      "tag": "PSA10",
+      "price": 12000,
+      "priceText": "12,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1768112325_9d5d8d4a6b4811a10b04.jpg",
+      "imageAlt": "エーフィ＆デオキシスGX[SMM] RR 001/031",
+      "addUrl": "",
+      "pageNumber": 4,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "searchKey": "エーフィデオキシスgxsmmrr001031psa10エーフィデオキシスgxsmmrr001031",
+      "model": "RR 001/031",
+      "modelKey": "RR001/031",
+      "setKey": "RR",
+      "numberKey": "001/031",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
+    },
+    {
+      "key": "pk-22368",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-22368",
+        "name": "そらをとぶピカチュウV RR[s8a 023/028](拡張パック「25th アニバーサリーコレクション」)",
+        "shortName": "そらをとぶピカチュウV RR",
+        "model": "023/028",
+        "pageUrl": "https://toreca-souba.com/cards/pk-22368",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-22368.webp",
+        "score": 12
+      },
+      "itemId": 1279,
+      "itemKey": "tb-1279",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "そらをとぶピカチュウV[S8a] RR 023/028",
+      "tag": "PSA10",
+      "price": 12000,
+      "priceText": "12,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1778341199_3086c819150939323dd3.jpg",
+      "imageAlt": "そらをとぶピカチュウV[S8a] RR 023/028",
+      "addUrl": "",
+      "pageNumber": 4,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "searchKey": "そらをとぶピカチュウvs8arr023028psa10そらをとぶピカチュウvs8arr023028",
+      "model": "S8A 023/028",
+      "modelKey": "S8A023/028",
+      "setKey": "S8A",
+      "numberKey": "023/028",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
+    },
+    {
+      "key": "x-128520",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "x-128520",
+        "name": "リザードン 第2回イラストグランプリ: プロモ[S-P 143](プロモーションカード「S-P」)",
+        "shortName": "リザードン 第2回イラストグランプリ: プロモ",
+        "model": "S-P 143",
+        "pageUrl": "https://toreca-souba.com/cards/x-128520",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-128520.webp",
+        "score": 12
+      },
+      "itemId": 2062,
+      "itemKey": "tb-2062",
+      "dataMax": 1,
+      "isCustomItem": false,
+      "className": "item ",
+      "name": "リザードン(第2回ポケモンカードゲームイラストグランプリ) P 143/S-P",
+      "tag": "PSA10",
+      "price": 12000,
+      "priceText": "12,000円",
+      "stockText": "残り1点",
+      "isClosed": false,
+      "isRecruiting": true,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1766126843_d063ddd711362f093e67.jpg",
+      "imageAlt": "リザードン(第2回ポケモンカードゲームイラストグランプリ) P 143/S-P",
+      "addUrl": "https://store.torecabank.com/line",
+      "pageNumber": 4,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "searchKey": "リザードン第2回ポケモンカードゲームイラストグランプリp143sppsa10リザードン第2回ポケモンカードゲームイラストグランプリp143sp",
+      "model": "S-P 143",
+      "modelKey": "S-P143",
+      "setKey": "S-P",
+      "numberKey": "143",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
+    },
+    {
+      "key": "tb-1257",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": null,
+      "itemId": 1257,
+      "itemKey": "tb-1257",
+      "dataMax": 3,
+      "isCustomItem": false,
+      "className": "item ",
+      "name": "ナタネの活気 SAR 243/172",
+      "tag": "PSA10",
+      "price": 12000,
+      "priceText": "12,000円",
+      "stockText": "残り3点",
+      "isClosed": false,
+      "isRecruiting": true,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1755144895_b5992e5497ed732aa8fd.jpg",
+      "imageAlt": "ナタネの活気 SAR 243/172",
+      "addUrl": "https://store.torecabank.com/line",
+      "pageNumber": 4,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "searchKey": "ナタネの活気sar243172psa10ナタネの活気sar243172",
+      "model": "SAR 243/172",
+      "modelKey": "SAR243/172",
+      "setKey": "SAR",
+      "numberKey": "243/172",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
+    },
+    {
+      "key": "tb-401",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": null,
+      "itemId": 401,
+      "itemKey": "tb-401",
+      "dataMax": 1,
+      "isCustomItem": false,
+      "className": "item ",
+      "name": "ルミタン SR 157/150",
+      "tag": "PSA10",
+      "price": 12000,
+      "priceText": "12,000円",
+      "stockText": "残り1点",
+      "isClosed": false,
+      "isRecruiting": true,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/usfoil157.jpg",
+      "imageAlt": "ルミタン SR 157/150",
+      "addUrl": "https://store.torecabank.com/line",
+      "pageNumber": 4,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "searchKey": "ルミタンsr157150psa10ルミタンsr157150",
+      "model": "SR 157/150",
+      "modelKey": "SR157/150",
+      "setKey": "SR",
+      "numberKey": "157/150",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
+    },
+    {
+      "key": "pk-20738",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-20738",
+        "name": "ブースターV SR[S6a 072/069](強化拡張パック「イーブイヒーローズ」)",
+        "shortName": "ブースターV SR",
+        "model": "072/069",
+        "pageUrl": "https://toreca-souba.com/cards/pk-20738",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-20738.webp",
+        "score": 12
+      },
+      "itemId": 1874,
+      "itemKey": "tb-1874",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "ブースターV[S6a] SR 072/069",
+      "tag": "PSA10",
+      "price": 12000,
+      "priceText": "12,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1764667930_0801e9102498e8c2238d.jpg",
+      "imageAlt": "ブースターV[S6a] SR 072/069",
+      "addUrl": "",
+      "pageNumber": 4,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "searchKey": "ブースターvs6asr072069psa10ブースターvs6asr072069",
+      "model": "S6A 072/069",
+      "modelKey": "S6A072/069",
+      "setKey": "S6A",
+      "numberKey": "072/069",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-22365",
@@ -13149,79 +13621,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8A020/028",
       "setKey": "S8A",
       "numberKey": "020/028",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
-    },
-    {
-      "key": "tb-1309",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": null,
-      "itemId": 1309,
-      "itemKey": "tb-1309",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "ピカチュウ(マクドナルド) PROMO 020/M-P",
-      "tag": "PSA10",
-      "price": 11000,
-      "priceText": "11,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1757147673_22d36c46c18e29d8e9c9.jpg",
-      "imageAlt": "ピカチュウ(マクドナルド) PROMO 020/M-P",
-      "addUrl": "",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "ピカチュウマクドナルドpromo020mppsa10ピカチュウマクドナルドpromo020mp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.228Z"
-    },
-    {
-      "key": "pk-38422",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-38422",
-        "name": "ツツジ SAR[s12a 242/172](ハイクラスパック「VSTARユニバース」)",
-        "shortName": "ツツジ SAR",
-        "model": "242/172",
-        "pageUrl": "https://toreca-souba.com/cards/pk-38422",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-38422.webp",
-        "score": 12
-      },
-      "itemId": 1363,
-      "itemKey": "tb-1363",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "ツツジ[S12a] SAR 242/172",
-      "tag": "PSA10",
-      "price": 11000,
-      "priceText": "11,000円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1759199613_d7a99f5feacd2fb048e8.jpg",
-      "imageAlt": "ツツジ[S12a] SAR 242/172",
-      "addUrl": "",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "ツツジs12asar242172psa10ツツジs12asar242172",
-      "model": "S12A 242/172",
-      "modelKey": "S12A242/172",
-      "setKey": "S12A",
-      "numberKey": "242/172",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-73745",
@@ -13261,7 +13661,7 @@ window.TORECABANK_DATA = {
       "modelKey": "M2A248/193",
       "setKey": "M2A",
       "numberKey": "248/193",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-62004",
@@ -13301,7 +13701,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV8A203/187",
       "setKey": "SV8A",
       "numberKey": "203/187",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-38414",
@@ -13341,7 +13741,39 @@ window.TORECABANK_DATA = {
       "modelKey": "S12A234/172",
       "setKey": "S12A",
       "numberKey": "234/172",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
+    },
+    {
+      "key": "tb-2368",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": null,
+      "itemId": 2368,
+      "itemKey": "tb-2368",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "ゼニガメ(Classic)[CLK] - 001/032",
+      "tag": "PSA10",
+      "price": 11000,
+      "priceText": "11,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1768905883_781ee4394ff19a016806.jpg",
+      "imageAlt": "ゼニガメ(Classic)[CLK] - 001/032",
+      "addUrl": "",
+      "pageNumber": 4,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "searchKey": "ゼニガメclassicclk001032psa10ゼニガメclassicclk001032",
+      "model": "- 001/032",
+      "modelKey": "-001/032",
+      "setKey": "-",
+      "numberKey": "001/032",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-71718",
@@ -13381,79 +13813,87 @@ window.TORECABANK_DATA = {
       "modelKey": "M2115/080",
       "setKey": "M2",
       "numberKey": "115/080",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
-      "key": "tb-2368",
+      "key": "x-671486",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": null,
-      "itemId": 2368,
-      "itemKey": "tb-2368",
+      "catalog": {
+        "id": "x-671486",
+        "name": "ピカチュウ P [M-P 020](プロモカードパック「マクドナルド ハッピーセット2025」)",
+        "shortName": "ピカチュウ P",
+        "model": "M-P 020",
+        "pageUrl": "https://toreca-souba.com/cards/x-671486",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-671486.webp",
+        "score": 12
+      },
+      "itemId": 1309,
+      "itemKey": "tb-1309",
       "dataMax": 0,
       "isCustomItem": false,
       "className": "item closed",
-      "name": "ゼニガメ(Classic)[CLK] - 001/032",
+      "name": "ピカチュウ(マクドナルド) PROMO 020/M-P",
       "tag": "PSA10",
       "price": 11000,
       "priceText": "11,000円",
       "stockText": "受付終了",
       "isClosed": true,
       "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1768905883_781ee4394ff19a016806.jpg",
-      "imageAlt": "ゼニガメ(Classic)[CLK] - 001/032",
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1757147673_22d36c46c18e29d8e9c9.jpg",
+      "imageAlt": "ピカチュウ(マクドナルド) PROMO 020/M-P",
       "addUrl": "",
       "pageNumber": 4,
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "ゼニガメclassicclk001032psa10ゼニガメclassicclk001032",
-      "model": "- 001/032",
-      "modelKey": "-001/032",
-      "setKey": "-",
-      "numberKey": "001/032",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "searchKey": "ピカチュウマクドナルドpromo020mppsa10ピカチュウマクドナルドpromo020mp",
+      "model": "M-P 020",
+      "modelKey": "M-P020",
+      "setKey": "M-P",
+      "numberKey": "020",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
-      "key": "pk-20742",
+      "key": "pk-38422",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
       "catalog": {
-        "id": "pk-20742",
-        "name": "グレイシアV SR[S6a 076/069](強化拡張パック「イーブイヒーローズ」)",
-        "shortName": "グレイシアV SR",
-        "model": "076/069",
-        "pageUrl": "https://toreca-souba.com/cards/pk-20742",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-20742.webp",
+        "id": "pk-38422",
+        "name": "ツツジ SAR[s12a 242/172](ハイクラスパック「VSTARユニバース」)",
+        "shortName": "ツツジ SAR",
+        "model": "242/172",
+        "pageUrl": "https://toreca-souba.com/cards/pk-38422",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-38422.webp",
         "score": 12
       },
-      "itemId": 1873,
-      "itemKey": "tb-1873",
-      "dataMax": 3,
+      "itemId": 1363,
+      "itemKey": "tb-1363",
+      "dataMax": 0,
       "isCustomItem": false,
-      "className": "item ",
-      "name": "グレイシアV[S6a] SR 076/069",
+      "className": "item closed",
+      "name": "ツツジ[S12a] SAR 242/172",
       "tag": "PSA10",
-      "price": 10000,
-      "priceText": "10,000円",
-      "stockText": "残り3点",
-      "isClosed": false,
-      "isRecruiting": true,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1764667805_8eeb98bb8fb4f48fde16.jpg",
-      "imageAlt": "グレイシアV[S6a] SR 076/069",
-      "addUrl": "https://store.torecabank.com/line",
+      "price": 11000,
+      "priceText": "11,000円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1759199613_d7a99f5feacd2fb048e8.jpg",
+      "imageAlt": "ツツジ[S12a] SAR 242/172",
+      "addUrl": "",
       "pageNumber": 4,
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "グレイシアvs6asr076069psa10グレイシアvs6asr076069",
-      "model": "S6A 076/069",
-      "modelKey": "S6A076/069",
-      "setKey": "S6A",
-      "numberKey": "076/069",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "searchKey": "ツツジs12asar242172psa10ツツジs12asar242172",
+      "model": "S12A 242/172",
+      "modelKey": "S12A242/172",
+      "setKey": "S12A",
+      "numberKey": "242/172",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-23030",
@@ -13493,47 +13933,47 @@ window.TORECABANK_DATA = {
       "modelKey": "S8B254/184",
       "setKey": "S8B",
       "numberKey": "254/184",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
-      "key": "pk-63618",
+      "key": "pk-20742",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
       "catalog": {
-        "id": "pk-63618",
-        "name": "Nのレシラム AR [SV9 109/100](拡張パック「バトルパートナーズ」)",
-        "shortName": "Nのレシラム AR",
-        "model": "109/100",
-        "pageUrl": "https://toreca-souba.com/cards/pk-63618",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-63618.webp",
+        "id": "pk-20742",
+        "name": "グレイシアV SR[S6a 076/069](強化拡張パック「イーブイヒーローズ」)",
+        "shortName": "グレイシアV SR",
+        "model": "076/069",
+        "pageUrl": "https://toreca-souba.com/cards/pk-20742",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-20742.webp",
         "score": 12
       },
-      "itemId": 409,
-      "itemKey": "tb-409",
-      "dataMax": 21,
+      "itemId": 1873,
+      "itemKey": "tb-1873",
+      "dataMax": 3,
       "isCustomItem": false,
       "className": "item ",
-      "name": "Nのレシラム[SV9] AR 109/100",
+      "name": "グレイシアV[S6a] SR 076/069",
       "tag": "PSA10",
-      "price": 9700,
-      "priceText": "9,700円",
-      "stockText": "残り21点",
+      "price": 10000,
+      "priceText": "10,000円",
+      "stockText": "残り3点",
       "isClosed": false,
       "isRecruiting": true,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1760242802_0b614b108463a0824b62.jpg",
-      "imageAlt": "Nのレシラム[SV9] AR 109/100",
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1764667805_8eeb98bb8fb4f48fde16.jpg",
+      "imageAlt": "グレイシアV[S6a] SR 076/069",
       "addUrl": "https://store.torecabank.com/line",
       "pageNumber": 4,
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "nのレシラムsv9ar109100psa10nのレシラムsv9ar109100",
-      "model": "SV9 109/100",
-      "modelKey": "SV9109/100",
-      "setKey": "SV9",
-      "numberKey": "109/100",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "searchKey": "グレイシアvs6asr076069psa10グレイシアvs6asr076069",
+      "model": "S6A 076/069",
+      "modelKey": "S6A076/069",
+      "setKey": "S6A",
+      "numberKey": "076/069",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-23856",
@@ -13573,7 +14013,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8A-G005/015",
       "setKey": "S8A-G",
       "numberKey": "005/015",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-22989",
@@ -13613,7 +14053,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8B210/184",
       "setKey": "S8B",
       "numberKey": "210/184",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-43825",
@@ -13653,7 +14093,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV2A166/165",
       "setKey": "SV2A",
       "numberKey": "166/165",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-22967",
@@ -13693,7 +14133,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8B188/184",
       "setKey": "S8B",
       "numberKey": "188/184",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-38375",
@@ -13733,7 +14173,47 @@ window.TORECABANK_DATA = {
       "modelKey": "S12A195/172",
       "setKey": "S12A",
       "numberKey": "195/172",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
+    },
+    {
+      "key": "pk-63618",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-63618",
+        "name": "Nのレシラム AR [SV9 109/100](拡張パック「バトルパートナーズ」)",
+        "shortName": "Nのレシラム AR",
+        "model": "109/100",
+        "pageUrl": "https://toreca-souba.com/cards/pk-63618",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-63618.webp",
+        "score": 12
+      },
+      "itemId": 409,
+      "itemKey": "tb-409",
+      "dataMax": 21,
+      "isCustomItem": false,
+      "className": "item ",
+      "name": "Nのレシラム[SV9] AR 109/100",
+      "tag": "PSA10",
+      "price": 9700,
+      "priceText": "9,700円",
+      "stockText": "残り21点",
+      "isClosed": false,
+      "isRecruiting": true,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1760242802_0b614b108463a0824b62.jpg",
+      "imageAlt": "Nのレシラム[SV9] AR 109/100",
+      "addUrl": "https://store.torecabank.com/line",
+      "pageNumber": 4,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "searchKey": "nのレシラムsv9ar109100psa10nのレシラムsv9ar109100",
+      "model": "SV9 109/100",
+      "modelKey": "SV9109/100",
+      "setKey": "SV9",
+      "numberKey": "109/100",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-58240",
@@ -13773,7 +14253,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV7130/102",
       "setKey": "SV7",
       "numberKey": "130/102",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-22968",
@@ -13813,39 +14293,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8B189/184",
       "setKey": "S8B",
       "numberKey": "189/184",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
-    },
-    {
-      "key": "tb-529",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": null,
-      "itemId": 529,
-      "itemKey": "tb-529",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "ピカチュウ(ジムプロモ2023) PROMO 120/SV-P",
-      "tag": "PSA10",
-      "price": 9300,
-      "priceText": "9,300円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1752956747_ef8551de325ca5845e7a.jpg",
-      "imageAlt": "ピカチュウ(ジムプロモ2023) PROMO 120/SV-P",
-      "addUrl": "",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "ピカチュウジムプロモ2023promo120svppsa10ピカチュウジムプロモ2023promo120svp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-22393",
@@ -13885,7 +14333,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8A-P015/025",
       "setKey": "S8A-P",
       "numberKey": "015/025",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-38400",
@@ -13925,79 +14373,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S12A220/172",
       "setKey": "S12A",
       "numberKey": "220/172",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
-    },
-    {
-      "key": "tb-463",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": null,
-      "itemId": 463,
-      "itemKey": "tb-463",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "マリィのモルペコ[SV0M] - 020/019",
-      "tag": "PSA10",
-      "price": 9300,
-      "priceText": "9,300円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1782800336_fd60686f423013acee6c.jpg",
-      "imageAlt": "マリィのモルペコ[SV0M] - 020/019",
-      "addUrl": "",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "マリィのモルペコsv0m020019psa10マリィのモルペコsv0m020019",
-      "model": "SV0M 020/019",
-      "modelKey": "SV0M020/019",
-      "setKey": "SV0M",
-      "numberKey": "020/019",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
-    },
-    {
-      "key": "pk-22384",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-22384",
-        "name": "ロケット団参上!: プロモ[S8a-P 006/025](プロモカードパック 25th ANNIVERSARY edition)",
-        "shortName": "ロケット団参上!: プロモ",
-        "model": "006/025",
-        "pageUrl": "https://toreca-souba.com/cards/pk-22384",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-22384.webp",
-        "score": 12
-      },
-      "itemId": 1281,
-      "itemKey": "tb-1281",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "ロケット団参上！[s8a-P] - 006/025",
-      "tag": "PSA10",
-      "price": 9300,
-      "priceText": "9,300円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1756975852_6342a2aa361699e7ff80.jpg",
-      "imageAlt": "ロケット団参上！[s8a-P] - 006/025",
-      "addUrl": "",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "ロケット団参上s8ap006025psa10ロケット団参上s8ap006025",
-      "model": "S8A-P 006/025",
-      "modelKey": "S8A-P006/025",
-      "setKey": "S8A-P",
-      "numberKey": "006/025",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-70077",
@@ -14037,15 +14413,95 @@ window.TORECABANK_DATA = {
       "modelKey": "M1S089/063",
       "setKey": "M1S",
       "numberKey": "089/063",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
-      "key": "tb-1582",
+      "key": "tb-463",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
       "catalog": null,
+      "itemId": 463,
+      "itemKey": "tb-463",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "マリィのモルペコ[SV0M] - 020/019",
+      "tag": "PSA10",
+      "price": 9300,
+      "priceText": "9,300円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1782800336_fd60686f423013acee6c.jpg",
+      "imageAlt": "マリィのモルペコ[SV0M] - 020/019",
+      "addUrl": "",
+      "pageNumber": 4,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "searchKey": "マリィのモルペコsv0m020019psa10マリィのモルペコsv0m020019",
+      "model": "SV0M 020/019",
+      "modelKey": "SV0M020/019",
+      "setKey": "SV0M",
+      "numberKey": "020/019",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
+    },
+    {
+      "key": "pk-22384",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-22384",
+        "name": "ロケット団参上!: プロモ[S8a-P 006/025](プロモカードパック 25th ANNIVERSARY edition)",
+        "shortName": "ロケット団参上!: プロモ",
+        "model": "006/025",
+        "pageUrl": "https://toreca-souba.com/cards/pk-22384",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-22384.webp",
+        "score": 12
+      },
+      "itemId": 1281,
+      "itemKey": "tb-1281",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "ロケット団参上！[s8a-P] - 006/025",
+      "tag": "PSA10",
+      "price": 9300,
+      "priceText": "9,300円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1756975852_6342a2aa361699e7ff80.jpg",
+      "imageAlt": "ロケット団参上！[s8a-P] - 006/025",
+      "addUrl": "",
+      "pageNumber": 4,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "searchKey": "ロケット団参上s8ap006025psa10ロケット団参上s8ap006025",
+      "model": "S8A-P 006/025",
+      "modelKey": "S8A-P006/025",
+      "setKey": "S8A-P",
+      "numberKey": "006/025",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
+    },
+    {
+      "key": "x-475194",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "x-475194",
+        "name": "ピカチュウ P [SV-P 197](プロモーションカード「WCS2024 開催記念」)",
+        "shortName": "ピカチュウ P",
+        "model": "SV-P 197",
+        "pageUrl": "https://toreca-souba.com/cards/x-475194",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-475194.webp",
+        "score": 12
+      },
       "itemId": 1582,
       "itemKey": "tb-1582",
       "dataMax": 7,
@@ -14065,11 +14521,51 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "searchKey": "ピカチュウジムプロモ2024promo197svppsa10ピカチュウジムプロモ2024promo197svp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "model": "SV-P 197",
+      "modelKey": "SV-P197",
+      "setKey": "SV-P",
+      "numberKey": "197",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
+    },
+    {
+      "key": "x-134393",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "x-134393",
+        "name": "ピカチュウ: プロモ [SV-P 120](プロモーションカード「SV-P」)",
+        "shortName": "ピカチュウ: プロモ",
+        "model": "SV-P 120",
+        "pageUrl": "https://toreca-souba.com/cards/x-134393",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-134393.webp",
+        "score": 12
+      },
+      "itemId": 529,
+      "itemKey": "tb-529",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "ピカチュウ(ジムプロモ2023) PROMO 120/SV-P",
+      "tag": "PSA10",
+      "price": 9300,
+      "priceText": "9,300円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1752956747_ef8551de325ca5845e7a.jpg",
+      "imageAlt": "ピカチュウ(ジムプロモ2023) PROMO 120/SV-P",
+      "addUrl": "",
+      "pageNumber": 4,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "searchKey": "ピカチュウジムプロモ2023promo120svppsa10ピカチュウジムプロモ2023promo120svp",
+      "model": "SV-P 120",
+      "modelKey": "SV-P120",
+      "setKey": "SV-P",
+      "numberKey": "120",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "tb-411",
@@ -14097,11 +14593,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "searchKey": "ボタンsr100078psa10ボタンsr100078",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "model": "SR 100/078",
+      "modelKey": "SR100/078",
+      "setKey": "SR",
+      "numberKey": "100/078",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-79883",
@@ -14141,39 +14637,7 @@ window.TORECABANK_DATA = {
       "modelKey": "M4098/083",
       "setKey": "M4",
       "numberKey": "098/083",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
-    },
-    {
-      "key": "tb-1291",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": null,
-      "itemId": 1291,
-      "itemKey": "tb-1291",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "ガブリアスCLV.X[S8a-P] - 018/025",
-      "tag": "PSA10",
-      "price": 8800,
-      "priceText": "8,800円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1756977291_521eb68cc54c2255ed29.jpg",
-      "imageAlt": "ガブリアスCLV.X[S8a-P] - 018/025",
-      "addUrl": "",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "ガブリアスclvxs8ap018025psa10ガブリアスclvxs8ap018025",
-      "model": "S8A-P 018/025",
-      "modelKey": "S8A-P018/025",
-      "setKey": "S8A-P",
-      "numberKey": "018/025",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "tb-1298",
@@ -14205,7 +14669,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8A-P008/025",
       "setKey": "S8A-P",
       "numberKey": "008/025",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-73744",
@@ -14245,7 +14709,7 @@ window.TORECABANK_DATA = {
       "modelKey": "M2A247/193",
       "setKey": "M2A",
       "numberKey": "247/193",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-70048",
@@ -14285,7 +14749,7 @@ window.TORECABANK_DATA = {
       "modelKey": "M1L089/063",
       "setKey": "M1L",
       "numberKey": "089/063",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "tb-2026",
@@ -14313,11 +14777,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "searchKey": "ゲッコウガillustrationcontest2022p339sppsa10ゲッコウガillustrationcontest2022p339sp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "model": "S-P 339",
+      "modelKey": "S-P339",
+      "setKey": "S-P",
+      "numberKey": "339",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-23018",
@@ -14357,47 +14821,39 @@ window.TORECABANK_DATA = {
       "modelKey": "S8B242/184",
       "setKey": "S8B",
       "numberKey": "242/184",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
-      "key": "pk-37013",
+      "key": "tb-1291",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-37013",
-        "name": "チルタリス CHR [s11a 074/068](強化拡張パック『白熱のアルカナ』)",
-        "shortName": "チルタリス CHR",
-        "model": "074/068",
-        "pageUrl": "https://toreca-souba.com/cards/pk-37013",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-37013.webp",
-        "score": 12
-      },
-      "itemId": 420,
-      "itemKey": "tb-420",
+      "catalog": null,
+      "itemId": 1291,
+      "itemKey": "tb-1291",
       "dataMax": 0,
       "isCustomItem": false,
       "className": "item closed",
-      "name": "チルタリス[S11a] CHR 074/068",
+      "name": "ガブリアスCLV.X[S8a-P] - 018/025",
       "tag": "PSA10",
-      "price": 8700,
-      "priceText": "8,700円",
+      "price": 8800,
+      "priceText": "8,800円",
       "stockText": "受付終了",
       "isClosed": true,
       "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1766468684_4e82cbc6c9ed9f300512.jpg",
-      "imageAlt": "チルタリス[S11a] CHR 074/068",
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1756977291_521eb68cc54c2255ed29.jpg",
+      "imageAlt": "ガブリアスCLV.X[S8a-P] - 018/025",
       "addUrl": "",
       "pageNumber": 4,
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "チルタリスs11achr074068psa10チルタリスs11achr074068",
-      "model": "S11A 074/068",
-      "modelKey": "S11A074/068",
-      "setKey": "S11A",
-      "numberKey": "074/068",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "searchKey": "ガブリアスclvxs8ap018025psa10ガブリアスclvxs8ap018025",
+      "model": "S8A-P 018/025",
+      "modelKey": "S8A-P018/025",
+      "setKey": "S8A-P",
+      "numberKey": "018/025",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "x-141438",
@@ -14437,7 +14893,47 @@ window.TORECABANK_DATA = {
       "modelKey": "S8A016/028",
       "setKey": "S8A",
       "numberKey": "016/028",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
+    },
+    {
+      "key": "pk-37013",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-37013",
+        "name": "チルタリス CHR [s11a 074/068](強化拡張パック『白熱のアルカナ』)",
+        "shortName": "チルタリス CHR",
+        "model": "074/068",
+        "pageUrl": "https://toreca-souba.com/cards/pk-37013",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-37013.webp",
+        "score": 12
+      },
+      "itemId": 420,
+      "itemKey": "tb-420",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "チルタリス[S11a] CHR 074/068",
+      "tag": "PSA10",
+      "price": 8700,
+      "priceText": "8,700円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1766468684_4e82cbc6c9ed9f300512.jpg",
+      "imageAlt": "チルタリス[S11a] CHR 074/068",
+      "addUrl": "",
+      "pageNumber": 4,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "searchKey": "チルタリスs11achr074068psa10チルタリスs11achr074068",
+      "model": "S11A 074/068",
+      "modelKey": "S11A074/068",
+      "setKey": "S11A",
+      "numberKey": "074/068",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "tb-473",
@@ -14465,11 +14961,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "searchKey": "パルデアの仲間たちsr195187psa10パルデアの仲間たちsr195187",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "model": "SR 195/187",
+      "modelKey": "SR195/187",
+      "setKey": "SR",
+      "numberKey": "195/187",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-22973",
@@ -14509,47 +15005,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8B194/184",
       "setKey": "S8B",
       "numberKey": "194/184",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
-    },
-    {
-      "key": "pk-63611",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-63611",
-        "name": "フリーザー AR [SV9 102/100](拡張パック「バトルパートナーズ」)",
-        "shortName": "フリーザー AR",
-        "model": "102/100",
-        "pageUrl": "https://toreca-souba.com/cards/pk-63611",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-63611.webp",
-        "score": 12
-      },
-      "itemId": 616,
-      "itemKey": "tb-616",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "フリーザー[SV9] AR 102/100",
-      "tag": "PSA10",
-      "price": 8400,
-      "priceText": "8,400円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1760521663_eacd73e7bbce0d6c3992.jpg",
-      "imageAlt": "フリーザー[SV9] AR 102/100",
-      "addUrl": "",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "フリーザーsv9ar102100psa10フリーザーsv9ar102100",
-      "model": "SV9 102/100",
-      "modelKey": "SV9102/100",
-      "setKey": "SV9",
-      "numberKey": "102/100",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-73740",
@@ -14589,95 +15045,63 @@ window.TORECABANK_DATA = {
       "modelKey": "M2A243/193",
       "setKey": "M2A",
       "numberKey": "243/193",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
-      "key": "pk-35356",
+      "key": "pk-63611",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
       "catalog": {
-        "id": "pk-35356",
-        "name": "カビゴン CHR[s10a 077/071](強化拡張パック「ダークファンタズマ」)",
-        "shortName": "カビゴン CHR",
-        "model": "077/071",
-        "pageUrl": "https://toreca-souba.com/cards/pk-35356",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-35356.webp",
+        "id": "pk-63611",
+        "name": "フリーザー AR [SV9 102/100](拡張パック「バトルパートナーズ」)",
+        "shortName": "フリーザー AR",
+        "model": "102/100",
+        "pageUrl": "https://toreca-souba.com/cards/pk-63611",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-63611.webp",
         "score": 12
       },
-      "itemId": 641,
-      "itemKey": "tb-641",
+      "itemId": 616,
+      "itemKey": "tb-616",
       "dataMax": 0,
       "isCustomItem": false,
       "className": "item closed",
-      "name": "カビゴン [S10a] CHR 077/071",
+      "name": "フリーザー[SV9] AR 102/100",
       "tag": "PSA10",
-      "price": 8300,
-      "priceText": "8,300円",
+      "price": 8400,
+      "priceText": "8,400円",
       "stockText": "受付終了",
       "isClosed": true,
       "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1760185612_8bf9864b57ac81c4d1e2.jpg",
-      "imageAlt": "カビゴン [S10a] CHR 077/071",
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1760521663_eacd73e7bbce0d6c3992.jpg",
+      "imageAlt": "フリーザー[SV9] AR 102/100",
       "addUrl": "",
       "pageNumber": 4,
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "カビゴンs10achr077071psa10カビゴンs10achr077071",
-      "model": "S10A 077/071",
-      "modelKey": "S10A077/071",
-      "setKey": "S10A",
-      "numberKey": "077/071",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "searchKey": "フリーザーsv9ar102100psa10フリーザーsv9ar102100",
+      "model": "SV9 102/100",
+      "modelKey": "SV9102/100",
+      "setKey": "SV9",
+      "numberKey": "102/100",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
-      "key": "pk-45901",
+      "key": "x-488418",
       "count30": 1,
       "count7": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19",
       "catalog": {
-        "id": "pk-45901",
-        "name": "キュウコン AR[SV3 110/108](拡張パック「黒炎の支配者」)",
-        "shortName": "キュウコン AR",
-        "model": "110/108",
-        "pageUrl": "https://toreca-souba.com/cards/pk-45901",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-45901.webp",
+        "id": "x-488418",
+        "name": "フシギダネ & ウインディ & ゲッコウガ [S-P 337 / S-P 338 / S-P 339](プロモーションカード「ポケモンセンター・ポケモンストア・",
+        "shortName": "フシギダネ & ウインディ & ゲッコウガ",
+        "model": "",
+        "pageUrl": "https://toreca-souba.com/cards/x-488418",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/x-488418.webp",
         "score": 12
       },
-      "itemId": 1185,
-      "itemKey": "tb-1185",
-      "dataMax": 5,
-      "isCustomItem": false,
-      "className": "item ",
-      "name": "キュウコン[SV3] AR 110/108",
-      "tag": "PSA10",
-      "price": 8300,
-      "priceText": "8,300円",
-      "stockText": "残り5点",
-      "isClosed": false,
-      "isRecruiting": true,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1754646342_d3de08d0ff81bdf59e46.jpg",
-      "imageAlt": "キュウコン[SV3] AR 110/108",
-      "addUrl": "https://store.torecabank.com/line",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "キュウコンsv3ar110108psa10キュウコンsv3ar110108",
-      "model": "SV3 110/108",
-      "modelKey": "SV3110/108",
-      "setKey": "SV3",
-      "numberKey": "110/108",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
-    },
-    {
-      "key": "tb-1708",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": null,
       "itemId": 1708,
       "itemKey": "tb-1708",
       "dataMax": 3,
@@ -14697,51 +15121,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "searchKey": "フシギダネillustrationcontest2022promo337sppsa10フシギダネillustrationcontest2022promo337sp",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
-    },
-    {
-      "key": "pk-38413",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-38413",
-        "name": "レジギガスVSTAR SAR[s12a 233/172](ハイクラスパック「VSTARユニバース」)",
-        "shortName": "レジギガスVSTAR SAR",
-        "model": "233/172",
-        "pageUrl": "https://toreca-souba.com/cards/pk-38413",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-38413.webp",
-        "score": 12
-      },
-      "itemId": 2514,
-      "itemKey": "tb-2514",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "レジギガスVSTAR[S12a] SAR 233/172",
-      "tag": "PSA10",
-      "price": 8300,
-      "priceText": "8,300円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1770444906_a52cca87a0fe542c462d.jpg",
-      "imageAlt": "レジギガスVSTAR[S12a] SAR 233/172",
-      "addUrl": "",
-      "pageNumber": 4,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
-      "searchKey": "レジギガスvstars12asar233172psa10レジギガスvstars12asar233172",
-      "model": "S12A 233/172",
-      "modelKey": "S12A233/172",
-      "setKey": "S12A",
-      "numberKey": "233/172",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "model": "S-P 337",
+      "modelKey": "S-P337",
+      "setKey": "S-P",
+      "numberKey": "337",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-39537",
@@ -14781,7 +15165,127 @@ window.TORECABANK_DATA = {
       "modelKey": "SV1V086/078",
       "setKey": "SV1V",
       "numberKey": "086/078",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
+    },
+    {
+      "key": "pk-38413",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-38413",
+        "name": "レジギガスVSTAR SAR[s12a 233/172](ハイクラスパック「VSTARユニバース」)",
+        "shortName": "レジギガスVSTAR SAR",
+        "model": "233/172",
+        "pageUrl": "https://toreca-souba.com/cards/pk-38413",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-38413.webp",
+        "score": 12
+      },
+      "itemId": 2514,
+      "itemKey": "tb-2514",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "レジギガスVSTAR[S12a] SAR 233/172",
+      "tag": "PSA10",
+      "price": 8300,
+      "priceText": "8,300円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1770444906_a52cca87a0fe542c462d.jpg",
+      "imageAlt": "レジギガスVSTAR[S12a] SAR 233/172",
+      "addUrl": "",
+      "pageNumber": 4,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "searchKey": "レジギガスvstars12asar233172psa10レジギガスvstars12asar233172",
+      "model": "S12A 233/172",
+      "modelKey": "S12A233/172",
+      "setKey": "S12A",
+      "numberKey": "233/172",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
+    },
+    {
+      "key": "pk-35356",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-35356",
+        "name": "カビゴン CHR[s10a 077/071](強化拡張パック「ダークファンタズマ」)",
+        "shortName": "カビゴン CHR",
+        "model": "077/071",
+        "pageUrl": "https://toreca-souba.com/cards/pk-35356",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-35356.webp",
+        "score": 12
+      },
+      "itemId": 641,
+      "itemKey": "tb-641",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "カビゴン [S10a] CHR 077/071",
+      "tag": "PSA10",
+      "price": 8300,
+      "priceText": "8,300円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1760185612_8bf9864b57ac81c4d1e2.jpg",
+      "imageAlt": "カビゴン [S10a] CHR 077/071",
+      "addUrl": "",
+      "pageNumber": 4,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "searchKey": "カビゴンs10achr077071psa10カビゴンs10achr077071",
+      "model": "S10A 077/071",
+      "modelKey": "S10A077/071",
+      "setKey": "S10A",
+      "numberKey": "077/071",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
+    },
+    {
+      "key": "pk-45901",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-45901",
+        "name": "キュウコン AR[SV3 110/108](拡張パック「黒炎の支配者」)",
+        "shortName": "キュウコン AR",
+        "model": "110/108",
+        "pageUrl": "https://toreca-souba.com/cards/pk-45901",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-45901.webp",
+        "score": 12
+      },
+      "itemId": 1185,
+      "itemKey": "tb-1185",
+      "dataMax": 5,
+      "isCustomItem": false,
+      "className": "item ",
+      "name": "キュウコン[SV3] AR 110/108",
+      "tag": "PSA10",
+      "price": 8300,
+      "priceText": "8,300円",
+      "stockText": "残り5点",
+      "isClosed": false,
+      "isRecruiting": true,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1754646342_d3de08d0ff81bdf59e46.jpg",
+      "imageAlt": "キュウコン[SV3] AR 110/108",
+      "addUrl": "https://store.torecabank.com/line",
+      "pageNumber": 4,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
+      "searchKey": "キュウコンsv3ar110108psa10キュウコンsv3ar110108",
+      "model": "SV3 110/108",
+      "modelKey": "SV3110/108",
+      "setKey": "SV3",
+      "numberKey": "110/108",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "tb-1299",
@@ -14813,7 +15317,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8A-P013/025",
       "setKey": "S8A-P",
       "numberKey": "013/025",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "tb-1288",
@@ -14845,7 +15349,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8A-P004/025",
       "setKey": "S8A-P",
       "numberKey": "004/025",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-65269",
@@ -14885,7 +15389,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV10109/098",
       "setKey": "SV10",
       "numberKey": "109/098",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "tb-416",
@@ -14913,11 +15417,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=4",
       "searchKey": "シャクヤsr082070psa10シャクヤsr082070",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "model": "SR 082/070",
+      "modelKey": "SR082/070",
+      "setKey": "SR",
+      "numberKey": "082/070",
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-64564",
@@ -14957,7 +15461,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV9A065/063",
       "setKey": "SV9A",
       "numberKey": "065/063",
-      "collectedAt": "2026-08-19T06:01:23.229Z"
+      "collectedAt": "2026-08-19T06:03:26.460Z"
     },
     {
       "key": "pk-63614",
@@ -14997,7 +15501,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV9105/100",
       "setKey": "SV9",
       "numberKey": "105/100",
-      "collectedAt": "2026-08-19T06:01:23.239Z"
+      "collectedAt": "2026-08-19T06:03:26.474Z"
     },
     {
       "key": "pk-43826",
@@ -15037,7 +15541,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV2A167/165",
       "setKey": "SV2A",
       "numberKey": "167/165",
-      "collectedAt": "2026-08-19T06:01:23.239Z"
+      "collectedAt": "2026-08-19T06:03:26.474Z"
     },
     {
       "key": "pk-73735",
@@ -15077,7 +15581,7 @@ window.TORECABANK_DATA = {
       "modelKey": "M2A238/193",
       "setKey": "M2A",
       "numberKey": "238/193",
-      "collectedAt": "2026-08-19T06:01:23.239Z"
+      "collectedAt": "2026-08-19T06:03:26.474Z"
     },
     {
       "key": "pk-73738",
@@ -15117,7 +15621,7 @@ window.TORECABANK_DATA = {
       "modelKey": "M2A241/193",
       "setKey": "M2A",
       "numberKey": "241/193",
-      "collectedAt": "2026-08-19T06:01:23.239Z"
+      "collectedAt": "2026-08-19T06:03:26.474Z"
     },
     {
       "key": "pk-63630",
@@ -15157,7 +15661,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV9121/100",
       "setKey": "SV9",
       "numberKey": "121/100",
-      "collectedAt": "2026-08-19T06:01:23.239Z"
+      "collectedAt": "2026-08-19T06:03:26.474Z"
     },
     {
       "key": "tb-1290",
@@ -15189,7 +15693,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8A-P016/025",
       "setKey": "S8A-P",
       "numberKey": "016/025",
-      "collectedAt": "2026-08-19T06:01:23.239Z"
+      "collectedAt": "2026-08-19T06:03:26.474Z"
     },
     {
       "key": "tb-485",
@@ -15217,11 +15721,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=5",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=5",
       "searchKey": "ツツジsr081067psa10ツツジsr081067",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.239Z"
+      "model": "SR 081/067",
+      "modelKey": "SR081/067",
+      "setKey": "SR",
+      "numberKey": "081/067",
+      "collectedAt": "2026-08-19T06:03:26.474Z"
     },
     {
       "key": "tb-1293",
@@ -15253,7 +15757,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8A-P017/025",
       "setKey": "S8A-P",
       "numberKey": "017/025",
-      "collectedAt": "2026-08-19T06:01:23.239Z"
+      "collectedAt": "2026-08-19T06:03:26.474Z"
     },
     {
       "key": "tb-1537",
@@ -15285,47 +15789,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV0D019/018",
       "setKey": "SV0D",
       "numberKey": "019/018",
-      "collectedAt": "2026-08-19T06:01:23.239Z"
-    },
-    {
-      "key": "pk-62022",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-62022",
-        "name": "ドラパルトex SAR [SV8a 221/187](ハイクラスパック「テラスタルフェスex」)",
-        "shortName": "ドラパルトex SAR",
-        "model": "221/187",
-        "pageUrl": "https://toreca-souba.com/cards/pk-62022",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-62022.webp",
-        "score": 12
-      },
-      "itemId": 2201,
-      "itemKey": "tb-2201",
-      "dataMax": 1,
-      "isCustomItem": false,
-      "className": "item ",
-      "name": "ドラパルトex[SV8a] SAR 221/187",
-      "tag": "PSA10",
-      "price": 6000,
-      "priceText": "6,000円",
-      "stockText": "残り1点",
-      "isClosed": false,
-      "isRecruiting": true,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1768113045_0a7e8dbb8ad4bbd26716.jpg",
-      "imageAlt": "ドラパルトex[SV8a] SAR 221/187",
-      "addUrl": "https://store.torecabank.com/line",
-      "pageNumber": 5,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=5",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=5",
-      "searchKey": "ドラパルトexsv8asar221187psa10ドラパルトexsv8asar221187",
-      "model": "SV8A 221/187",
-      "modelKey": "SV8A221/187",
-      "setKey": "SV8A",
-      "numberKey": "221/187",
-      "collectedAt": "2026-08-19T06:01:23.239Z"
+      "collectedAt": "2026-08-19T06:03:26.474Z"
     },
     {
       "key": "pk-71716",
@@ -15365,7 +15829,47 @@ window.TORECABANK_DATA = {
       "modelKey": "M2113/080",
       "setKey": "M2",
       "numberKey": "113/080",
-      "collectedAt": "2026-08-19T06:01:23.239Z"
+      "collectedAt": "2026-08-19T06:03:26.474Z"
+    },
+    {
+      "key": "pk-62022",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-62022",
+        "name": "ドラパルトex SAR [SV8a 221/187](ハイクラスパック「テラスタルフェスex」)",
+        "shortName": "ドラパルトex SAR",
+        "model": "221/187",
+        "pageUrl": "https://toreca-souba.com/cards/pk-62022",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-62022.webp",
+        "score": 12
+      },
+      "itemId": 2201,
+      "itemKey": "tb-2201",
+      "dataMax": 1,
+      "isCustomItem": false,
+      "className": "item ",
+      "name": "ドラパルトex[SV8a] SAR 221/187",
+      "tag": "PSA10",
+      "price": 6000,
+      "priceText": "6,000円",
+      "stockText": "残り1点",
+      "isClosed": false,
+      "isRecruiting": true,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1768113045_0a7e8dbb8ad4bbd26716.jpg",
+      "imageAlt": "ドラパルトex[SV8a] SAR 221/187",
+      "addUrl": "https://store.torecabank.com/line",
+      "pageNumber": 5,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=5",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=5",
+      "searchKey": "ドラパルトexsv8asar221187psa10ドラパルトexsv8asar221187",
+      "model": "SV8A 221/187",
+      "modelKey": "SV8A221/187",
+      "setKey": "SV8A",
+      "numberKey": "221/187",
+      "collectedAt": "2026-08-19T06:03:26.474Z"
     },
     {
       "key": "tb-1282",
@@ -15397,47 +15901,7 @@ window.TORECABANK_DATA = {
       "modelKey": "S8A-P023/025",
       "setKey": "S8A-P",
       "numberKey": "023/025",
-      "collectedAt": "2026-08-19T06:01:23.239Z"
-    },
-    {
-      "key": "pk-70027",
-      "count30": 1,
-      "count7": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19",
-      "catalog": {
-        "id": "pk-70027",
-        "name": "リオル AR [M1L 068/063](拡張パック「メガブレイブ」)",
-        "shortName": "リオル AR",
-        "model": "068/063",
-        "pageUrl": "https://toreca-souba.com/cards/pk-70027",
-        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-70027.webp",
-        "score": 12
-      },
-      "itemId": 1100,
-      "itemKey": "tb-1100",
-      "dataMax": 0,
-      "isCustomItem": false,
-      "className": "item closed",
-      "name": "リオル[M1L] AR 068/063",
-      "tag": "PSA10",
-      "price": 5600,
-      "priceText": "5,600円",
-      "stockText": "受付終了",
-      "isClosed": true,
-      "isRecruiting": false,
-      "imageUrl": "https://store.torecabank.com/uploads/product_master/1763193588_bb554cd2ff155505cf24.jpg",
-      "imageAlt": "リオル[M1L] AR 068/063",
-      "addUrl": "",
-      "pageNumber": 5,
-      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=5",
-      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=5",
-      "searchKey": "リオルm1lar068063psa10リオルm1lar068063",
-      "model": "M1L 068/063",
-      "modelKey": "M1L068/063",
-      "setKey": "M1L",
-      "numberKey": "068/063",
-      "collectedAt": "2026-08-19T06:01:23.239Z"
+      "collectedAt": "2026-08-19T06:03:26.475Z"
     },
     {
       "key": "pk-62023",
@@ -15477,7 +15941,7 @@ window.TORECABANK_DATA = {
       "modelKey": "SV8A222/187",
       "setKey": "SV8A",
       "numberKey": "222/187",
-      "collectedAt": "2026-08-19T06:01:23.239Z"
+      "collectedAt": "2026-08-19T06:03:26.475Z"
     },
     {
       "key": "tb-1790",
@@ -15509,7 +15973,7 @@ window.TORECABANK_DATA = {
       "modelKey": "-003/021",
       "setKey": "-",
       "numberKey": "003/021",
-      "collectedAt": "2026-08-19T06:01:23.239Z"
+      "collectedAt": "2026-08-19T06:03:26.475Z"
     },
     {
       "key": "pk-40577",
@@ -15549,7 +16013,47 @@ window.TORECABANK_DATA = {
       "modelKey": "SV1A075/073",
       "setKey": "SV1A",
       "numberKey": "075/073",
-      "collectedAt": "2026-08-19T06:01:23.239Z"
+      "collectedAt": "2026-08-19T06:03:26.475Z"
+    },
+    {
+      "key": "pk-70027",
+      "count30": 1,
+      "count7": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19",
+      "catalog": {
+        "id": "pk-70027",
+        "name": "リオル AR [M1L 068/063](拡張パック「メガブレイブ」)",
+        "shortName": "リオル AR",
+        "model": "068/063",
+        "pageUrl": "https://toreca-souba.com/cards/pk-70027",
+        "img": "https://pub-8c3b3a58e57f45c9a1d47c28200ebfa4.r2.dev/img_snk/pk-70027.webp",
+        "score": 12
+      },
+      "itemId": 1100,
+      "itemKey": "tb-1100",
+      "dataMax": 0,
+      "isCustomItem": false,
+      "className": "item closed",
+      "name": "リオル[M1L] AR 068/063",
+      "tag": "PSA10",
+      "price": 5600,
+      "priceText": "5,600円",
+      "stockText": "受付終了",
+      "isClosed": true,
+      "isRecruiting": false,
+      "imageUrl": "https://store.torecabank.com/uploads/product_master/1763193588_bb554cd2ff155505cf24.jpg",
+      "imageAlt": "リオル[M1L] AR 068/063",
+      "addUrl": "",
+      "pageNumber": 5,
+      "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=5",
+      "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=5",
+      "searchKey": "リオルm1lar068063psa10リオルm1lar068063",
+      "model": "M1L 068/063",
+      "modelKey": "M1L068/063",
+      "setKey": "M1L",
+      "numberKey": "068/063",
+      "collectedAt": "2026-08-19T06:03:26.475Z"
     },
     {
       "key": "pk-74762",
@@ -15589,7 +16093,7 @@ window.TORECABANK_DATA = {
       "modelKey": "M2A226/193",
       "setKey": "M2A",
       "numberKey": "226/193",
-      "collectedAt": "2026-08-19T06:01:23.239Z"
+      "collectedAt": "2026-08-19T06:03:26.475Z"
     },
     {
       "key": "tb-2237",
@@ -15617,11 +16121,11 @@ window.TORECABANK_DATA = {
       "pageUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=5",
       "sourceUrl": "https://store.torecabank.com/mail_buy_list?category=1&types[]=1&page=5",
       "searchKey": "メガシビルドンexma225193psa10メガシビルドンexma225193",
-      "model": "",
-      "modelKey": "",
-      "setKey": "",
-      "numberKey": "",
-      "collectedAt": "2026-08-19T06:01:23.239Z"
+      "model": "MA 225/193",
+      "modelKey": "MA225/193",
+      "setKey": "MA",
+      "numberKey": "225/193",
+      "collectedAt": "2026-08-19T06:03:26.475Z"
     }
   ],
   "history": [
@@ -15634,6 +16138,13 @@ window.TORECABANK_DATA = {
     },
     {
       "key": "pk-74762",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "pk-70027",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -15661,13 +16172,6 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "pk-70027",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
       "key": "tb-1282",
       "count7": 1,
       "count30": 1,
@@ -15675,14 +16179,14 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "pk-71716",
+      "key": "pk-62022",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "pk-62022",
+      "key": "pk-71716",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -15787,27 +16291,6 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "pk-39537",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "pk-38413",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "tb-1708",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
       "key": "pk-45901",
       "count7": 1,
       "count30": 1,
@@ -15822,7 +16305,21 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "pk-73740",
+      "key": "pk-38413",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "pk-39537",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "x-488418",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -15830,6 +16327,13 @@ window.TORECABANK_DATA = {
     },
     {
       "key": "pk-63611",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "pk-73740",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -15850,6 +16354,13 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
+      "key": "pk-37013",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
       "key": "x-141438",
       "count7": 1,
       "count30": 1,
@@ -15857,7 +16368,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "pk-37013",
+      "key": "tb-1291",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -15899,13 +16410,6 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-1291",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
       "key": "pk-79883",
       "count7": 1,
       "count30": 1,
@@ -15920,14 +16424,14 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-1582",
+      "key": "x-134393",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "pk-70077",
+      "key": "x-475194",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -15948,6 +16452,13 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
+      "key": "pk-70077",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
       "key": "pk-38400",
       "count7": 1,
       "count30": 1,
@@ -15962,13 +16473,6 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-529",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
       "key": "pk-22968",
       "count7": 1,
       "count30": 1,
@@ -15977,6 +16481,13 @@ window.TORECABANK_DATA = {
     },
     {
       "key": "pk-58240",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "pk-63618",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -16018,7 +16529,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "pk-63618",
+      "key": "pk-20742",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -16032,14 +16543,14 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "pk-20742",
+      "key": "pk-38422",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-2368",
+      "key": "x-671486",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -16047,6 +16558,13 @@ window.TORECABANK_DATA = {
     },
     {
       "key": "pk-71718",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "tb-2368",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -16074,21 +16592,56 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "pk-38422",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "tb-1309",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
       "key": "pk-22365",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "pk-20738",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "tb-401",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "tb-1257",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "x-128520",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "pk-22368",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "tb-2199",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "pk-20744",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -16116,21 +16669,14 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
+      "key": "x-518774",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
       "key": "pk-37021",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "tb-528",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "pk-22115",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -16144,7 +16690,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "pk-71697",
+      "key": "pk-22115",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -16158,49 +16704,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-401",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "pk-20738",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "pk-20744",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "tb-1257",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "tb-2062",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "pk-22368",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "tb-2199",
+      "key": "pk-71697",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -16215,6 +16719,41 @@ window.TORECABANK_DATA = {
     },
     {
       "key": "pk-22972",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "pk-70076",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "pk-38015",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "tb-391",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "tb-456",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "pk-49682",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -16256,35 +16795,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-391",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "pk-70076",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "tb-419",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "pk-49682",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "tb-456",
+      "key": "pk-34766",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -16354,7 +16865,28 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "pk-34766",
+      "key": "tb-475",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "pk-17344",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "pk-54813",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "pk-60260",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -16403,34 +16935,6 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "pk-17344",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "tb-475",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "pk-54813",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "pk-60260",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
       "key": "pk-21477",
       "count7": 1,
       "count30": 1,
@@ -16439,13 +16943,6 @@ window.TORECABANK_DATA = {
     },
     {
       "key": "tb-439",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "tb-384",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -16550,14 +17047,14 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-4502",
+      "key": "x-413429",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-4316",
+      "key": "x-334017",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -16662,7 +17159,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-596",
+      "key": "x-289056",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -16725,7 +17222,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-342",
+      "key": "x-111991",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -16921,7 +17418,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-792",
+      "key": "x-441212",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -16935,7 +17432,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-484",
+      "key": "x-122062",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -16984,14 +17481,14 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-482",
+      "key": "x-122061",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-487",
+      "key": "x-122058",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17005,7 +17502,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-501",
+      "key": "x-122060",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17019,21 +17516,21 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-480",
+      "key": "x-122055",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-510",
+      "key": "x-122056",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-2040",
+      "key": "x-334018",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17047,7 +17544,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-486",
+      "key": "x-332798",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17124,7 +17621,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-2037",
+      "key": "x-139119",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17173,14 +17670,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-587",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "tb-1267",
+      "key": "x-407854",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17195,6 +17685,13 @@ window.TORECABANK_DATA = {
     },
     {
       "key": "pk-78742",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "x-91114",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17243,21 +17740,14 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-1796",
+      "key": "x-122054",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-477",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "tb-2396",
+      "key": "x-91126",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17265,6 +17755,13 @@ window.TORECABANK_DATA = {
     },
     {
       "key": "tb-240",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "tb-2396",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17299,14 +17796,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-2371",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "pk-20745",
+      "key": "x-100543",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17327,14 +17817,14 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "pk-67338",
+      "key": "pk-17456",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "pk-17456",
+      "key": "pk-67338",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17348,7 +17838,14 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-338",
+      "key": "pk-20745",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "x-122059",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17362,7 +17859,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-266",
+      "key": "x-91128",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17397,13 +17894,6 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "x-110938",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
       "key": "tb-305",
       "count7": 1,
       "count30": 1,
@@ -17411,14 +17901,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-1743",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "pk-78744",
+      "key": "x-520383",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17432,6 +17915,13 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
+      "key": "pk-78744",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
       "key": "pk-40582",
       "count7": 1,
       "count30": 1,
@@ -17439,7 +17929,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-447",
+      "key": "x-110938",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17461,6 +17951,13 @@ window.TORECABANK_DATA = {
     },
     {
       "key": "tb-478",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "tb-447",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17509,21 +18006,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "pk-23001",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
       "key": "pk-20749",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "tb-302",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17537,14 +18020,21 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-1714",
+      "key": "tb-302",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "pk-38441",
+      "key": "x-606347",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "pk-23001",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17558,6 +18048,13 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
+      "key": "pk-38441",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
       "key": "tb-2081",
       "count7": 1,
       "count30": 1,
@@ -17565,7 +18062,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-343",
+      "key": "x-106796",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17635,7 +18132,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-354",
+      "key": "x-135232",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17712,7 +18209,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-333",
+      "key": "x-120250",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17726,7 +18223,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-308",
+      "key": "x-91130",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17761,7 +18258,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-239",
+      "key": "x-93004",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17817,7 +18314,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-301",
+      "key": "x-107497",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17825,13 +18322,6 @@ window.TORECABANK_DATA = {
     },
     {
       "key": "pk-5201",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "x-91279",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17846,6 +18336,13 @@ window.TORECABANK_DATA = {
     },
     {
       "key": "pk-38385",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "x-91279",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17873,7 +18370,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-148",
+      "key": "x-93048",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17894,21 +18391,21 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-289",
+      "key": "x-91119",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-201",
+      "key": "pk-38030",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-119",
+      "key": "pk-1213",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17943,7 +18440,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-1256",
+      "key": "x-93069",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17978,14 +18475,14 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-142",
+      "key": "pk-67583",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "pk-67583",
+      "key": "tb-142",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -17999,14 +18496,14 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-554",
+      "key": "pk-21474",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "pk-21474",
+      "key": "x-91256",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -18027,7 +18524,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-556",
+      "key": "x-91258",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -18048,7 +18545,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-593",
+      "key": "x-91121",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -18083,7 +18580,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-233",
+      "key": "x-93078",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -18104,7 +18601,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-276",
+      "key": "x-91252",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -18146,14 +18643,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-216",
-      "count7": 1,
-      "count30": 1,
-      "firstSeenDate": "2026-08-19",
-      "lastSeenDate": "2026-08-19"
-    },
-    {
-      "key": "pk-37612",
+      "key": "x-93381",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -18161,6 +18651,13 @@ window.TORECABANK_DATA = {
     },
     {
       "key": "tb-551",
+      "count7": 1,
+      "count30": 1,
+      "firstSeenDate": "2026-08-19",
+      "lastSeenDate": "2026-08-19"
+    },
+    {
+      "key": "pk-37612",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -18202,7 +18699,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-202",
+      "key": "x-91246",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -18223,7 +18720,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-191",
+      "key": "x-93068",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -18237,14 +18734,14 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "pk-1631",
+      "key": "pk-6077",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "pk-6077",
+      "key": "pk-1631",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -18265,7 +18762,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-495",
+      "key": "x-585230",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -18279,7 +18776,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-104",
+      "key": "x-91241",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -18300,14 +18797,14 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-86",
+      "key": "x-91235",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-803",
+      "key": "x-459741",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -18321,7 +18818,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-91",
+      "key": "x-91220",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -18384,7 +18881,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-28",
+      "key": "x-93046",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -18405,7 +18902,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-45",
+      "key": "x-91233",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -18419,7 +18916,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-60",
+      "key": "x-100093",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -18440,7 +18937,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-25",
+      "key": "x-93332",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -18461,28 +18958,28 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-21",
+      "key": "pk-14713",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-24",
+      "key": "x-91218",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-27",
+      "key": "x-100090",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-17",
+      "key": "pk-14717",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -18496,21 +18993,21 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-13",
+      "key": "pk-14720",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-16",
+      "key": "pk-1418",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-18",
+      "key": "x-93056",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -18524,7 +19021,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-8",
+      "key": "pk-1148",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
@@ -18545,7 +19042,7 @@ window.TORECABANK_DATA = {
       "lastSeenDate": "2026-08-19"
     },
     {
-      "key": "tb-2",
+      "key": "x-93051",
       "count7": 1,
       "count30": 1,
       "firstSeenDate": "2026-08-19",
