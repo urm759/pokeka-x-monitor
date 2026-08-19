@@ -68,6 +68,15 @@ function matchTextKey(value) {
     .replace(/[^\p{L}\p{N}]+/gu, "");
 }
 
+function normalizeModel(value) {
+  return String(value || "")
+    .normalize("NFKC")
+    .toUpperCase()
+    .replace(/\s+/g, "")
+    .replace(/[‐−–—]/g, "-")
+    .replace(/[^0-9A-Z/.-]+/g, "");
+}
+
 function priceText(value) {
   return Number.isFinite(value) && value > 0 ? yen.format(value) : "-";
 }
