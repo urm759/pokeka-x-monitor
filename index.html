@@ -3,175 +3,80 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>買取屋とりまとめサイト</title>
-  <meta name="description" content="Xの買取表を店舗別に集計し、掲載回数・価格・重複排除・カード画像照合を一画面で確認するためのサイト。" />
+  <title>トレカバンク PSA10 一覧</title>
+  <meta name="description" content="トレカバンクの郵送買取一覧から、ポケモンカードのPSA10を画像つきで見やすく並べたページ。" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  <div class="glow glow-a"></div>
-  <div class="glow glow-b"></div>
+  <div class="backdrop backdrop-a"></div>
+  <div class="backdrop backdrop-b"></div>
   <main class="shell">
-    <header class="hero panel">
-          <div class="eyebrow">buyback aggregator / Pokémon / X</div>
-          <div class="hero-grid">
-            <div>
-          <h1>買取屋とりまとめサイト</h1>
+    <header class="hero">
+      <div class="eyebrow">torecabank / pokemon / psa10</div>
+      <div class="hero-grid">
+        <div>
+          <h1>トレカバンク PSA10 一覧</h1>
           <p class="lede">
-            まずは <strong>1店舗</strong> から始めて、投稿ごとの画像と本文を拾い、カード名・価格・掲載回数を集計します。
-            みんなのトレカ相場の一覧とも結びつけて、画像つきで素早く比較できる構成にしています。
+            郵送買取一覧からポケモンカードのPSA10だけを集めて、画像・価格・募集状況をひと目で比較できるようにしています。
+            みんなのトレカ相場のカード画像にも照合して、元カード側の確認もしやすくしています。
           </p>
         </div>
         <div class="hero-card">
-          <span>最初の対象アカウント</span>
-          <strong>@Mist_nagoyaosu</strong>
-          <p>Xの元投稿へ直接飛べる導線を前提にしつつ、後から店舗を増やせるようにしています。</p>
-          <p><a href="../toreca-catalog/index.html" target="_blank" rel="noreferrer">みんなのトレカ相場 一覧を見る →</a></p>
+          <div class="hero-card-label">取得元</div>
+          <strong id="sourceUrl">-</strong>
+          <p id="statsLine">-</p>
         </div>
       </div>
-
       <div class="stats">
-        <article class="stat">
-          <span>監視店舗</span>
-          <strong id="shopCount">0</strong>
-        </article>
-        <article class="stat">
-          <span>ユニークカード</span>
-          <strong id="cardCount">0</strong>
-        </article>
-        <article class="stat">
-          <span>30日掲載回数</span>
-          <strong id="count30">0</strong>
-        </article>
-        <article class="stat">
-          <span>7日掲載回数</span>
-          <strong id="count7">0</strong>
-        </article>
-        <article class="stat">
-          <span>重複除外率</span>
-          <strong id="dedupeRate">0%</strong>
-        </article>
-        <article class="stat">
-          <span>データ更新日</span>
-          <strong id="updatedAt">-</strong>
-        </article>
-        <article class="stat">
-          <span>toreca照合率</span>
-          <strong id="matchRate">0%</strong>
-        </article>
+        <article class="stat"><span>総件数</span><strong id="totalCount">0</strong></article>
+        <article class="stat"><span>募集中</span><strong id="recruitingCount">0</strong></article>
+        <article class="stat"><span>受付終了</span><strong id="closedCount">0</strong></article>
+        <article class="stat"><span>照合率</span><strong id="matchRate">0%</strong></article>
+        <article class="stat"><span>平均価格</span><strong id="avgPrice">-</strong></article>
+        <article class="stat"><span>取得日</span><strong id="updatedAt">-</strong></article>
       </div>
     </header>
 
-    <section class="panel controls">
+    <section class="controls">
       <label class="field field-wide">
         <span>検索</span>
-        <input id="query" type="search" placeholder="カード名 / 店舗名 / 型番 / ポストID" />
+        <input id="query" type="search" placeholder="カード名 / 型番 / 価格 / 商品ID" />
       </label>
       <label class="field">
-        <span>店舗</span>
-        <select id="shopFilter"></select>
+        <span>状態</span>
+        <select id="status">
+          <option value="all">すべて</option>
+          <option value="recruiting">募集中のみ</option>
+          <option value="closed">受付終了のみ</option>
+        </select>
       </label>
       <label class="field">
-        <span>7日掲載 下限</span>
-        <input id="min7" type="number" min="0" step="1" value="0" />
+        <span>価格 下限</span>
+        <input id="priceMin" type="number" min="0" step="1000" placeholder="0" />
       </label>
       <label class="field">
-        <span>30日掲載 下限</span>
-        <input id="min30" type="number" min="0" step="1" value="1" />
+        <span>価格 上限</span>
+        <input id="priceMax" type="number" min="0" step="1000" placeholder="未指定" />
       </label>
       <label class="field">
-          <span>並び順</span>
-          <select id="sort">
-            <option value="count30-desc">30日掲載回数が多い順</option>
-            <option value="count7-desc">7日掲載回数が多い順</option>
-            <option value="avgPrice-desc">平均価格が高い順</option>
-            <option value="avgPrice-asc">平均価格が低い順</option>
-            <option value="lastSeen-desc">最新投稿日が新しい順</option>
-            <option value="lastSeen-asc">最新投稿日が古い順</option>
-          </select>
-      </label>
-      <label class="field">
-        <span>価格帯</span>
-        <div class="range">
-          <input id="priceMin" type="number" min="0" step="100" placeholder="下限" />
-          <input id="priceMax" type="number" min="0" step="100" placeholder="上限" />
-        </div>
+        <span>並び順</span>
+        <select id="sort">
+          <option value="price-desc">価格の高い順</option>
+          <option value="price-asc">価格の低い順</option>
+          <option value="name-asc">カード名の昇順</option>
+          <option value="name-desc">カード名の降順</option>
+          <option value="page-desc">ページ番号の降順</option>
+          <option value="match-desc">照合スコアの高い順</option>
+        </select>
       </label>
     </section>
 
-    <section class="panel split">
-      <article class="focus">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">現場の見え方</p>
-            <h2>掲載回数が多いカードを先に見る</h2>
-          </div>
-          <p class="small">
-            7日・30日の回数で「今よく出しているカード」を拾い、価格と合わせて仕入れ判断の優先度をつけます。
-          </p>
-        </div>
-        <div id="shopRail" class="shop-rail"></div>
-        <div id="cards" class="cards"></div>
-      </article>
-
-      <aside class="sidebar">
-        <section class="mini panel-in">
-          <p class="eyebrow">保存方針</p>
-          <ul>
-            <li>投稿IDとカード名、価格、時刻を主データにする</li>
-            <li>画像はサムネイルか短期キャッシュに限定する</li>
-            <li>同日・同内容・同価格は重複排除する</li>
-            <li>店舗が増えたら shop 単位で分岐する</li>
-          </ul>
-        </section>
-
-        <section class="mini panel-in">
-          <p class="eyebrow">比較の考え方</p>
-          <p class="small">
-            みんなのトレカ相場はフリマ相場なので、店舗相場との直接比較には使いません。
-            比較は、他店舗の買取表が集まり始めてから、その店舗群の平均や高安で出します。
-          </p>
-        </section>
-
-        <section class="mini panel-in">
-          <p class="eyebrow">カード照合</p>
-          <p class="small">
-            店舗名・型番・カード名から、みんなのトレカ相場のカード一覧へ照合します。
-            画像つきで元ページに飛べるので、現場確認がしやすいです。
-          </p>
-        </section>
-
-        <section class="mini panel-in">
-          <p class="eyebrow">相場ページ</p>
-          <p class="small">
-            詳細なカード相場と画像は、別ページの「みんなのトレカ相場 一覧」でまとめて確認できます。
-            ここでは店舗ごとの掲載状況を見る役割に分けています。
-          </p>
-        </section>
-
-        <section class="mini panel-in">
-          <p class="eyebrow">収集パイプライン</p>
-          <ol>
-            <li>X投稿を取得</li>
-            <li>買取表っぽい投稿だけ残す</li>
-            <li>画像OCRと本文を突き合わせる</li>
-            <li>店舗別 / 合計で集計</li>
-          </ol>
-        </section>
-
-        <section class="mini panel-in">
-          <p class="eyebrow">アップロード影響</p>
-          <div class="capacity">
-            <div><span>今の方針</span><strong>軽量</strong></div>
-            <div><span>危ない方針</span><strong>画像を全部保存</strong></div>
-            <div><span>分岐基準</span><strong>店舗数・画像量</strong></div>
-          </div>
-        </section>
-      </aside>
+    <section class="content">
+      <div class="card-list" id="items"></div>
     </section>
   </main>
 
-  <script src="./data/monitor-data.js"></script>
-  <script src="./data/toreca-card-index.js"></script>
+  <script src="./data/torecabank-data.js"></script>
   <script src="./app.js"></script>
 </body>
 </html>
