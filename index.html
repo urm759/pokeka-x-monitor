@@ -3,42 +3,108 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mist 買取シート切り出しビューア</title>
+    <title>みんなのトレカ相場 一覧</title>
+    <meta name="description" content="みんなのトレカ相場のポケモンカード一覧を検索・比較しやすくしたカタログ。" />
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23081a2f'/%3E%3Ccircle cx='32' cy='32' r='18' fill='none' stroke='%237dd3fc' stroke-width='6'/%3E%3Ccircle cx='32' cy='32' r='6' fill='%23f8fafc'/%3E%3C/svg%3E" />
   </head>
   <body>
-    <main class="page">
-      <header class="hero">
-        <div>
-          <p class="eyebrow">MIST SHEET REVIEW</p>
-          <h1>画像分析・切り分け確認</h1>
-          <p class="sub">固定グリッドで切り出したカード画像と価格欄をまとめて確認できます。</p>
+    <div class="bg bg-a"></div>
+    <div class="bg bg-b"></div>
+    <main class="shell">
+      <header class="hero card">
+        <div class="hero-copy">
+          <p class="eyebrow">みんなのトレカ相場 / Pokémon cards</p>
+          <h1>一覧を先に作る</h1>
+          <p class="lede">
+            まずは全カードの一覧を作り、カード名・型番・相場・画像・元ページを1画面で追えるようにします。
+            この一覧を基準に、後から X の買取表と照合していきます。
+          </p>
         </div>
-        <div class="stats">
-          <div><span>枚数</span><strong id="cellCount">-</strong></div>
-          <div><span>解像度</span><strong id="imageSize">-</strong></div>
-          <div><span>認識済</span><strong id="recognizedCount">-</strong></div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span>総数</span>
+            <strong id="totalCount">-</strong>
+          </div>
+          <div class="stat">
+            <span>表示件数</span>
+            <strong id="visibleCount">-</strong>
+          </div>
+          <div class="stat">
+            <span>取得日</span>
+            <strong id="updatedAt">-</strong>
+          </div>
         </div>
       </header>
 
-      <section class="toolbar">
-        <label>
-          表示
-          <select id="mode">
-            <option value="cell">セル全体</option>
-            <option value="card">カード部分</option>
-            <option value="price">価格部分</option>
+      <section class="filters card">
+        <label class="field field-wide">
+          <span>検索</span>
+          <input id="qInput" type="search" placeholder="カード名・型番・シリーズ・PSA検索語" />
+        </label>
+        <label class="field">
+          <span>並び順</span>
+          <select id="sortInput">
+            <option value="rank-asc">順位が高い順</option>
+            <option value="rank-desc">順位が低い順</option>
+            <option value="price-desc">美品価格が高い順</option>
+            <option value="price-asc">美品価格が安い順</option>
+            <option value="psa10-desc">PSA10価格が高い順</option>
+            <option value="psa10-asc">PSA10価格が安い順</option>
+            <option value="rate-desc">年利が高い順</option>
+            <option value="rate-asc">年利が低い順</option>
+            <option value="tx-desc">30日取引数が多い順</option>
+            <option value="tx-asc">30日取引数が少ない順</option>
+            <option value="name-asc">カード名順</option>
+            <option value="name-desc">カード名逆順</option>
           </select>
         </label>
-        <label>
-          検索
-          <input id="query" type="search" placeholder="カード名・番号・行・列" />
+        <label class="field">
+          <span>美品価格 下限</span>
+          <input id="priceMinInput" type="number" min="0" step="1000" placeholder="なし" />
+        </label>
+        <label class="field">
+          <span>美品価格 上限</span>
+          <input id="priceMaxInput" type="number" min="0" step="1000" placeholder="なし" />
+        </label>
+        <label class="field">
+          <span>PSA10価格 下限</span>
+          <input id="psaMinInput" type="number" min="0" step="1000" placeholder="なし" />
+        </label>
+        <label class="field">
+          <span>PSA10価格 上限</span>
+          <input id="psaMaxInput" type="number" min="0" step="1000" placeholder="なし" />
+        </label>
+        <label class="field">
+          <span>30日取引数 下限</span>
+          <input id="txMinInput" type="number" min="0" step="1" placeholder="なし" />
+        </label>
+        <label class="field">
+          <span>年利 下限</span>
+          <input id="rateMinInput" type="number" min="0" step="1" placeholder="なし" />
         </label>
       </section>
 
+      <section class="toolbar card">
+        <div>
+          <h2>カード一覧</h2>
+          <p>画像付きで比較し、元ページへ直接飛べます。リストはページング表示です。</p>
+        </div>
+        <div class="toolbar-actions">
+          <button id="copyUrlBtn" type="button">条件URLをコピー</button>
+          <a href="https://toreca-souba.com/" target="_blank" rel="noreferrer">出典サイト</a>
+        </div>
+      </section>
+
       <section id="grid" class="grid"></section>
+
+      <nav class="pager card" aria-label="ページ送り">
+        <button id="prevBtn" type="button">前へ</button>
+        <div id="pageInfo" class="page-info">-</div>
+        <button id="nextBtn" type="button">次へ</button>
+      </nav>
     </main>
-    <script src="./manifest.js"></script>
+
     <script src="./app.js"></script>
   </body>
 </html>
