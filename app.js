@@ -114,13 +114,6 @@ function matchCatalogCard(item) {
   return { ...best, score: bestScore };
 }
 
-function attachCatalogMatches(items) {
-  return (items || []).map((item) => ({
-    ...item,
-    catalog: matchCatalogCard(item),
-  }));
-}
-
 function groupByCatalog(items) {
   const groups = new Map();
   for (const item of items || []) {
@@ -154,7 +147,7 @@ function groupByCatalog(items) {
   return [...groups.values()];
 }
 
-let items = groupByCatalog(attachCatalogMatches(data.items || []));
+let items = groupByCatalog(data.items || []);
 
 function applyFilters(items) {
   const q = normalize(state.query);
