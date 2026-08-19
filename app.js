@@ -201,9 +201,9 @@ function groupByCatalog(items) {
     current.sourceBreakdown[sourceKey] = breakdown;
     current.sourceKeys = current.sourceKeys || new Set();
     current.sourceKeys.add(sourceKey);
-    current.count7 = (current.count7 || 0) + (item.count7 || 0);
-    current.count30 = (current.count30 || 0) + (item.count30 || 0);
-    current.count90 = (current.count90 || 0) + (item.count90 || 0);
+    current.count7 = Math.max(current.count7 || 0, item.count7 || 0);
+    current.count30 = Math.max(current.count30 || 0, item.count30 || 0);
+    current.count90 = Math.max(current.count90 || 0, item.count90 || 0);
     current.sources.push(item);
     if ((item.price || 0) > (current.price || 0)) {
       current.price = item.price;
@@ -301,7 +301,7 @@ function renderSourceSummary() {
             <a href="${stat.url}" target="_blank" rel="noreferrer">開く</a>
           </div>
           <div class="source-stat-grid">
-            <span><em>掲載</em><b>${stat.total}</b></span>
+            <span><em>現在</em><b>${stat.total}</b></span>
             <span><em>7日</em><b>${stat.count7}</b></span>
             <span><em>30日</em><b>${stat.count30}</b></span>
             <span><em>90日</em><b>${stat.count90}</b></span>
@@ -428,15 +428,15 @@ function renderItem(item) {
           <strong>${item.siteCount || Object.keys(item.sourceBreakdown || {}).length || 0}<small>サイト</small></strong>
         </div>
         <div class="count-box count-box-7">
-          <span>直近7日掲載</span>
+          <span>直近7日掲載日数</span>
           <strong>${item.count7 || 0}<small>回</small></strong>
         </div>
         <div class="count-box count-box-30">
-          <span>直近30日掲載</span>
+          <span>直近30日掲載日数</span>
           <strong>${item.count30 || 0}<small>回</small></strong>
         </div>
         <div class="count-box count-box-90">
-          <span>直近90日掲載</span>
+          <span>直近90日掲載日数</span>
           <strong>${item.count90 || 0}<small>回</small></strong>
         </div>
       </div>

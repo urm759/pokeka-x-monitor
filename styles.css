@@ -204,6 +204,7 @@ h1{
   position:relative;
   display:block;
   overflow:hidden;
+  aspect-ratio:3/4;
   min-height:320px;
   border-radius:18px;
   border:1px solid rgba(255,255,255,.10);
@@ -385,14 +386,33 @@ h1{
 @media (max-width: 640px){
   .shell{width:min(100% - 14px, 1480px)}
   .hero,.controls,.content{border-radius:18px}
-  .card{padding:12px}
-  .title-row{flex-direction:column}
-  .count-grid{grid-template-columns:1fr}
-  .count-box strong{font-size:30px}
-  .meta-grid{grid-template-columns:1fr}
-  .catalog{grid-template-columns:72px minmax(0,1fr)}
-  .catalog img{width:72px;height:72px}
+  .hero{padding:16px}
+  .controls,.content{padding:12px}
+  .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .source-summary{grid-template-columns:1fr}
+  .source-stat{padding:12px}
   .source-stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .source-row{grid-template-columns:1fr auto}
+  .source-stat-grid b{font-size:15px}
+  .controls{gap:10px}
+  .field{padding:11px}
+  .field input,.field select{font-size:14px;padding:10px 11px}
+  .card{padding:10px;gap:10px}
+  .thumb{min-height:0}
+  .title-row{flex-direction:column;gap:6px}
+  .title-row h3{font-size:18px;line-height:1.22}
+  .price{font-size:20px}
+  .count-grid{grid-template-columns:1fr}
+  .count-box{padding:12px 14px}
+  .count-box strong{font-size:26px}
+  .chips,.links{gap:6px}
+  .chip,.links a{padding:8px 11px;font-size:12px}
+  .meta-grid{grid-template-columns:1fr}
+  .catalog{grid-template-columns:64px minmax(0,1fr);padding:10px}
+  .catalog img{width:64px;height:64px}
+  .source-breakdown{gap:6px}
+  .source-row{grid-template-columns:1fr auto;gap:6px;padding:9px 10px}
+  .source-row strong{font-size:12px}
+  .source-row span,.source-row small{font-size:11px}
   .source-row small{grid-column:1/-1}
+  .badge{font-size:10px;padding:6px 8px}
 }
